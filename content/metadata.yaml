@@ -1,5 +1,5 @@
 ---
-title: "CEE492 Data Science Project"
+title: "CEE 492 Data Science Project"
 keywords:
   - markdown
   - publishing
@@ -13,10 +13,26 @@ authors:
     twitter: johndoe
     email: hadil@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering
+      - Department of Something, University of Whatever
     funders:
       - Grant XXXXXXXX
   - github: janeroe
+    name: Jane Roe
+    initials: JR
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: jane.roe@whatever.edu
+    affiliations:
+      - Department of Something, University of Whatever
+      - Department of Whatever, University of Something
+  - github: janeroe
+    name: Jane Roe
+    initials: JR
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: jane.roe@whatever.edu
+    affiliations:
+      - Department of Something, University of Whatever
+      - Department of Whatever, University of Something
+        - github: janeroe
     name: Jane Roe
     initials: JR
     orcid: XXXX-XXXX-XXXX-XXXX
