@@ -1,14 +1,14 @@
 ---
-title: "Manuscript Title"
+title: "CEE492 Data Science Project"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
+  - github: hadilhelaly
+    name: Hadil Helaly
+    initials: HH
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
     email: john.doe@something.com
