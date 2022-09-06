@@ -1,8 +1,8 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) branch hosts the contents of this directory at <https://manubot.github.io/rootstock/>.
-The permalink for this webpage version is <https://manubot.github.io/rootstock/v/defe787b0ad8a21a745cc82c3117770896caaf8b/>.
-To redirect to the permalink for the latest manuscript version at anytime, use the link <https://manubot.github.io/rootstock/v/freeze/>.
+The [`gh-pages`](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/cee-492-term-project-fall-2022-her/>.
+The permalink for this webpage version is <https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/35f22b0c222a4c5df2bae1c03db8fa10ad39002a/>.
+To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/freeze/>.
 
 ## Files
 
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`defe787b0ad8a21a745cc82c3117770896caaf8b`](https://github.com/manubot/rootstock/commit/defe787b0ad8a21a745cc82c3117770896caaf8b).
+[`35f22b0c222a4c5df2bae1c03db8fa10ad39002a`](https://github.com/uiceds/cee-492-term-project-fall-2022-her/commit/35f22b0c222a4c5df2bae1c03db8fa10ad39002a).
