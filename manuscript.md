@@ -1,13 +1,15 @@
 ---
-title: Manuscript Title
+title: CEE 492 Data Science Project
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-06'
+date-meta: '2022-09-08'
 author-meta:
-- John Doe
+- Hadil Helaly
+- Emma Golub
+- Jane Roe
 - Jane Roe
 header-includes: |-
   <!--
@@ -15,22 +17,30 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2022-09-06" />
-  <meta name="citation_publication_date" content="2022-09-06" />
+  <meta name="dc.title" content="CEE 492 Data Science Project" />
+  <meta name="citation_title" content="CEE 492 Data Science Project" />
+  <meta property="og:title" content="CEE 492 Data Science Project" />
+  <meta property="twitter:title" content="CEE 492 Data Science Project" />
+  <meta name="dc.date" content="2022-09-08" />
+  <meta name="citation_publication_date" content="2022-09-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Hadil Helaly" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
+  <meta name="citation_author" content="Emma Golub" />
+  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="citation_author" content="Jane Roe" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
@@ -41,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/2df9886b7b543c0f9087cedcb9b6b15ad6fde742/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/2df9886b7b543c0f9087cedcb9b6b15ad6fde742/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/2df9886b7b543c0f9087cedcb9b6b15ad6fde742/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d9ed7d36435a009c59759e9ed6ef27ddec1a38ed/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d9ed7d36435a009c59759e9ed6ef27ddec1a38ed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d9ed7d36435a009c59759e9ed6ef27ddec1a38ed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,26 +75,44 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/2df9886b7b543c0f9087cedcb9b6b15ad6fde742/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d9ed7d36435a009c59759e9ed6ef27ddec1a38ed/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@2df9886](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/2df9886b7b543c0f9087cedcb9b6b15ad6fde742)
-on September 6, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@d9ed7d3](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/d9ed7d36435a009c59759e9ed6ef27ddec1a38ed)
+on September 8, 2022.
 </em></small>
 
 ## Authors
 
 
 
-+ **John Doe**<br>
++ **Hadil Helaly**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [hadilhelaly](https://github.com/hadilhelaly)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [johndoe](https://twitter.com/johndoe)<br>
   <small>
-     Department of Something, University of Whatever
+     Department of Civil and Environmental Engineering
      · Funded by Grant XXXXXXXX
+  </small>
+
++ **Emma Golub**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [emmaagolub](https://github.com/emmaagolub)<br>
+  <small>
+     Department of Something, University of Whatever; Department of Whatever, University of Something
+  </small>
+
++ **Jane Roe**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [janeroe](https://github.com/janeroe)<br>
+  <small>
+     Department of Something, University of Whatever; Department of Whatever, University of Something
   </small>
 
 + **Jane Roe**<br>
@@ -100,8 +128,11 @@ on September 6, 2022.
 
 ## Abstract {.page_break_before}
 
+Data Science is easy?
 
+This is the abstract.
 
+Yes
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.
@@ -398,6 +429,14 @@ useful for *important information* - [manubot.org](https://manubot.org/)
 useful for *warnings* - [manubot.org](https://manubot.org/)
 ]{.banner .lightred}
 
+
+## Introduction
+
+This is the introduction.
+
+
+
+## Testing to see if commit completes - Emma
 
 ## References {.page_break_before}
 
