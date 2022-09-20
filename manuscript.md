@@ -5,12 +5,12 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-08'
+date-meta: '2022-09-20'
 author-meta:
 - Hadil Helaly
 - Emma Golub
-- Jane Roe
-- Jane Roe
+- Riley Blasiak
+- Rupesh Rokade
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492 Data Science Project" />
   <meta property="og:title" content="CEE 492 Data Science Project" />
   <meta property="twitter:title" content="CEE 492 Data Science Project" />
-  <meta name="dc.date" content="2022-09-08" />
-  <meta name="citation_publication_date" content="2022-09-08" />
+  <meta name="dc.date" content="2022-09-20" />
+  <meta name="citation_publication_date" content="2022-09-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,16 +34,13 @@ header-includes: |-
   <meta name="citation_author_orcid" content="55555-55-5555" />
   <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Emma Golub" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author" content="Riley Blasiak" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author" content="Rupesh Rokade" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
@@ -51,9 +48,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f9a512a295019fb94b374e30bb301ed8604c0075/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f9a512a295019fb94b374e30bb301ed8604c0075/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f9a512a295019fb94b374e30bb301ed8604c0075/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fe2028a50f343b3edfb5d5d4f0a086270afe876b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fe2028a50f343b3edfb5d5d4f0a086270afe876b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fe2028a50f343b3edfb5d5d4f0a086270afe876b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +72,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f9a512a295019fb94b374e30bb301ed8604c0075/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fe2028a50f343b3edfb5d5d4f0a086270afe876b/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@f9a512a](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/f9a512a295019fb94b374e30bb301ed8604c0075)
-on September 8, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@fe2028a](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/fe2028a50f343b3edfb5d5d4f0a086270afe876b)
+on September 20, 2022.
 </em></small>
 
 ## Authors
@@ -103,25 +100,25 @@ on September 8, 2022.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [emmaagolub](https://github.com/emmaagolub)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Civil and Environmental Engineering
   </small>
 
-+ **Jane Roe**<br>
++ **Riley Blasiak**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [blasiak2](https://github.com/blasiak2)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Civil and Environmental Engineering
   </small>
 
-+ **Jane Roe**<br>
++ **Rupesh Rokade**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [RupeshRokade16](https://github.com/RupeshRokade16)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Civil and Environmental Engineering
   </small>
 
 
@@ -433,8 +430,6 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 ## Introduction
 
 This is the introduction.
-
-
 
 ## Testing to see if commit completes - Emma
 
