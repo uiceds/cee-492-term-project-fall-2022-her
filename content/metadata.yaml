@@ -22,21 +22,18 @@ authors:
     orcid: XXXX-XXXX-XXXX-XXXX
     email: egolub2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
+      - Department of Civil and Environmental Engineering
+  - github: blasiak2
+    name: Riley Blasiak
+    initials: RB
     orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    email: blasiak2@illiniois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
+      - Department of Civil and Environmental Engineering
+  - github: RupeshRokade16
+    name: Rupesh Rokade
+    initials: RR
     orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    email: rrokade2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Civil and Environmental Engineering
