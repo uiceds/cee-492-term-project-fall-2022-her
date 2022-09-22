@@ -48,9 +48,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5b51891e9f4c116b8bc61dec6aabd169d2f10c94/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5b51891e9f4c116b8bc61dec6aabd169d2f10c94/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5b51891e9f4c116b8bc61dec6aabd169d2f10c94/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7263518f8bc107a36634242985204b750de21650/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7263518f8bc107a36634242985204b750de21650/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7263518f8bc107a36634242985204b750de21650/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5b51891e9f4c116b8bc61dec6aabd169d2f10c94/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7263518f8bc107a36634242985204b750de21650/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@5b51891](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/5b51891e9f4c116b8bc61dec6aabd169d2f10c94)
+from [uiceds/cee-492-term-project-fall-2022-her@7263518](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/7263518f8bc107a36634242985204b750de21650)
 on September 22, 2022.
 </em></small>
 
@@ -122,14 +122,6 @@ on September 22, 2022.
   </small>
 
 
-
-## Abstract {.page_break_before}
-
-Data Science is easy?
-
-This is the abstract.
-
-Yes
 
 ## Introduction
 
