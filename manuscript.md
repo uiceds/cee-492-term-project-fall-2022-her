@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-20'
+date-meta: '2022-09-22'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492 Data Science Project" />
   <meta property="og:title" content="CEE 492 Data Science Project" />
   <meta property="twitter:title" content="CEE 492 Data Science Project" />
-  <meta name="dc.date" content="2022-09-20" />
-  <meta name="citation_publication_date" content="2022-09-20" />
+  <meta name="dc.date" content="2022-09-22" />
+  <meta name="citation_publication_date" content="2022-09-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -48,9 +48,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/47e250b999c56db8544aef7b8b4a471c88b834ed/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/47e250b999c56db8544aef7b8b4a471c88b834ed/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/47e250b999c56db8544aef7b8b4a471c88b834ed/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fdd04c3f9edcd80a3a6e51dcfe51379dd2b81764/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fdd04c3f9edcd80a3a6e51dcfe51379dd2b81764/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fdd04c3f9edcd80a3a6e51dcfe51379dd2b81764/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,10 +72,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/47e250b999c56db8544aef7b8b4a471c88b834ed/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fdd04c3f9edcd80a3a6e51dcfe51379dd2b81764/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@47e250b](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/47e250b999c56db8544aef7b8b4a471c88b834ed)
-on September 20, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@fdd04c3](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/fdd04c3f9edcd80a3a6e51dcfe51379dd2b81764)
+on September 22, 2022.
 </em></small>
 
 ## Authors
@@ -142,7 +142,6 @@ Compare the input (`.md` files in the `/content` directory) to the output you se
 **Bold** __text__
 
 [Semi-bold text]{.semibold}
-
 [Centered text]{.center}
 
 [Right-aligned text]{.right}
@@ -429,7 +428,7 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 
 ## Introduction
 
-The Urban tree database, which was collected by the US Forest Service Research Archive of the US Department of Agriculture, includes data about tree growth in urban areas across 17 cities and 13 states over the span of 14-years (from 1998-2012). The states included in the study are: Arizona, California, Colorado, Florida, Hawaii, Idaho, Indiana, Minnesota, New Mexico, New York, North Carolina, Oregon, and South Carolina. The data come from measurements taken to over 14,000 street and urban park trees, and the data can be obtained by downloading the 1.08 MB compressed “data publication” file from here: https://www.fs.usda.gov/rds/archive/catalog/RDS-2016-0005. Some measurements of interest include tree age, location, height, crown diameter, leaf area, foliar biomass, and utility line interference. Tree age, for example, was determined from interviews with residents, street construction dates, aerial and historical photos, the city’s urban forester, and laboratory cores developed by the Lamont-Doherty Earth Observatory’s Tree Ring Laboratory. 
+The Urban tree database, which was collected by the US Forest Service Research Archive of the US Department of Agriculture, includes data about tree growth in urban areas across 17 cities and 13 states over the span of 14-years (from 1998-2012). The states included in the study are: Arizona, California, Colorado, Florida, Hawaii, Idaho, Indiana, Minnesota, New Mexico, New York, North Carolina, Oregon, and South Carolina. The data come from measurements taken to over 14,000 street and urban park trees, and the data can be obtained by downloading the 1.08 MB compressed “data publication” file from [here]( https://www.fs.usda.gov/rds/archive/catalog/RDS-2016-0005). Some measurements of interest include tree age, location, height, crown diameter, leaf area, foliar biomass, and utility line interference. Tree age, for example, was determined from interviews with residents, street construction dates, aerial and historical photos, the city’s urban forester, and laboratory cores developed by the Lamont-Doherty Earth Observatory’s Tree Ring Laboratory. 
 The downloaded folder includes 9 data sheets in CSV format. The most interesting data files are i)TS1_Regional_information.csv, ii) TS2_Regional_species_and_counts.csv, and iii) TS3_Raw_tree_data.csv. First, the “TS1_Regional_information.csv” file contains information about region code, city, state, airport codes, and collection year. Second, the “TS2_Regional_species_and_counts.csv” file contains information (columns) regarding region, scientific and common names of trees, tree type, and 9 columns of dbh_class, which represent a species diameter at breast height and are used to predict tree height, crown diameter, crown height, and leaf area. These 9 classes of dbh are stratified into the following groups: 3 inch and 6 inch classes: 0-3, 3-6, 6-12, 12-18, 18-24, 24-30, 30-36, 36-42, > 42 inches. The file contains a total of 347 rows. Finally, the “TS3_Raw_tree_data.csv” file includes 14487 observations (rows) of raw tree data. For each observation, 41 different variables were collected (columns). A detailed description of each of these 41 variables is as followed:
 DbaseID = Unique id number for each tree.
 Region = 16 U.S. climate regions, abbreviations are used

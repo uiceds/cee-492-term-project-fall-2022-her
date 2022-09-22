@@ -7,7 +7,7 @@ anim
 aute
 AvgCdia
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -18,14 +18,14 @@ CommonName
 consectetur
 consequat
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 csv
 culpa
 cupidatat
 dataset
 DbaseID
-DBH
+dbh
 deserunt
 Doherty
 dolore
