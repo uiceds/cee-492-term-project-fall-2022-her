@@ -36,11 +36,10 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
 WireConf
 xls
 XXXX
-XXXXXXXX
