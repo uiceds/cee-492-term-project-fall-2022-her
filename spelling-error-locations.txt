@@ -7,7 +7,6 @@ content/03.intro.md:5:csv
 content/03.intro.md:5:csv
 content/03.intro.md:5:csv
 content/03.intro.md:5:CSV
-content/03.intro.md:5:dbh
 content/03.intro.md:7:DbaseID
 content/03.intro.md:10:xls
 content/03.intro.md:11:TreeID
@@ -67,9 +66,9 @@ content/03.intro.md:51:TreeHt
 content/03.intro.md:51:WireConf
 content/03.intro.md:53:CarShade
 content/03.intro.md:53:dataset
+content/03.intro.md:53:dataset
 content/03.intro.md:53:WireConf
 content/03.intro.md:54:dataset
-content/03.intro.md:55:dataset
 content/99.delete-me.md:43:adipiscing
 content/99.delete-me.md:43:aliqua
 content/99.delete-me.md:43:amet
