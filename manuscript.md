@@ -48,9 +48,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/b9c73d4ed8b87894626115d5c0d85857ec6db3e5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/b9c73d4ed8b87894626115d5c0d85857ec6db3e5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/b9c73d4ed8b87894626115d5c0d85857ec6db3e5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/338e47d9f3ddb3706991b1dba8d37024beada963/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/338e47d9f3ddb3706991b1dba8d37024beada963/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/338e47d9f3ddb3706991b1dba8d37024beada963/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/b9c73d4ed8b87894626115d5c0d85857ec6db3e5/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/338e47d9f3ddb3706991b1dba8d37024beada963/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@b9c73d4](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/b9c73d4ed8b87894626115d5c0d85857ec6db3e5)
+from [uiceds/cee-492-term-project-fall-2022-her@338e47d](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/338e47d9f3ddb3706991b1dba8d37024beada963)
 on September 22, 2022.
 </em></small>
 
@@ -137,10 +137,8 @@ The Urban tree database, which was collected by the US Forest Service Research A
 
 The downloaded folder includes 9 data sheets in CSV format. The most interesting data files are i)TS1_Regional_information.csv, ii) TS2_Regional_species_and_counts.csv, and iii) TS3_Raw_tree_data.csv. First, the “TS1_Regional_information.csv” file contains information about region code, city, state, airport codes, and collection year. Second, the “TS2_Regional_species_and_counts.csv” file contains information (columns) regarding region, scientific and common names of trees, tree type, and 9 columns of dbh_class, which represent a species diameter at breast height and are used to predict tree height, crown diameter, crown height, and leaf area. These 9 classes of dbh are stratified into the following groups: 3 inch and 6 inch classes: 0-3, 3-6, 6-12, 12-18, 18-24, 24-30, 30-36, 36-42, > 42 inches. The file contains a total of 347 rows. Finally, the “TS3_Raw_tree_data.csv” file includes 14487 observations (rows) of raw tree data. For each observation, 41 different variables were collected (columns). A detailed description of each of these 41 variables is as followed:
 
-1. DbaseID = Unique id number for each tree.
-
-2. Region = 16 U.S. climate regions, abbreviations are used
-
+- DbaseID = Unique id number for each tree.
+- Region = 16 U.S. climate regions, abbreviations are used.
 - City = City/state names where data collected.
 - Source = Original *.xls filename (not available in this data publication).
 - TreeID = Number assigned to each tree in inventory by city.

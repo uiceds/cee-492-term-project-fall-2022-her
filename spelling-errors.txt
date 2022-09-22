@@ -18,9 +18,9 @@ CommonName
 consectetur
 consequat
 CrnBas
-Crnbase
+CrnBase
 CrnHt
-CSV
+csv
 culpa
 cupidatat
 dataset
