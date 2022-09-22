@@ -20,7 +20,7 @@ consequat
 CrnBas
 Crnbase
 CrnHt
-csv
+CSV
 culpa
 cupidatat
 dataset
@@ -37,7 +37,7 @@ enim
 esse
 Excepteur
 exercitation
-Foliar
+foliar
 FromStreet
 fugiat
 Golub
