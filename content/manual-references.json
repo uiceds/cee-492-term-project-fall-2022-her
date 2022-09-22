@@ -1,21 +1,29 @@
 [
 {
-  "id": "url:https://github.com/manubot/rootstock",
+  "id": "url:https://www.fs.usda.gov/rds/archive/catalog/RDS-2016-0005",
   "type": "webpage",
-  "URL": "https://github.com/manubot/rootstock",
-  "title": "manubot/rootstock GitHub repository",
+  "URL": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2016-0005",
+  "title": "Urban Tree Database",
   "container-title": "GitHub",
   "issued": {
     "date-parts": [
       [
-        2019
+        2016
       ]
     ]
   },
   "author": [
     {
-      "given": "Daniel",
-      "family": "Himmelstein"
+      "given": "ME. Gregory"
+      "family": "McPherson"
+    }
+    {
+      "given": "Natalie S"
+      "family": "van Doorn"
+    }
+    {
+      "given": "Peper"
+      "family": "Paula J"
     }
   ]
 }
