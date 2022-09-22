@@ -32,7 +32,6 @@ header-includes: |-
   <meta name="citation_author" content="Hadil Helaly" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
   <meta name="citation_author_orcid" content="55555-55-5555" />
-  <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Emma Golub" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
@@ -48,9 +47,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/32080df9e9709899be651485ed43e207e2a32bfd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/32080df9e9709899be651485ed43e207e2a32bfd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/32080df9e9709899be651485ed43e207e2a32bfd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/85d44b24fd99970b3129b67b72c8e1742f009da8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/85d44b24fd99970b3129b67b72c8e1742f009da8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/85d44b24fd99970b3129b67b72c8e1742f009da8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/32080df9e9709899be651485ed43e207e2a32bfd/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/85d44b24fd99970b3129b67b72c8e1742f009da8/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@32080df](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/32080df9e9709899be651485ed43e207e2a32bfd)
+from [uiceds/cee-492-term-project-fall-2022-her@85d44b2](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/85d44b24fd99970b3129b67b72c8e1742f009da8)
 on September 22, 2022.
 </em></small>
 
@@ -86,9 +85,7 @@ on September 22, 2022.
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [55555-55-5555](https://orcid.org/55555-55-5555)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [hadilhelaly](https://github.com/hadilhelaly)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [hadilhelaly](https://github.com/hadilhelaly)<br>
   <small>
      Department of Civil and Environmental Engineering
   </small>

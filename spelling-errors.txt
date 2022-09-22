@@ -1,7 +1,7 @@
 agric
 AvgCdia
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -13,17 +13,16 @@ CrnHt
 csv
 dataset
 DbaseID
-dbh
+DBH
 Doherty
 emmaagolub
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
 Hadil
 hadilhelaly
 Helaly
-johndoe
 LandUse
 minimart
 OnStreet
@@ -36,7 +35,7 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged
