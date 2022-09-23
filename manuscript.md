@@ -47,9 +47,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a9c124c7e38bce74da437b9952028b448b16b261/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a9c124c7e38bce74da437b9952028b448b16b261/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a9c124c7e38bce74da437b9952028b448b16b261/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a58aaee8f518429cb5b403f4f26d67bc4cbe233b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a58aaee8f518429cb5b403f4f26d67bc4cbe233b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a58aaee8f518429cb5b403f4f26d67bc4cbe233b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a9c124c7e38bce74da437b9952028b448b16b261/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a58aaee8f518429cb5b403f4f26d67bc4cbe233b/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@a9c124c](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/a9c124c7e38bce74da437b9952028b448b16b261)
+from [uiceds/cee-492-term-project-fall-2022-her@a58aaee](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/a58aaee8f518429cb5b403f4f26d67bc4cbe233b)
 on September 23, 2022.
 </em></small>
 
@@ -175,11 +175,10 @@ After tidying the dataset, we can compare the effect of the WireConf, Setback, C
 
 
 
-## References
 
-McPherson, E. Gregory; van Doorn, Natalie S.; Peper, Paula J. 2016. Urban tree database. Fort Collins, CO: Forest Service Research Data Archive. Updated 21 January 2020. https://doi.org/10.2737/RDS-2016-0005
 
 ## References {.page_break_before}
 
 <!-- Explicitly insert bibliography here -->
 <div id="url:https://www.fs.usda.gov/rds/archive/catalog/RDS-2016-0005"></div>
+McPherson, E. Gregory; van Doorn, Natalie S.; Peper, Paula J. 2016. Urban tree database. Fort Collins, CO: Forest Service Research Data Archive. Updated 21 January 2020. https://doi.org/10.2737/RDS-2016-0005
