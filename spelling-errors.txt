@@ -3,7 +3,7 @@ airconditioned
 AvgCdia
 barplot
 BD
-blasiak
+Blasiak
 broadleaf
 carshade
 CdiaPar
@@ -11,7 +11,7 @@ CdiaParm
 CDiaPerp
 CommonName
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 csv
 dataset
