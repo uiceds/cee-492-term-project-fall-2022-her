@@ -13,7 +13,7 @@ CrnHt
 csv
 dataset
 DbaseID
-dbh
+Dbh
 Doherty
 Doorn
 emmaagolub
@@ -37,7 +37,7 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged
