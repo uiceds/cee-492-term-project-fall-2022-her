@@ -1,5 +1,5 @@
 ---
-title: Analyzing The Correlations Between Tree Characteristics And Their Surroundings
+title: Analyzing the Correlations among Tree Characteristics and their Surroundings
 keywords:
 - markdown
 - publishing
@@ -17,10 +17,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Analyzing The Correlations Between Tree Characteristics And Their Surroundings" />
-  <meta name="citation_title" content="Analyzing The Correlations Between Tree Characteristics And Their Surroundings" />
-  <meta property="og:title" content="Analyzing The Correlations Between Tree Characteristics And Their Surroundings" />
-  <meta property="twitter:title" content="Analyzing The Correlations Between Tree Characteristics And Their Surroundings" />
+  <meta name="dc.title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
+  <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
+  <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
+  <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta name="dc.date" content="2022-10-25" />
   <meta name="citation_publication_date" content="2022-10-25" />
   <meta name="dc.language" content="en-US" />
@@ -31,25 +31,21 @@ header-includes: |-
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Hadil Helaly" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
-  <meta name="citation_author_orcid" content="55555-55-5555" />
   <meta name="citation_author" content="Emma Golub" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="citation_author" content="Riley Blasiak" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="citation_author" content="Rupesh Rokade" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta property="twitter:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f2fc1718f057cf65ed9ca0fecdf6dd5a88f8b59c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f2fc1718f057cf65ed9ca0fecdf6dd5a88f8b59c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f2fc1718f057cf65ed9ca0fecdf6dd5a88f8b59c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e65d5a2262a9a87f38de8e6ca65778ea3def2053/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e65d5a2262a9a87f38de8e6ca65778ea3def2053/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e65d5a2262a9a87f38de8e6ca65778ea3def2053/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f2fc1718f057cf65ed9ca0fecdf6dd5a88f8b59c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e65d5a2262a9a87f38de8e6ca65778ea3def2053/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@f2fc171](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/f2fc1718f057cf65ed9ca0fecdf6dd5a88f8b59c)
+from [uiceds/cee-492-term-project-fall-2022-her@e65d5a2](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/e65d5a2262a9a87f38de8e6ca65778ea3def2053)
 on October 25, 2022.
 </em></small>
 
@@ -82,8 +78,6 @@ on October 25, 2022.
 
 
 + **Hadil Helaly**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [55555-55-5555](https://orcid.org/55555-55-5555)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [hadilhelaly](https://github.com/hadilhelaly)<br>
   <small>
@@ -91,8 +85,6 @@ on October 25, 2022.
   </small>
 
 + **Emma Golub**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [emmaagolub](https://github.com/emmaagolub)<br>
   <small>
@@ -100,8 +92,6 @@ on October 25, 2022.
   </small>
 
 + **Riley Blasiak**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [blasiak2](https://github.com/blasiak2)<br>
   <small>
@@ -109,8 +99,6 @@ on October 25, 2022.
   </small>
 
 + **Rupesh Rokade**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [RupeshRokade16](https://github.com/RupeshRokade16)<br>
   <small>
@@ -172,6 +160,8 @@ Additionally, a fourth data set may be of later interest for estimating leaf are
 The breadth of this dataset allows for a myriad of problems to be explored. The primary data that will be utilized for this project is the “TS3_Raw_tree_data.csv” file, as this contains the most columns which will result in more feasible predictions during the machine learning portion of the project. This data can be used to analyze correlations between tree characteristics and their surroundings. One potential research question using the “TS3_Raw_tree_data.csv” file is: how does utility line interference affect the growth of a certain type of tree in one state versus a different state. the preliminery 14 variables that can be used in the proposed analysis include "Address", "Age", "Shape", "WireConf", "Setback","CarShade", "DBH", "TreeHt", "CrnBas" "CrnHt", "CdiaPar", "CDiaPerp", "AvgCdia", "Leaf".
 
 After tidying the dataset, we can compare the effect of the WireConf, Setback, CarShade on the remaining variables of similar trees. Since we also contain the addresses of the trees, along with visualizing graphs from results of the comparisons, we can create maps to understand the variance of these effects across different cities. Further, a machine learning model can be created to possibly target and predict the above results for a city that is not mentioned in the dataset and predict the missing values in the dataset.
+
+
 
 
 
