@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5170f587210f9519d15e85af9a6ab22ee977e1b2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5170f587210f9519d15e85af9a6ab22ee977e1b2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5170f587210f9519d15e85af9a6ab22ee977e1b2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9723a1b98ec11f9ee1b4ae5caf008c24d1f4f99d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9723a1b98ec11f9ee1b4ae5caf008c24d1f4f99d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9723a1b98ec11f9ee1b4ae5caf008c24d1f4f99d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5170f587210f9519d15e85af9a6ab22ee977e1b2/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9723a1b98ec11f9ee1b4ae5caf008c24d1f4f99d/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@5170f58](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/5170f587210f9519d15e85af9a6ab22ee977e1b2)
+from [uiceds/cee-492-term-project-fall-2022-her@9723a1b](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/9723a1b98ec11f9ee1b4ae5caf008c24d1f4f99d)
 on October 25, 2022.
 </em></small>
 
@@ -165,6 +165,36 @@ After tidying the dataset, we can compare the effect of the WireConf, Setback, C
 
 
 
+Exploratory Data Analysis
+
+The following will provide a narrative description and characterization of the tree dataset, interspersed with summary statistics and plots. Throughout this exploratory analysis, four main questions were investigated to guide data exploration:
+
+1. How do power lines impact the growth of trees? (i.e., number of trees, leaf area, tree height, power lines, by city and/or region)
+2. How does setback (tree distance from heated/airconditioned spaces) show in different cities and/or regions? (i.e., correlation with tree height, leaf size, location)
+3. What are the correlations between tree type, land use, height, leaf area, carshade, DBH, CdiaPar, and CDiaPerp for urban tree planning by region and/or city?
+4. How does growth rate (i.e., height per age of tree) differ for each region, land use, city, etc.?
+
+For each of these questions, the data was wrangled and filtered to generate visualizations of potential correlations among selected variables of interest.
+
+
+-- Question 1 --
+
+-- Question 2 --
+
+[-- Question 3 --]{.semibold}
+Relationships among tree species, land use, leaf area, height, and shade were explored to identify any plausible correlations among the variables for the purpose of urban tree planning. It was intially considered that urban city planners may select particular species of tree to plant within specific land use types, and perhaps those tree species were chosen based on average height or canopy size (leaf area) characteristics. For example, an urban planner might choose a specific tree type (i.e., species) for its wide canopy and shorter height to provide shade to automobiles parked along a street without interscepting overhead telephone lines or buildings. [Site from evidence] The following visualizations were produced to study these relationships. 
+
+[insert images]
+(images/E_TreeHt_City_barplot.png)
+
+As shown in the above visualizations [insert narrative descriptions here for overall graphs from this question]
+
+
+Additionally, the relationships among tree height, DBH, CdiaParm and CDiaPerp were further explored. The US Forest Service Research Archives, from which the raw tree data was obtained, describes how variables such as tree age can be used to predict a species diameter at breast height (dbh), which can in turn predict tree height, crown diameter, crown height, leaf area, and tree age (https://data.nal.usda.gov/dataset/urban-tree-database) [note: citations will be updated formally!]. Thus, these variables were chosen to further investigate potential correlations. 
+
+
+
+-- Question 4 --
 
 
 ## References {.page_break_before}
