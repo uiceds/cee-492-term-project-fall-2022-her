@@ -1,7 +1,7 @@
 agric
 AvgCdia
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -17,7 +17,7 @@ dbh
 Doherty
 Doorn
 emmaagolub
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
