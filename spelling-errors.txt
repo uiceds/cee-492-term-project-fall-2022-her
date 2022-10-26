@@ -1,5 +1,6 @@
 agric
 airconditioned
+averege
 AvgCdia
 barplot
 BD
@@ -13,7 +14,7 @@ CommonName
 CrnBas
 CrnBase
 CrnHt
-CSV
+csv
 dataset
 DbaseID
 dbh
@@ -44,7 +45,7 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged

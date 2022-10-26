@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/009130f03849943be9d36cb431e5a8f012658221/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/009130f03849943be9d36cb431e5a8f012658221/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/009130f03849943be9d36cb431e5a8f012658221/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/aa55f0945294362d65686ad6d336855be50e1aed/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/aa55f0945294362d65686ad6d336855be50e1aed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/aa55f0945294362d65686ad6d336855be50e1aed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/009130f03849943be9d36cb431e5a8f012658221/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/aa55f0945294362d65686ad6d336855be50e1aed/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/009130f03849943be9d36cb431e5a8f012658221">uiceds/cee-492-term-project-fall-2022-her@009130f</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/aa55f0945294362d65686ad6d336855be50e1aed">uiceds/cee-492-term-project-fall-2022-her@aa55f09</a>
 on October 26, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -160,14 +160,19 @@ FromStreet = From inventory, the name of the first cross street that forms a bou
 </ol>
 <p>For each of these questions, the data was wrangled and filtered to generate visualizations of potential correlations among selected variables of interest.</p>
 <h3 id="question-1">Question 1</h3>
-<p>In this part, the research team were exploring if the present of utility lines has an impact on the growth of tree. To answer this question, four variables were selected to be analyzed and filtered to find the correlation between the present of utility lines and the growth of tree that include “WireConf” “Age”, “TreeHt”, and “DBH”. The “WireConf” variable is a categorical variable that presents if the utility lines interfere with or appear above tree. This variable might include one of five values, 0=no lines, 1=present and no potential conflict, 2=present and conflicting, 3=present and potential for conflicting, and -1 denotes data were not collected. The “Age” variable is a numerical variables that presents number of years since planted. The “TreeHt (m)” variable is a numerical variable that presents tree height from ground to the treetop to the nearest 0.5 m. The “DBH” variable is a numerical variable that presents diameter of tree at breast height (1.37 meters [m]) measured to nearest 0.1 centimeters.
-The first step in our analysis is to group data by “WireConf” to discover how many trees in our database were affected. ?? shows the number of trees in the database in each category after excluding all trees that do not have data, where 1= no lines, 2 = present and no potential conflict, 3 = present and conflicting, and 4 = present and potential for conflicting. It is clear that the majority of the trees are not in areas that have utility lines conflicting with trees which will help the research team to examine the growth of trees when there are no utility lines and compare it with the growth of trees when utility lines are present.</p>
+<p>In this part, the research team were exploring if the present of utility lines has an impact on the growth of tree. To answer this question, four variables were selected to be analyzed and filtered to find the correlation between the present of utility lines and the growth of tree that include “WireConf” “Age”, “TreeHt”, and “DBH”. The “WireConf” variable is a categorical variable that presents if the utility lines interfere with or appear above tree. This variable might include one of five values, 0=no lines, 1=present and no potential conflict, 2=present and conflicting, 3=present and potential for conflicting, and -1 denotes data were not collected. The “Age” variable is a numerical variables that presents number of years since planted. The “TreeHt (m)” variable is a numerical variable that presents tree height from ground to the treetop to the nearest 0.5 m. The “DBH” variable is a numerical variable that presents diameter of tree at breast height (1.37 meters [m]) measured to nearest 0.1 centimeters.</p>
+<p>The first step in our analysis is to group data by “WireConf” to discover how many trees in our database were affected. <a href="#fig:numberoftrees">1</a> shows the number of trees in the database in each category after excluding all trees that do not have data, where 1= no lines, 2 = present and no potential conflict, 3 = present and conflicting, and 4 = present and potential for conflicting. It is clear that the majority of the trees are not in areas that have utility lines conflicting with trees which will help the research team to examine the growth of trees when there are no utility lines and compare it with the growth of trees when utility lines are present.</p>
 <div id="fig:numberoftrees" class="fignos">
 <figure>
 <img src="images/h_numberOfDatapoint.png" alt="Figure 1: Number of Trees in Each Category in The Database." /><figcaption aria-hidden="true"><span>Figure 1:</span> Number of Trees in Each Category in The Database.</figcaption>
 </figure>
 </div>
-<p>The second step is to calculate the average height of trees for each of the aforementioned categories as shown in Figure 2. From the figure, it looks like that there is not great impact of the growth of tree with the present of the utility line. Therefore, further investigation is needed.</p>
+<p>The second step is to calculate the average height of trees for each of the aforementioned categories as shown in @.fig:averege height The average tree height in all categories is varies from 10 to 13 meters which do not prove that there is not great impact of the growth of tree with the present of the utility line. Therefore, further investigation is needed.</p>
+<div id="fig:averege" class="fignos">
+<figure>
+<img src="images/h_avgheight_4section.png" alt="Figure 2: Average Tree Height based on Wire Conflict." /><figcaption aria-hidden="true"><span>Figure 2:</span> Average Tree Height based on Wire Conflict.</figcaption>
+</figure>
+</div>
 <h3 id="question-2">Question 2</h3>
 <h3 id="question-3">Question 3</h3>
 <p>Relationships among tree species, land use, leaf area, height, and shade were explored to identify any plausible correlations among the variables for the purpose of urban tree planning. It was intially considered that urban city planners may select particular species of tree to plant within specific land use types, and perhaps those tree species were chosen based on average height or canopy size (leaf area) characteristics. For example, an urban planner might choose a specific tree type (i.e., species) for its wide canopy and shorter height to provide shade to automobiles parked along a street without interscepting overhead telephone lines or buildings. [Site from evidence] The following visualizations were produced to study these relationships.</p>
