@@ -1,6 +1,22 @@
 using Markdown
 using InteractiveUtils
 
+###
+# exec '/private/var/folders/54/6x42fkzj20x83xgrkxdqswj40000gn/T/AppTranslocation/AA6D02C9-59B0-4AEA-AA0E-06FAB5FE5475/d/Julia-1.6.app/Contents/Resources/julia/bin/julia'
+# run this line first to use julia
+###
+
+
+#import Pkg; 
+#Pkg.add("PlutoUI")
+#Pkg.add("DataFrames")
+#Pkg.add("Plots")
+#Pkg.add("RDatasets")
+#Pkg.add("Statistics")
+#Pkg.add("StatsPlots")
+#Pkg.add("CSV")
+#Pkg.add("StatsBase")
+
 # This Pluto notebook uses @bind for interactivity. When running this notebook outside of Pluto, the following 'mock version' of @bind gives bound variables a default value (instead of an error).
 macro bind(def, element)
     quote
