@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a0670690db56ada697a125c32d0c71b0531d282f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a0670690db56ada697a125c32d0c71b0531d282f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a0670690db56ada697a125c32d0c71b0531d282f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/68b4c9e6eb3a6223c23843928c7a17033fba1812/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/68b4c9e6eb3a6223c23843928c7a17033fba1812/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/68b4c9e6eb3a6223c23843928c7a17033fba1812/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a0670690db56ada697a125c32d0c71b0531d282f/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/68b4c9e6eb3a6223c23843928c7a17033fba1812/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@a067069](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/a0670690db56ada697a125c32d0c71b0531d282f)
+from [uiceds/cee-492-term-project-fall-2022-her@68b4c9e](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/68b4c9e6eb3a6223c23843928c7a17033fba1812)
 on October 26, 2022.
 </em></small>
 
@@ -182,7 +182,7 @@ The first step in our analysis is to group data by “WireConf” to discover ho
 
 **(hhttps://github.com/uiceds/cee-492-term-project-fall-2022-her/blob/main/content/images/h_numberOf%20Datapoint.png"){#fig:h_numberOf Datapoint-image}**
 
-![Caption for the example figure.](hhttps://github.com/uiceds/cee-492-term-project-fall-2022-her/blob/main/content/images/h_numberOf%20Datapoint.png){#fig:example-id}
+![Number of Trees in Each Category.](images/h_numberOfDatapoint.png){#fig:example-id}
 
 
 ### Question 2

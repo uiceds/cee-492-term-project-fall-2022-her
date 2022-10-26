@@ -3,7 +3,7 @@ airconditioned
 AvgCdia
 barplot
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -11,13 +11,13 @@ CdiaParm
 CDiaPerp
 CommonName
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 csv
 Datapoint
 dataset
 DbaseID
-dbh
+DBH
 Doherty
 Doorn
 emmaagolub
@@ -44,7 +44,7 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
