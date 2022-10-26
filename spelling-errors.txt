@@ -2,11 +2,12 @@ agric
 airconditioned
 averege
 AvgCdia
+avgHeight
 barplot
 BD
-Blasiak
+blasiak
 broadleaf
-carshade
+CarShade
 CdiaPar
 CdiaParm
 CDiaPerp
@@ -17,7 +18,7 @@ CrnHt
 csv
 dataset
 DbaseID
-dbh
+DBH
 Doherty
 Doorn
 emmaagolub

@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/aa55f0945294362d65686ad6d336855be50e1aed/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/aa55f0945294362d65686ad6d336855be50e1aed/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/aa55f0945294362d65686ad6d336855be50e1aed/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3082cb6636df7fee5a69604d7adbbb8c206ce21b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3082cb6636df7fee5a69604d7adbbb8c206ce21b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3082cb6636df7fee5a69604d7adbbb8c206ce21b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/aa55f0945294362d65686ad6d336855be50e1aed/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3082cb6636df7fee5a69604d7adbbb8c206ce21b/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@aa55f09](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/aa55f0945294362d65686ad6d336855be50e1aed)
+from [uiceds/cee-492-term-project-fall-2022-her@3082cb6](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/3082cb6636df7fee5a69604d7adbbb8c206ce21b)
 on October 26, 2022.
 </em></small>
 
@@ -181,11 +181,18 @@ In this part, the research team were exploring if the present of utility lines h
 
 The first step in our analysis is to group data by “WireConf” to discover how many trees in our database were affected. @fig:numberoftrees shows the number of trees in the database in each category after excluding all trees that do not have data, where 1= no lines, 2 = present and no potential conflict, 3 = present and conflicting, and 4 = present and potential for conflicting. It is clear that the majority of the trees are not in areas that have utility lines conflicting with trees which will help the research team to examine the growth of trees when there are no utility lines and compare it with the growth of trees when utility lines are present.
 
-![Number of Trees in Each Category in The Database.](images/h_numberOfDatapoint.png){#fig:numberoftrees  width= "3in"}
+![Number of Trees in Each Category in The Database.](images/h_numberOfDatapoint.png){#fig:numberoftrees  width= "70%"}
 
 The second step is to calculate the average height of trees for each of the aforementioned categories as shown in @.fig:averege height  The average tree height in all categories is varies from 10 to 13 meters which do not prove that there is not great impact of the growth of tree with the present of the utility line. Therefore, further investigation is needed.
 
 ![Average Tree Height based on Wire Conflict.](images/h_avgheight_4section.png){#fig:averege height  width= "3in"}
+
+The third step is to find the correlation between the age of trees and the height for each of the aforementioned categories, as shown in @fig:h_avgHeight_ age. It is clear that there is a strong correlation between tree age and average tree height in all categories. The calculated correlation in all categories is higher than 0.7. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in fig:h_avgHeight_ age_all.
+
+![The Correlation between Tree Age and Average Tree Height in All Categories](images/h_avgHeight_ age.png){#fig:h_avgHeight_ age  width= "70%"}
+
+![The Correlation between Tree Age and Average Tree Height in All Categories](images/h_avgHeight_ age_all.png){#fig:h_avgHeight_ age_all  width= "3in"}
+
 
 
 ### Question 2
