@@ -3,7 +3,7 @@ airconditioned
 AvgCdia
 barplot
 BD
-Blasiak
+blasiak
 broadleaf
 carshade
 CdiaPar
@@ -20,7 +20,7 @@ dbh
 Doherty
 Doorn
 emmaagolub
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
