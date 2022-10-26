@@ -8,7 +8,7 @@ barplot
 BD
 blasiak
 broadleaf
-CarShade
+carshade
 CdiaPar
 CdiaParm
 CDiaPerp
@@ -16,14 +16,14 @@ CommonName
 CrnBas
 Crnbase
 CrnHt
-csv
+CSV
 dataset
 DbaseID
-Dbh
+dbh
 Doherty
 Doorn
 emmaagolub
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
