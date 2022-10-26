@@ -3,9 +3,9 @@ airconditioned
 AvgCdia
 barplot
 BD
-blasiak
+Blasiak
 broadleaf
-carshade
+CarShade
 CdiaPar
 CdiaParm
 CDiaPerp
@@ -14,13 +14,14 @@ CrnBas
 CrnBase
 CrnHt
 csv
+Datapoint
 dataset
 DbaseID
 DBH
 Doherty
 Doorn
 emmaagolub
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
@@ -31,6 +32,7 @@ interscepting
 intially
 LandUse
 minimart
+numberOf
 OnStreet
 paraboloid
 Peper
@@ -43,7 +45,7 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged

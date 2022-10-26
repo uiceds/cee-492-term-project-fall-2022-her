@@ -82,6 +82,8 @@ content/04.ExploratoryAnalysis.md:14:TreeHt
 content/04.ExploratoryAnalysis.md:14:WireConf
 content/04.ExploratoryAnalysis.md:14:WireConf
 content/04.ExploratoryAnalysis.md:15:WireConf
+content/04.ExploratoryAnalysis.md:19:Datapoint
+content/04.ExploratoryAnalysis.md:19:Datapoint
 content/04.ExploratoryAnalysis.md:19:png
 content/04.ExploratoryAnalysis.md:25:interscepting
 content/04.ExploratoryAnalysis.md:25:intially
