@@ -5,7 +5,7 @@ barplot
 BD
 Blasiak
 broadleaf
-CarShade
+carshade
 CdiaPar
 CdiaParm
 CDiaPerp
@@ -13,11 +13,10 @@ CommonName
 CrnBas
 CrnBase
 CrnHt
-csv
-Datapoint
+CSV
 dataset
 DbaseID
-DBH
+dbh
 Doherty
 Doorn
 emmaagolub
@@ -32,6 +31,7 @@ interscepting
 intially
 LandUse
 minimart
+numberoftrees
 OnStreet
 paraboloid
 Peper
@@ -44,7 +44,7 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged
