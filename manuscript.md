@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/2a1397c3416f63dbafe86b034e9d708f150a63b4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/2a1397c3416f63dbafe86b034e9d708f150a63b4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/2a1397c3416f63dbafe86b034e9d708f150a63b4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8f9513f4ef0e59f1ff75bae235360c9c6843901f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8f9513f4ef0e59f1ff75bae235360c9c6843901f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8f9513f4ef0e59f1ff75bae235360c9c6843901f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/2a1397c3416f63dbafe86b034e9d708f150a63b4/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8f9513f4ef0e59f1ff75bae235360c9c6843901f/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@2a1397c](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/2a1397c3416f63dbafe86b034e9d708f150a63b4)
+from [uiceds/cee-492-term-project-fall-2022-her@8f9513f](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/8f9513f4ef0e59f1ff75bae235360c9c6843901f)
 on October 26, 2022.
 </em></small>
 
@@ -179,10 +179,8 @@ For each of these questions, the data was wrangled and filtered to generate visu
 ### Question 1
 In this part, the research team were exploring if the present of utility lines has an impact on the growth of tree. To answer this question, four variables were selected to be analyzed and filtered to find the correlation between the present of utility lines and the growth of tree that include “WireConf” “Age”, “TreeHt”, and “DBH”. The “WireConf” variable is a categorical variable that presents if the utility lines interfere with or appear above tree. This variable might include one of five values, 0=no lines, 1=present and no potential conflict, 2=present and conflicting, 3=present and potential for conflicting, and -1 denotes data were not collected. The “Age” variable is a numerical variables that presents number of years since planted. The “TreeHt (m)” variable is a numerical variable that presents tree height from ground to the treetop to the nearest 0.5 m. The “DBH” variable is a numerical variable that presents diameter of tree at breast height (1.37 meters [m]) measured to nearest 0.1 centimeters. 
 The first step in our analysis is to group data by “WireConf” to discover how many trees in our database were affected. Figure 1 shows the number of trees in the database in each category after excluding all trees that do not have data, where 1= no lines, 2 = present and no potential conflict, 3 = present and conflicting, and 4 = present and potential for conflicting. It is clear that the majority of the trees are not in areas that have utility lines conflicting with trees which will help the research team to examine the growth of trees when there are no utility lines and compare it with the growth of trees when utility lines are present.
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/h_numberOf Datapoint.png "Square image"){#fig:h_numberOf Datapoint-image}
+
+(hhttps://github.com/uiceds/cee-492-term-project-fall-2022-her/blob/main/content/images/h_numberOf%20Datapoint.png"){#fig:h_numberOf Datapoint-image}
 
 ### Question 2
 

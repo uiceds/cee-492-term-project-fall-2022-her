@@ -17,11 +17,11 @@ csv
 Datapoint
 dataset
 DbaseID
-DBH
+dbh
 Doherty
 Doorn
 emmaagolub
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
@@ -32,7 +32,6 @@ interscepting
 intially
 LandUse
 minimart
-numberOf
 OnStreet
 paraboloid
 Peper
@@ -45,7 +44,7 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
