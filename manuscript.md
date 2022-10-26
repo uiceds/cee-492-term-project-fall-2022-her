@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/993da30008b0651d34be46739a252b675833f733/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/993da30008b0651d34be46739a252b675833f733/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/993da30008b0651d34be46739a252b675833f733/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/38a4ec134f0226014b3c462151ca5c708184740e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/38a4ec134f0226014b3c462151ca5c708184740e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/38a4ec134f0226014b3c462151ca5c708184740e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/993da30008b0651d34be46739a252b675833f733/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/38a4ec134f0226014b3c462151ca5c708184740e/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@993da30](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/993da30008b0651d34be46739a252b675833f733)
+from [uiceds/cee-492-term-project-fall-2022-her@38a4ec1](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/38a4ec134f0226014b3c462151ca5c708184740e)
 on October 26, 2022.
 </em></small>
 
@@ -187,7 +187,7 @@ The second step is to calculate the average height of trees for each of the afor
 
 ![Average Tree Height based on Wire Conflict.](images/h_avgheight_4section.png){#fig:averege height}
 
-The third step is to find the correlation between the age of trees and the height for each of the aforementioned categories, as shown in  Figure @fig:h_avgHeight_age. It is clear that there is a strong correlation between tree age and average tree height in all categories. The calculated correlation in all categories is higher than 0.7. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in  Figure @fig:h_avgHeight_ age_all.
+The third step is to find the correlation between the age of trees and the height for each of the aforementioned categories, as shown in  Figure @fig:h_avgHeight_ age. It is clear that there is a strong correlation between tree age and average tree height in all categories. The calculated correlation in all categories is higher than 0.7. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in  Figure @fig:h_avgHeight_ age_all.
 
 ![The Correlation between Tree Age and Average Tree Height in All Categories](images/h_avgHeight_ age.png){#fig:h_avgHeight_ age}
 
@@ -204,8 +204,6 @@ The last step is to find the correlation between the height and diameter of tree
 ![The Correlation between Height and Average Diameter of Trees](images/h_cor_age_avgDBH.png){#fig:h_cor_age_avgDBH}
 
 Therefore, it is clear that the present of utility line does not have a great impact on the growth of trees. However, the research team has found that there is a strong correlation between tree age and both height and diameter of tree that can be used in developing a regression model that can predict the age of trees based on their height and diameter.   
-
-
 
 ### Question 2
 
