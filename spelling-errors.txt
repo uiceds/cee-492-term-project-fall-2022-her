@@ -5,7 +5,7 @@ barplot
 BD
 blasiak
 broadleaf
-carshade
+CarShade
 CdiaPar
 CdiaParm
 CDiaPerp
@@ -43,7 +43,7 @@ ScientificName
 SpCode
 SpCodes
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
