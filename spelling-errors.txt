@@ -3,9 +3,9 @@ airconditioned
 AvgCdia
 barplot
 BD
-blasiak
+Blasiak
 broadleaf
-carshade
+CarShade
 CdiaPar
 CdiaParm
 CDiaPerp
