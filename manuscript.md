@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/38a4ec134f0226014b3c462151ca5c708184740e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/38a4ec134f0226014b3c462151ca5c708184740e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/38a4ec134f0226014b3c462151ca5c708184740e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/276121f0e5c29d344bb424de84016bf424335e65/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/276121f0e5c29d344bb424de84016bf424335e65/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/276121f0e5c29d344bb424de84016bf424335e65/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/38a4ec134f0226014b3c462151ca5c708184740e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/276121f0e5c29d344bb424de84016bf424335e65/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@38a4ec1](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/38a4ec134f0226014b3c462151ca5c708184740e)
+from [uiceds/cee-492-term-project-fall-2022-her@276121f](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/276121f0e5c29d344bb424de84016bf424335e65)
 on October 26, 2022.
 </em></small>
 
@@ -187,11 +187,11 @@ The second step is to calculate the average height of trees for each of the afor
 
 ![Average Tree Height based on Wire Conflict.](images/h_avgheight_4section.png){#fig:averege height}
 
-The third step is to find the correlation between the age of trees and the height for each of the aforementioned categories, as shown in  Figure @fig:h_avgHeight_ age. It is clear that there is a strong correlation between tree age and average tree height in all categories. The calculated correlation in all categories is higher than 0.7. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in  Figure @fig:h_avgHeight_ age_all.
+The third step is to find the correlation between the age of trees and the height for each of the aforementioned categories, as shown in  Figure @fig:h_avgHeight_age. It is clear that there is a strong correlation between tree age and average tree height in all categories. The calculated correlation in all categories is higher than 0.7. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in  Figure @fig:h_avgHeight_age_all.
 
-![The Correlation between Tree Age and Average Tree Height in All Categories](images/h_avgHeight_ age.png){#fig:h_avgHeight_ age}
+![The Correlation between Tree Age and Average Tree Height in All Categories](images/h_avgHeight_age.png){#fig:h_avgHeight_age}
 
-![The Correlation between Tree Age and Average Tree Height in All Categories](images/h_avgHeight_ age_all.png){#fig:h_avgHeight_ age_all}
+![The Correlation between Tree Age and Average Tree Height in All Categories](images/h_avgHeight_age_all.png){#fig:h_avgHeight_age_all}
 
 The fourth step is to analyze the correlation between the average diameter of tree and its age in each category. Figure @fig:h_avgDBH_age shows that there is a strong correlation between the average DBH and tree age in all categories. The calculated correlation in all categories is higher than 0.8. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in Figure @fig:h_avgDBH_age_all.
 

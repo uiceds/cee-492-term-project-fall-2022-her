@@ -6,9 +6,9 @@ avgDBH
 avgHeight
 barplot
 BD
-Blasiak
+blasiak
 broadleaf
-carshade
+CarShade
 CdiaPar
 CdiaParm
 CDiaPerp
@@ -19,11 +19,11 @@ CrnHt
 csv
 dataset
 DbaseID
-dbh
+Dbh
 Doherty
 Doorn
 emmaagolub
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
