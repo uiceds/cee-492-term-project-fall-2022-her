@@ -19,11 +19,11 @@ CrnHt
 csv
 dataset
 DbaseID
-DBH
+dbh
 Doherty
 Doorn
 emmaagolub
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
@@ -49,7 +49,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
