@@ -6,7 +6,7 @@ avgDBH
 avgHeight
 barplot
 BD
-blasiak
+Blasiak
 broadleaf
 carshade
 CdiaPar
@@ -14,12 +14,12 @@ CdiaParm
 CDiaPerp
 CommonName
 CrnBas
-Crnbase
+CrnBase
 CrnHt
-CSV
+csv
 dataset
 DbaseID
-dbh
+DBH
 Doherty
 Doorn
 emmaagolub
@@ -33,6 +33,7 @@ Helaly
 interscepting
 intially
 LandUse
+Longview
 minimart
 numberoftrees
 OnStreet
@@ -46,8 +47,9 @@ RupeshRokade
 ScientificName
 SpCode
 SpCodes
+Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged
