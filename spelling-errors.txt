@@ -1,6 +1,6 @@
 agric
 airconditioned
-averege
+averegeheight
 AvgCdia
 avgDBH
 avgHeight
@@ -8,13 +8,13 @@ barplot
 BD
 blasiak
 broadleaf
-carshade
+CarShade
 CdiaPar
 CdiaParm
 CDiaPerp
 CommonName
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 csv
 dataset

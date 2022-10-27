@@ -85,8 +85,8 @@ content/04.ExploratoryAnalysis.md:16:numberoftrees
 content/04.ExploratoryAnalysis.md:16:WireConf
 content/04.ExploratoryAnalysis.md:18:numberoftrees
 content/04.ExploratoryAnalysis.md:18:png
-content/04.ExploratoryAnalysis.md:20:averege
-content/04.ExploratoryAnalysis.md:22:averege
+content/04.ExploratoryAnalysis.md:20:averegeheight
+content/04.ExploratoryAnalysis.md:22:averegeheight
 content/04.ExploratoryAnalysis.md:22:png
 content/04.ExploratoryAnalysis.md:26:png
 content/04.ExploratoryAnalysis.md:28:png

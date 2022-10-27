@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/89943d98c912c6a3271dcc0a33cdc0dfe4ff9269/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/89943d98c912c6a3271dcc0a33cdc0dfe4ff9269/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/89943d98c912c6a3271dcc0a33cdc0dfe4ff9269/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/399017998b1d87086f8182b48cfe3d9f17d49558/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/399017998b1d87086f8182b48cfe3d9f17d49558/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/399017998b1d87086f8182b48cfe3d9f17d49558/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/89943d98c912c6a3271dcc0a33cdc0dfe4ff9269/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/399017998b1d87086f8182b48cfe3d9f17d49558/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@89943d9](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/89943d98c912c6a3271dcc0a33cdc0dfe4ff9269)
+from [uiceds/cee-492-term-project-fall-2022-her@3990179](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/399017998b1d87086f8182b48cfe3d9f17d49558)
 on October 27, 2022.
 </em></small>
 
@@ -183,23 +183,23 @@ The first step in our analysis is to group data by “WireConf” to discover ho
 
 ![Number of Trees in Each Category in The Database.](images/h_numberOfDatapoint.png){#fig:numberoftrees width=5in}
 
-The second step is to calculate the average height of trees for each of the aforementioned categories as shown in Figure @fig:averege height  The average tree height in all categories is varies from 10 to 13 meters which does not clarify the impact of the growth of tree with the present of the utility line. Therefore, further investigation is needed.
+The second step is to calculate the average height of trees for each of the aforementioned categories as shown in Figure @fig:averegeheight .  The average tree height in all categories is varies from 10 to 13 meters which does not clarify the impact of the growth of tree with the present of the utility line. Therefore, further investigation is needed.
 
-![Average Tree Height Based on Wire Conflict.](images/h_avgheight_4section.png){#fig:averege height width=5in}
+![Average Tree Height Based on Wire Conflict.](images/h_avgheight_4section.png){#fig:averegeheight width=5in}
 
 The third step is to find the correlation between the age of trees and the height for each of the aforementioned categories, as shown in  Figure @fig:h_avgHeight_age. It is clear that there is a strong correlation between tree age and average tree height in all categories. The calculated correlation in all categories is higher than 0.7. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in  Figure @fig:h_avgHeight_age_all.
 
-![The Correlation between Tree Age and Average Tree Height Based on Wire Conflict](images/h_avgHeight_age.png){#fig:h_avgHeight_age}
+![The Correlation between Tree Age and Average Tree Height Based on Wire Conflict](images/h_avgHeight_age.png){#fig:h_avgHeight_age width=7.5in}
 
 ![The Correlation between Tree Age and Average Tree Height Based on Wire Conflict](images/h_avgHeight_age_all.png){#fig:h_avgHeight_age_all width=6in}
 
-The fourth step is to analyze the correlation between the average diameter of tree and its age in each category. Figure @fig:h_avgDBH_age shows that there is a strong correlation between the average DBH and tree age in all categories. The calculated correlation in all categories is higher than 0.8. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in Figure @fig:h_avgDBH_age_all.
+The fourth step is to analyze the correlation between the average diameter of tree and its age in each category. Figure @fig:h_avgDBH_age shows that there is a strong correlation between the average DBH and tree age in all categories. The calculated correlation in all categories is higher than 0.8, see Figure @fig:h_avgDBH_age_all.
 
-![The Correlation between Tree Age and Average Diameter of Trees based on Wire Conflict](images/h_avgDBH_age.png){#fig:h_avgDBH_age}
+![The Correlation between Tree Age and Average Diameter of Trees based on Wire Conflict](images/h_avgDBH_age.png){#fig:h_avgDBH_age width=7.5in}
 
 ![The Correlation between Tree Age and Average Diameter of Trees Based on Wire Conflict](images/h_avgDBH_age_all.png){#fig:h_avgDBH_age_all width=6in}
 
-The last step is to find the correlation between the height and diameter of trees to see if the research team can use that in estimating the height of trees based of its diameter. Figure @fig:h_cor_age_avgDBH shows that there is a strong correlation between them. Figure @fig:h_cor_age_avgDBH present the correlation between the two aforementioned variables. It is clear that there is a strong correlation between tree height and its diameter. The calculated correlation is 0.78. 
+The last step is to find the correlation between the height and diameter of trees to see if the research team can use that in estimating the height of trees based of its diameter. Figure @fig:h_cor_age_avgDBH present the correlation between the two aforementioned variables. It is clear that there is a strong correlation between tree height and its diameter. The calculated correlation is 0.78. 
 
 ![The Correlation between Height and Average Diameter of Trees](images/h_cor_age_avgDBH.png){#fig:h_cor_age_avgDBH width=6in}
 
