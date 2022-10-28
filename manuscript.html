@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/81000ec26902830b6bd658a8bd10a1fd0b472fed/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/81000ec26902830b6bd658a8bd10a1fd0b472fed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/81000ec26902830b6bd658a8bd10a1fd0b472fed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/81000ec26902830b6bd658a8bd10a1fd0b472fed/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/d798fe0c9843699f581e6090e6491cde6ffba424">uiceds/cee-492-term-project-fall-2022-her@d798fe0</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/81000ec26902830b6bd658a8bd10a1fd0b472fed">uiceds/cee-492-term-project-fall-2022-her@81000ec</a>
 on October 28, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -203,6 +203,17 @@ FromStreet = From inventory, the name of the first cross street that forms a bou
 </div>
 <p>Therefore, it is clear that the present of utility line does not have a great impact on the growth of trees. However, the research team has found that there is a strong correlation between tree age and both height and diameter of tree that can be used in developing a regression model that can predict the age of trees based on their height and diameter.</p>
 <h3 id="question-2">Question 2</h3>
+<p>One of the promising variables in the dataset was identified to be the ‘setback.’ Setback is defined as the distance from tree to nearest air-conditioned/heated space (may not be same address as tree location) with its units explained as follows: 1=0m to 8m, 2= 8.1m to 12m, 3= 12.1m to 18m, 4= &gt; 18m. The analysis on the data explored the effect of setback on the height of trees. After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations.</p>
+<figure>
+<img src="images\Ru_Mean_setback.png" alt="The Mean Setback across different Cities" /><figcaption aria-hidden="true">The Mean Setback across different Cities</figcaption>
+</figure>
+<p>It was identified that the cities with the highest mean setback (in descending order) were: 1) Albuquerque (3.80385), 2) Glendale (3.56843), 3) Charlotte (3.06892), 4) Longview (2.92153)
+Similarly, the cities with least mean setback were (in ascending order) : 1) Queens (2.01564), 2) Claremont (2.17143), 3) Berkeley (2.28313), 4) Indianapolis (2.31699)</p>
+<p>Next step was to identify similar species between the trees from top 4 mean setback and bottom 4 mean setback. This would help establish similar grounds for tree height comparison. However it was found out that there were no common species among the two groups. Hence, a random city (Charlotte) was taken into consideration, where, similar species having the same age were grouped together.</p>
+<figure>
+<img src="" alt="The Mean Height for different Setback" /><figcaption aria-hidden="true">The Mean Height for different Setback</figcaption>
+</figure>
+<p>Using their mean heights, it was observed that setback and tree height did not show any correlation.</p>
 <h3 id="question-3">Question 3</h3>
 <p>Next, the relationships among tree species, tree height, land use, and location were explored to identify any plausible correlations for the purpose of urban tree planning. One may consider how urban city planners select particular species of tree to plant within specific land use types. For example, perhaps an urban planner might select a particular tree species based on average height or canopy size (leaf area) in order to provide suitable landscaping along a street to provide sufficient shade to city goers without interscepting overhead telephone lines or buildings. [Site from evidence]. Furthermore, these data were grouped by city and region to investigate spatial differences among the variables. Perhaps southern California cities like Santa Monica plant different trees compared to those in Boise, Idaho for different purposes. The following visualizations were produced to study these qualitative and quantitative relationships.</p>
 <p>First, a barplot of tree heights grouped by species was produced over all locations to study typical heights associated with each tree type. From Fig. <a href="#fig:E_TreeHt_Species_barplot">8</a>, one can observe how some trees (i.e., blue gum eucalyptus, valley oak) present the highest tree heights compared to others, such as the common crapemyrtle or the pinyon pine, which present much smaller heights. City planners might use this information to decide on which trees to include in their city landscape plans depending on whether short or tall trees would best suit their site.</p>

@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/81000ec26902830b6bd658a8bd10a1fd0b472fed/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/81000ec26902830b6bd658a8bd10a1fd0b472fed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/81000ec26902830b6bd658a8bd10a1fd0b472fed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/81000ec26902830b6bd658a8bd10a1fd0b472fed/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@d798fe0](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/d798fe0c9843699f581e6090e6491cde6ffba424)
+from [uiceds/cee-492-term-project-fall-2022-her@81000ec](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/81000ec26902830b6bd658a8bd10a1fd0b472fed)
 on October 28, 2022.
 </em></small>
 
@@ -206,6 +206,18 @@ The last step is to find the correlation between the height and diameter of tree
 Therefore, it is clear that the present of utility line does not have a great impact on the growth of trees. However, the research team has found that there is a strong correlation between tree age and both height and diameter of tree that can be used in developing a regression model that can predict the age of trees based on their height and diameter.   
 
 ### Question 2
+One of the promising variables in the dataset was identified to be the 'setback.' Setback is defined as the distance from tree to nearest air-conditioned/heated space (may not be same address as tree location) with its units explained as follows: 1=0m to 8m, 2= 8.1m to 12m, 3= 12.1m to 18m, 4= > 18m. The analysis on the data explored the effect of setback on the height of trees. After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations. 
+
+![The Mean Setback across different Cities](images\Ru_Mean_setback.png)
+
+It was identified that the cities with the highest mean setback (in descending order) were: 1) Albuquerque (3.80385), 2) Glendale (3.56843), 3) Charlotte (3.06892), 4) Longview (2.92153)
+Similarly, the cities with least mean setback were (in ascending order) : 1) Queens (2.01564), 2) Claremont (2.17143), 3) Berkeley (2.28313), 4) Indianapolis (2.31699)
+
+Next step was to identify similar species between the trees from top 4 mean setback and bottom 4 mean setback. This would help establish similar grounds for tree height comparison. However it was found out that there were no common species among the two groups. Hence, a random city (Charlotte) was taken into consideration, where, similar species having the same age were grouped together. 
+
+![The Mean Height for different Setback]()
+
+Using their mean heights, it was observed that setback and tree height did not show any correlation.
 
 ### Question 3
 
