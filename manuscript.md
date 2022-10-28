@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@87e2ed2](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e)
+from [uiceds/cee-492-term-project-fall-2022-her@fcb3d43](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e)
 on October 28, 2022.
 </em></small>
 
@@ -209,9 +209,9 @@ Therefore, it is clear that the present of utility line does not have a great im
 
 ### Question 3
 
-Relationships among tree species, tree height, land use, and location were explored to identify any plausible correlations for the purpose of urban tree planning. One may consider how urban city planners select particular species of tree to plant within specific land use types. For example, perhaps an urban planner might select a particular tree species based on average height or canopy size (leaf area) in order to provide suitable landscaping along a street to provide sufficient shade to city goers without interscepting overhead telephone lines or buildings. [Site from evidence]. Furthermore, these data were grouped by city and region to investigate spatial differences among the variables. Perhaps southern California cities like Santa Monica plant different trees compared to those in Boise, Idaho for different purposes. The following visualizations were produced to study these qualitative and quantitative relationships. 
+Next, the relationships among tree species, tree height, land use, and location were explored to identify any plausible correlations for the purpose of urban tree planning. One may consider how urban city planners select particular species of tree to plant within specific land use types. For example, perhaps an urban planner might select a particular tree species based on average height or canopy size (leaf area) in order to provide suitable landscaping along a street to provide sufficient shade to city goers without interscepting overhead telephone lines or buildings. [Site from evidence]. Furthermore, these data were grouped by city and region to investigate spatial differences among the variables. Perhaps southern California cities like Santa Monica plant different trees compared to those in Boise, Idaho for different purposes. The following visualizations were produced to study these qualitative and quantitative relationships. 
 
-First, a barplot of tree heights grouped by species was produced over all locations to study typical heights associated with each tree type. From Fig. X, one can observe how some trees (i.e., blue gum eucalyptus, valley oak) present the highest tree heights compared to others, such as the common crapemyrtle or the pinyon pine, which present much smaller heights. City planners might use this information to decide on which trees to include in their city landscape plans depending on whether short or tall trees would best suit their site.
+First, a barplot of tree heights grouped by species was produced over all locations to study typical heights associated with each tree type. From Fig. @fig:E_TreeHt_Species_barplot, one can observe how some trees (i.e., blue gum eucalyptus, valley oak) present the highest tree heights compared to others, such as the common crapemyrtle or the pinyon pine, which present much smaller heights. City planners might use this information to decide on which trees to include in their city landscape plans depending on whether short or tall trees would best suit their site.
 
 ![Tree Height by Species.](images/E_TreeHt_Species_barplot.png){#fig:E_TreeHt_Species_barplot width=5in}
 
@@ -221,11 +221,11 @@ Secondly, barplots of tree height by city and region were investigated to develo
 
 ![Tree Height by Region.](images/E_TreeHt_Region.png){#fig:E_TreeHt_Region width=5in}
 
-Thirdly, a barplot depicting the average land use (which was calculated by rounding the mean land use type across species, where land use contains the following categories: 1=single family residential, 2=multi-family residential, 3=industrial/institutional/large commercial, 4=park/vacant/other, 5=small commercial, 6=transportation corridor) was created to visualize which species might be more commonly associated with a land use type. Based on the results in Fig. X, it appears that some tree species are more frequently linked to specific land use types (i.e., evergreen ash trees to small/commercial land uses or both willow acacia and japanese maple to single family residential land uses).
+Thirdly, a barplot depicting the average land use (which was calculated by rounding the mean land use type across species, where land use contains the following categories: 1=single family residential, 2=multi-family residential, 3=industrial/institutional/large commercial, 4=park/vacant/other, 5=small commercial, 6=transportation corridor) was created to visualize which species might be more commonly associated with a land use type. Based on the results in Fig. @fig:E_MeanLandUse_Species_barplot, it appears that some tree species are more frequently linked to specific land use types (i.e., evergreen ash trees to small/commercial land uses or both willow acacia and japanese maple to single family residential land uses).
 
 ![Tree Species by Average Land Use.](images/E_MeanLandUse_Species_barplot.png){#fig:E_MeanLandUse_Species_barplot width=5in}
 
-Additionally, the correlations among tree height, DBH, crown height, and leaf area were further explored to illustrate quantitative factors that urban planners might consider when redesigning a site. Moreover, the US Forest Service Research Archives, from which the raw tree data was obtained, describes how variables such as tree age can be used to predict a species diameter at breast height (dbh), which can in turn predict tree height, crown diameter, crown height, leaf area, and tree age (https://data.nal.usda.gov/dataset/urban-tree-database) [note: citations will be updated formally!]. Extending the investigation to include these considerations, tree height, DBHm crown height, and leaf area variables were selected and their correlations calculated. The following graphs depict marginal histograms, which are useful in explaining the distributions of each variable as well as how they are correlated.
+Additionally, the correlations among tree height, DBH, crown height, and leaf area were further explored to illustrate quantitative factors that urban planners might consider when redesigning a site. Moreover, the US Forest Service Research Archives, from which the raw tree data was obtained, describes how variables such as tree age can be used to predict a species diameter at breast height (dbh), which can in turn predict tree height, crown diameter, crown height, leaf area, and tree age (https://data.nal.usda.gov/dataset/urban-tree-database) [note: citations will be updated formally!]. Extending the investigation to include these considerations, tree height, DBH, crown height, and leaf area variables were selected and their correlations were calculated. The following graphs depict marginal histograms, which are useful in explaining the distributions of each variable as well as how they are correlated.
 
 ![Marginal Histogram of DBH and Tree Height.](images/E_MargHist_DBH_Ht.png){#fig:E_MargHist_DBH_Ht width=5in}
 
@@ -240,6 +240,17 @@ Finally, to investigate these correlations further, average DBH by tree heights 
 ![Average DBH vs Tree Height by City.](images/E_TreeHt_AvgDBH_CitiesSubplots_Scatter.png){#fig:E_TreeHt_AvgDBH_CitiesSubplots_Scatter width=5in}
 
 ![Average DBH vs Tree Height by City - Combined.](images/E_TreeHt_AvgDBH_Cities_Scatter.png){#fig:E_TreeHt_AvgDBH_Cities_Scatter width=5in}
+
+Correlation Coefficients
+- DBH vs Tree Height Overall: 0.8023385455282306
+-   Santa Monica, CA: 0.7132638836192362
+-   Berkeley, CA: 0.8886494827638055
+-   Fort Collins, CO: 0.959599952400562
+-   Longview, WA: 0.9334828561163339
+-   Boise, ID: 0.9853443320647175
+-   Queens, NY: 0.9702645394292799
+- Leaf Area vs DBH: 0.7132638836192362
+- DBH vs Crown Base Height: 0.42209722299954183
 
 {Wrap up}
 
