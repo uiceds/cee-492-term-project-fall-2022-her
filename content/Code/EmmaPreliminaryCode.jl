@@ -189,11 +189,11 @@ df11 = filter(x -> (x.Leaf != -1) && (x.CrnBase != -1) && (x.CrnHt != -1) && (x.
 
 
 Leaf_dbh_plot = marginalhist(df11.Leaf, df11.DBH, bins=50, xlabel="Leaf Area (m)", ylabel="DBH (m)", lab="")
-png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_MargHist_LeafArea_DBH")
+#png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_MargHist_LeafArea_DBH")
 cor(df11.Leaf, df11.DBH)
 
 dbh_crnbase_plot = marginalhist(df11.DBH, df11.CrnBase, bins=50, xlabel="DBH(m)", ylabel="Crown Height (m)", lab="")
-png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_MargHist_DBH_CrownHt")
+#png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_MargHist_DBH_CrownHt")
 cor(df11.DBH, df11.CrnBase)
 
 
@@ -203,4 +203,4 @@ dbh_TreeHt_plot = marginalhist(df11.DBH, df11.TreeHt, bins=50, xlabel="DBH(m)", 
 #xlabel="DBH (m)",
 #ylabel="Tree Height (m)",)
 cor(df.DBH, df.TreeHt)
-png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_MargHist_DBH_Ht")
+#png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_MargHist_DBH_Ht")
