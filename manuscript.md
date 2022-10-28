@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d798fe0c9843699f581e6090e6491cde6ffba424/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@fcb3d43](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/fcb3d43d08cec03957d106bf9b9d54ec75ebfb1e)
+from [uiceds/cee-492-term-project-fall-2022-her@d798fe0](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/d798fe0c9843699f581e6090e6491cde6ffba424)
 on October 28, 2022.
 </em></small>
 
@@ -256,16 +256,22 @@ Correlation Coefficients
 
 ### Question 4
 
-![Age versus Height of Sweetgum trees in Longview, WA and Modesto, CA.](images/Ri_Sweetgum_GrowthRate.png){#fig:Sweetgum}
+![Age versus Height of Sweetgum trees in Longview, WA and Modesto, CA.](images/Ri_Sweetgum_GrowthRate.png){#fig:Ri_Sweetgum_GrowthRate}
+
 This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
 
 ![Age versus Height of Cherry Plum trees in Longview, WA and Modesto, CA.](images/Ri_Cherry_hiVSage.png)
+{#fig:Ri_Cherry_hiVSage}
+
 This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
 
 ![Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.png)
+{#fig:Ri_Euro_hiVSage}
+
 This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
 
 ![Growth rate of European White Birch in Longview, WA and Modesto, CA.](images/Ri_Euro_GrowthRate.png)
+{#fig:Ri_Euro_GrowthRate}
 
 This figure shows that the growth rate is not constant for one tree type, and may vary for the age of the tree or the time at which the tree was planted. Here it can be seen that generally the growth rate in Longview, WA is greater than that of Modesto, CA
 
