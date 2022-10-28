@@ -9,7 +9,7 @@ barplots
 BD
 blasiak
 broadleaf
-CarShade
+carshade
 CdiaPar
 CDiaPerp
 CommonName
@@ -20,7 +20,7 @@ CrnHt
 csv
 dataset
 DbaseID
-dbh
+DBH
 DBHm
 Doherty
 Doorn
@@ -49,7 +49,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged

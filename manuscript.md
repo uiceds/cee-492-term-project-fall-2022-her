@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e0734f975262183734d56e58b6fe52d7e76e3b58/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e0734f975262183734d56e58b6fe52d7e76e3b58/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e0734f975262183734d56e58b6fe52d7e76e3b58/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e0734f975262183734d56e58b6fe52d7e76e3b58/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@e0734f9](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/e0734f975262183734d56e58b6fe52d7e76e3b58)
+from [uiceds/cee-492-term-project-fall-2022-her@87e2ed2](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/87e2ed2d5df8ccb5f4f60bda20f1ba1aaec64f7e)
 on October 28, 2022.
 </em></small>
 
@@ -217,7 +217,7 @@ First, a barplot of tree heights grouped by species was produced over all locati
 
 Secondly, barplots of tree height by city and region were investigated to develop a deeper understanding of spatial tree height distributions. The following figures present how the average tree height varies by city and region.
 
-![Tree Height by City.](images/E_TreeHt_city_barplot.png){#fig:E_TreeHt_city_barplot width=5in}
+![Tree Height by City.](images/E_TreeHt_City_barplot.png){#fig:E_TreeHt_City_barplot width=5in}
 
 ![Tree Height by Region.](images/E_TreeHt_Region.png){#fig:E_TreeHt_Region width=5in}
 
@@ -237,9 +237,9 @@ Additionally, the correlations among tree height, DBH, crown height, and leaf ar
 
 Finally, to investigate these correlations further, average DBH by tree heights were grouped by cities to illustrate how the two variables are related in different cities. The following figures visualize these relationships and show a moderate-to-strong positive correlation between average DBH and tree height across different cities. Several cities were randomly chosen out of all available cities. The correlations between average DBH and tree height are also listed below.
 
-![Average DBH vs Tree Height by City.](images/E_TreeHt_AvgDBH_Cities_Subplots_Scatter_.png){#fig:E_TreeHt_AvgDBH_Cities_Subplots_Scatter width=5in}
+![Average DBH vs Tree Height by City.](images/E_TreeHt_AvgDBH_CitiesSubplots_Scatter.png){#fig:E_TreeHt_AvgDBH_CitiesSubplots_Scatter width=5in}
 
-![Average DBH vs Tree Height by City - Combined.](images/E_TreeHt_AvgDBH_Cities_Scatter_.png){#fig:E_TreeHt_AvgDBH_Cities_Scatter width=5in}
+![Average DBH vs Tree Height by City - Combined.](images/E_TreeHt_AvgDBH_Cities_Scatter.png){#fig:E_TreeHt_AvgDBH_Cities_Scatter width=5in}
 
 {Wrap up}
 
