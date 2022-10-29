@@ -7,9 +7,9 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
-carshade
+CarShade
 CdiaPar
 CDiaPerp
 Claremont
@@ -21,11 +21,11 @@ CrnHt
 csv
 dataset
 DbaseID
-DBH
+dbh
 Doherty
 Doorn
 emmaagolub
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
@@ -52,7 +52,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged

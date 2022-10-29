@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c352d59b66b56ffe37f3bd123d300019196af2f5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c352d59b66b56ffe37f3bd123d300019196af2f5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c352d59b66b56ffe37f3bd123d300019196af2f5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/19ee26efabf741478b4038fdbb5963d77bf303b0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/19ee26efabf741478b4038fdbb5963d77bf303b0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/19ee26efabf741478b4038fdbb5963d77bf303b0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c352d59b66b56ffe37f3bd123d300019196af2f5/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/19ee26efabf741478b4038fdbb5963d77bf303b0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@c352d59](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/c352d59b66b56ffe37f3bd123d300019196af2f5)
+from [uiceds/cee-492-term-project-fall-2022-her@19ee26e](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/19ee26efabf741478b4038fdbb5963d77bf303b0)
 on October 29, 2022.
 </em></small>
 
@@ -268,26 +268,26 @@ Correlation Coefficients
 
 ### Question 4
 
-![Age versus Height of Sweetgum trees in Longview, WA and Modesto, CA.](images/Ri_Sweetgum_GrowthRate.png){#fig:Ri_Sweetgum_GrowthRate}
+![Age versus Height of Sweetgum trees in Longview, WA and Modesto, CA.](images/Ri_Sweetgum_GrowthRate.png){#fig:Ri_Sweetgum_GrowthRate width=5in}
 
 This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
 
 ![Age versus Height of Cherry Plum trees in Longview, WA and Modesto, CA.](images/Ri_Cherry_hiVSage.png)
-{#fig:Ri_Cherry_hiVSage}
+{#fig:Ri_Cherry_hiVSage width=5in}
 
 This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
 
 ![Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.png)
-{#fig:Ri_Euro_hiVSage}
+{#fig:Ri_Euro_hiVSage width=5in}
 
 This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
 
 ![Growth rate of European White Birch in Longview, WA and Modesto, CA.](images/Ri_Euro_GrowthRate.png)
-{#fig:Ri_Euro_GrowthRate}
+{#fig:Ri_Euro_GrowthRate width=5in}
 
 This figure shows that the growth rate is not constant for one tree type, and may vary for the age of the tree or the time at which the tree was planted. Here it can be seen that generally the growth rate in Longview, WA is greater than that of Modesto, CA
 
-These figures show that there is a relationship between location and height of trees. This relationship may be because of temperature, precipitation, or other factors outside of the dataset. Some variables within this dataset that may affect tree height are explored in this section, and include: setback of trees from conditioned spaces, wire interference, and...
+These figures show that there is a relationship between location and height of trees. This relationship may be because of temperature, precipitation, or other factors outside of the dataset. Some variables within this dataset that may affect tree height are explored in this section, and include: setback of trees from conditioned spaces, wire interference, and land cover.
 
 ## References {.page_break_before}
 
