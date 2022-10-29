@@ -21,7 +21,7 @@ CrnHt
 csv
 dataset
 DbaseID
-dbh
+DBH
 Doherty
 Doorn
 emmaagolub
@@ -52,7 +52,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
