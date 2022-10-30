@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@4731f45](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/4731f45b9e0bc469a6d6195343d9287b95cc2c56)
+from [uiceds/cee-492-term-project-fall-2022-her@39e917f](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/39e917f27ab4b710f955c905cad7c86f47502d35)
 on October 30, 2022.
 </em></small>
 
@@ -168,12 +168,16 @@ After tidying the dataset, we can compare the effect of the WireConf, Setback, C
 
 Tree growth depends on many factors, some of which are included in this dataset, while others are outside the scope of this work. Resulting from the following data analysis, different regions were found to have trees of the same species and ages, but variable heights. This can be attributed to climate specific variables such as yearly temperature, precipitation, flooding, and even wind speeds (Source 1). Variables within the scope of this project that could have an impact on tree growth include: power line interference, setback from conditioned spaces, and land use. Additionally, variables describing tree growth such as diameter at breast height, leaf volume, tree height, and tree age also depend on one another (Source 2, 3).
 Throughout this exploratory analysis, four main questions were developed to guide data exploration, which involved data wrangling to produce visualizations of potential correlations among selected variables of interest. These questions are as follows:
+
 1. How does setback (tree distance from heated/air-conditioned spaces) show in different cities and/or regions? (i.e., correlation with tree height and location)
+
 2. How does growth rate (i.e., height per age of tree) differ for each region, land use, city, etc.?
+
 3. How do power lines impact the growth of trees? (i.e., number of trees, leaf area, tree height, power lines)
+
 4.  What are the correlations between tree type, land use, height, leaf area, car shade, DBH, CdiaPar, and CDiaPerp for urban tree planning by region and/or city? 
 
-Initially, setback was investigated to understand the effects it has on the height of trees. Setback is defined as the distance from the tree to the nearest air-conditioned or heated space (which may not be the same address as the tree location), with values of 1,2,3,4, which are defined as 0m to 8m, 8.1m to 12m, 12.1m to 18m, and > 18m, respectively. . After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations.(Figure @fig:fig:Ru_Mean_setback_cropped)
+Initially, setback was investigated to understand the effects it has on the height of trees. Setback is defined as the distance from the tree to the nearest air-conditioned or heated space (which may not be the same address as the tree location), with values of 1,2,3,4, which are defined as 0m to 8m, 8.1m to 12m, 12.1m to 18m, and > 18m, respectively. . After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations.(Figure @fig:Ru_Mean_setback_cropped)
 
 ![The Mean Setback across different Cities](images\Ru_Mean_setback_cropped.png){#fig:Ru_Mean_setback_cropped width=5in}
 
@@ -198,14 +202,13 @@ This figure shows that Longview, WA Sweetgum trees are taller than Modesto, CA t
 
 This figure shows that Longview, WA Cherry Plum trees are taller than Modesto, CA trees at any age.
 
-![Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.png){#fig:Ri_Euro_hiVSage width=5in}
+![Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.pn{#fig:Ri_Euro_hiVSage width=5in}
 
 This figure shows that Longview, WA European Birch trees are taller than Modesto, CA trees at any age.
 
 Next, the growth rate (Tree Height / Age) vs Tree ID yielded the following graph:
 
-![Growth rate of European White Birch in Longview, WA and Modesto, CA.](images/Ri_Euro_GrowthRate.png)
-{#fig:Ri_Euro_GrowthRate width=5in}
+![Growth rate of European White Birch in Longview, WA and Modesto, CA.](images/Ri_Euro_GrowthRate.png){#fig:Ri_Euro_GrowthRate width=5in}
 
 This figure shows that the growth rate is not constant for one tree type, and may vary throughout the tree's lifetime. Here it can be seen that generally, the growth rate in Longview, WA is greater than that of Modesto, CA.
 
@@ -293,3 +296,9 @@ Moreover, the Urban Tree Database, which was used to source raw tree data, also 
 <!-- Explicitly insert bibliography here -->
 <div id="url:https://www.fs.usda.gov/rds/archive/catalog/RDS-2016-0005"></div>
 McPherson, E. Gregory; van Doorn, Natalie S.; Peper, Paula J. 2016. Urban tree database. Fort Collins, CO: Forest Service Research Data Archive. Updated 21 January 2020. https://doi.org/10.2737/RDS-2016-0005
+
+Support, E. W. (2022, April 15). Environmental factors affecting plant growth. OSU Extension Service. Retrieved October 28, 2022, from https://extension.oregonstate.edu/gardening/techniques/environmental-factors-affecting-plant-growth#:~:text=Environmental%20factors%20that%20affect%20plant,affect%20plant%20growth%20and%20development. 
+
+McPherson, E. Gregory; van Doorn, Natalie S.; Peper, Paula J. 2016. Urban tree database. Fort Collins, CO: Forest Service Research Data Archive. Updated 21 January 2020. https://doi.org/10.2737/RDS-2016-0005
+
+Kuuluvainen, T., Mäki, J., Karjalainen, L., & Lehtonen, H. (2002). Tree age distributions in old-growth forest sites in Vienansalo Wilderness, eastern fennoscandia. Silva Fennica, 36(1). https://doi.org/10.14214/sf.556 

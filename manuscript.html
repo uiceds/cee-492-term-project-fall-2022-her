@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/4731f45b9e0bc469a6d6195343d9287b95cc2c56">uiceds/cee-492-term-project-fall-2022-her@4731f45</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/39e917f27ab4b710f955c905cad7c86f47502d35">uiceds/cee-492-term-project-fall-2022-her@39e917f</a>
 on October 30, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -152,12 +152,14 @@ FromStreet = From inventory, the name of the first cross street that forms a bou
 <p>After tidying the dataset, we can compare the effect of the WireConf, Setback, CarShade on the remaining variables of similar trees. Since we also contain the addresses of the trees, along with visualizing graphs from results of the comparisons, we can create maps to understand the variance of these effects across different cities. Further, a machine learning model can be created to possibly target and predict the above results for a city that is not mentioned in the dataset and predict the missing values in the dataset.</p>
 <h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
 <p>Tree growth depends on many factors, some of which are included in this dataset, while others are outside the scope of this work. Resulting from the following data analysis, different regions were found to have trees of the same species and ages, but variable heights. This can be attributed to climate specific variables such as yearly temperature, precipitation, flooding, and even wind speeds (Source 1). Variables within the scope of this project that could have an impact on tree growth include: power line interference, setback from conditioned spaces, and land use. Additionally, variables describing tree growth such as diameter at breast height, leaf volume, tree height, and tree age also depend on one another (Source 2, 3).
-Throughout this exploratory analysis, four main questions were developed to guide data exploration, which involved data wrangling to produce visualizations of potential correlations among selected variables of interest. These questions are as follows:
-1. How does setback (tree distance from heated/air-conditioned spaces) show in different cities and/or regions? (i.e., correlation with tree height and location)
-2. How does growth rate (i.e., height per age of tree) differ for each region, land use, city, etc.?
-3. How do power lines impact the growth of trees? (i.e., number of trees, leaf area, tree height, power lines)
-4. What are the correlations between tree type, land use, height, leaf area, car shade, DBH, CdiaPar, and CDiaPerp for urban tree planning by region and/or city?</p>
-<p>Initially, setback was investigated to understand the effects it has on the height of trees. Setback is defined as the distance from the tree to the nearest air-conditioned or heated space (which may not be the same address as the tree location), with values of 1,2,3,4, which are defined as 0m to 8m, 8.1m to 12m, 12.1m to 18m, and &gt; 18m, respectively. . After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations.(Figure ??)</p>
+Throughout this exploratory analysis, four main questions were developed to guide data exploration, which involved data wrangling to produce visualizations of potential correlations among selected variables of interest. These questions are as follows:</p>
+<ol type="1">
+<li><p>How does setback (tree distance from heated/air-conditioned spaces) show in different cities and/or regions? (i.e., correlation with tree height and location)</p></li>
+<li><p>How does growth rate (i.e., height per age of tree) differ for each region, land use, city, etc.?</p></li>
+<li><p>How do power lines impact the growth of trees? (i.e., number of trees, leaf area, tree height, power lines)</p></li>
+<li><p>What are the correlations between tree type, land use, height, leaf area, car shade, DBH, CdiaPar, and CDiaPerp for urban tree planning by region and/or city?</p></li>
+</ol>
+<p>Initially, setback was investigated to understand the effects it has on the height of trees. Setback is defined as the distance from the tree to the nearest air-conditioned or heated space (which may not be the same address as the tree location), with values of 1,2,3,4, which are defined as 0m to 8m, 8.1m to 12m, 12.1m to 18m, and &gt; 18m, respectively. . After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations.(Figure <a href="#fig:Ru_Mean_setback_cropped">1</a>)</p>
 <div id="fig:Ru_Mean_setback_cropped" class="fignos">
 <figure>
 <img src="images\Ru_Mean_setback_cropped.png" style="width:5in" alt="Figure 1: The Mean Setback across different Cities" /><figcaption aria-hidden="true"><span>Figure 1:</span> The Mean Setback across different Cities</figcaption>
@@ -187,15 +189,14 @@ Next, similar tree species from the top four mean setback values and bottom four
 </figure>
 </div>
 <p>This figure shows that Longview, WA Cherry Plum trees are taller than Modesto, CA trees at any age.</p>
-<div id="fig:Ri_Euro_hiVSage" class="fignos">
-<figure>
-<img src="images/Ri_Euro_hiVSage.png" style="width:5in" alt="Figure 5: Age versus Height of European White Birch trees in Longview, WA and Modesto, CA." /><figcaption aria-hidden="true"><span>Figure 5:</span> Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.</figcaption>
-</figure>
-</div>
+<p>[Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.pn{#fig:Ri_Euro_hiVSage width=5in}</p>
 <p>This figure shows that Longview, WA European Birch trees are taller than Modesto, CA trees at any age.</p>
 <p>Next, the growth rate (Tree Height / Age) vs Tree ID yielded the following graph:</p>
-<p><img src="images/Ri_Euro_GrowthRate.png" alt="Growth rate of European White Birch in Longview, WA and Modesto, CA." />
-{#fig:Ri_Euro_GrowthRate width=5in}</p>
+<div id="fig:Ri_Euro_GrowthRate" class="fignos">
+<figure>
+<img src="images/Ri_Euro_GrowthRate.png" style="width:5in" alt="Figure 5: Growth rate of European White Birch in Longview, WA and Modesto, CA." /><figcaption aria-hidden="true"><span>Figure 5:</span> Growth rate of European White Birch in Longview, WA and Modesto, CA.</figcaption>
+</figure>
+</div>
 <p>This figure shows that the growth rate is not constant for one tree type, and may vary throughout the tree’s lifetime. Here it can be seen that generally, the growth rate in Longview, WA is greater than that of Modesto, CA.</p>
 <p>These figures illustrate a relationship between location and height of trees. This relationship may be attributed to different temperature, precipitation, or other factors outside of the dataset.</p>
 <p>To further understand the differences for tree height across all the locations in the dataset, a barplot of tree heights grouped by species was produced over all locations to study typical heights associated with each tree type. From Fig <a href="#fig:E_TreeHt_Species_barplot">6</a>, one can observe how some trees (i.e., blue gum eucalyptus, valley oak) present the highest tree heights compared to others, such as the common crapemyrtle or the pinyon pine, which present much smaller heights. City planners might use this information to decide which trees to include in their city landscape plans.</p>
@@ -312,6 +313,9 @@ Moreover, the Urban Tree Database, which was used to source raw tree data, also 
 
 </div>
 <p>McPherson, E. Gregory; van Doorn, Natalie S.; Peper, Paula J. 2016. Urban tree database. Fort Collins, CO: Forest Service Research Data Archive. Updated 21 January 2020. https://doi.org/10.2737/RDS-2016-0005</p>
+<p>Support, E. W. (2022, April 15). Environmental factors affecting plant growth. OSU Extension Service. Retrieved October 28, 2022, from https://extension.oregonstate.edu/gardening/techniques/environmental-factors-affecting-plant-growth#:~:text=Environmental%20factors%20that%20affect%20plant,affect%20plant%20growth%20and%20development.</p>
+<p>McPherson, E. Gregory; van Doorn, Natalie S.; Peper, Paula J. 2016. Urban tree database. Fort Collins, CO: Forest Service Research Data Archive. Updated 21 January 2020. https://doi.org/10.2737/RDS-2016-0005</p>
+<p>Kuuluvainen, T., Mäki, J., Karjalainen, L., &amp; Lehtonen, H. (2002). Tree age distributions in old-growth forest sites in Vienansalo Wilderness, eastern fennoscandia. Silva Fennica, 36(1). https://doi.org/10.14214/sf.556</p>
 <!-- default theme -->
 
 <style>
