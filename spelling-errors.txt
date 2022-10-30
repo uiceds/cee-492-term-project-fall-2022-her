@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -17,10 +17,10 @@ crapemyrtle
 CrnBas
 Crnbase
 CrnHt
-CSV
+csv
 dataset
 DbaseID
-dbh
+Dbh
 Doherty
 Doorn
 emmaagolub
@@ -31,9 +31,11 @@ FromStreet
 gini
 Golub
 gov’t
+GrowthRate
 Hadil
 hadilhelaly
 Helaly
+hiVSage
 Karjalainen
 Kuuluvainen
 LandUse
@@ -58,7 +60,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
