@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -20,7 +20,7 @@ CrnHt
 csv
 dataset
 DbaseID
-Dbh
+dbh
 Doherty
 Doorn
 emmaagolub
