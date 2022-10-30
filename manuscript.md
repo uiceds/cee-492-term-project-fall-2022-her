@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c8cc3768248fc2f2bc7cf5b1ef749a2c786d19fd/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c8cc3768248fc2f2bc7cf5b1ef749a2c786d19fd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c8cc3768248fc2f2bc7cf5b1ef749a2c786d19fd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/39e917f27ab4b710f955c905cad7c86f47502d35/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c8cc3768248fc2f2bc7cf5b1ef749a2c786d19fd/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@39e917f](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/39e917f27ab4b710f955c905cad7c86f47502d35)
+from [uiceds/cee-492-term-project-fall-2022-her@c8cc376](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/c8cc3768248fc2f2bc7cf5b1ef749a2c786d19fd)
 on October 30, 2022.
 </em></small>
 
@@ -186,7 +186,7 @@ Next, similar tree species from the top four mean setback values and bottom four
 
 ![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_SilverMaple_age35_setback_2-3.png){#fig:Ru_SilverMaple_age35_setback_2-3 width=5in}
 
-![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_RiverBirch_age15_setback_3-4.png){#fig:Ru_RiverBirch_age15_setback_3-4 width=5in}
+![Mean Tree Height vs Setback for River Birch trees](images\Ru_RiverBirch_age15_setback_3-4.png){#fig:Ru_RiverBirch_age15_setback_3-4 width=5in}
 
 Using their mean heights, it was observed that setback and tree height presented no correlation as seen in the following 2 cases:
 1) Silver Maple trees of age 35 with Setback of 2 and 3 (Figure @fig:Ru_SilverMaple_age35_setback_2-3)

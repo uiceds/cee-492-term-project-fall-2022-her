@@ -17,7 +17,7 @@ crapemyrtle
 CrnBas
 Crnbase
 CrnHt
-csv
+CSV
 dataset
 DbaseID
 dbh
@@ -26,7 +26,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 gini
 Golub
@@ -58,7 +58,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged
