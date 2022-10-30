@@ -204,3 +204,7 @@ dbh_TreeHt_plot = marginalhist(df11.DBH, df11.TreeHt, bins=50, xlabel="DBH(m)", 
 #ylabel="Tree Height (m)",)
 cor(df.DBH, df.TreeHt)
 #png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_MargHist_DBH_Ht")
+
+
+vcorrplot = @df df11 corrplot(cols(1:6), bins=30, size=(1000,1000))
+#png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_Corrplot")
