@@ -1,5 +1,4 @@
 agric
-airconditioned
 averegeheight
 AvgCdia
 avgDBH
@@ -16,7 +15,7 @@ Claremont
 CommonName
 crapemyrtle
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 csv
 dataset
@@ -25,8 +24,9 @@ dbh
 Doherty
 Doorn
 emmaagolub
-Foliar
+foliar
 FromStreet
+gini
 Golub
 gov’t
 GrowthRate
@@ -34,7 +34,6 @@ Hadil
 hadilhelaly
 Helaly
 hiVSage
-interscepting
 LandUse
 Longview
 MeanLandUse
@@ -44,15 +43,17 @@ OnStreet
 paraboloid
 Peper
 preliminery
+RiverBirch
 Rokade
 Rupesh
 RupeshRokade
 ScientificName
+SilverMaple
 SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged

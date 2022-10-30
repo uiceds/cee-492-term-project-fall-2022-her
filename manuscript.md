@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f0e77c2d20fb5537a28e79058c0946e397cd485e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f0e77c2d20fb5537a28e79058c0946e397cd485e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f0e77c2d20fb5537a28e79058c0946e397cd485e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3aad501b60765a17df05a74c92f121842ea1377d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3aad501b60765a17df05a74c92f121842ea1377d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3aad501b60765a17df05a74c92f121842ea1377d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f0e77c2d20fb5537a28e79058c0946e397cd485e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3aad501b60765a17df05a74c92f121842ea1377d/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@f0e77c2](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/f0e77c2d20fb5537a28e79058c0946e397cd485e)
+from [uiceds/cee-492-term-project-fall-2022-her@3aad501](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/3aad501b60765a17df05a74c92f121842ea1377d)
 on October 30, 2022.
 </em></small>
 
@@ -166,78 +166,101 @@ After tidying the dataset, we can compare the effect of the WireConf, Setback, C
 
 ## Exploratory Data Analysis
 
-The following will provide a narrative description and characterization of the tree dataset, interspersed with summary statistics and plots. Throughout this exploratory analysis, four main questions were investigated to guide data exploration:
+Tree growth depends on many factors, some of which are included in this dataset, while others are outside the scope of this work. Resulting from the following data analysis, different regions were found to have trees of the same species and ages, but variable heights. This can be attributed to climate specific variables such as yearly temperature, precipitation, flooding, and even wind speeds (Source 1). Variables within the scope of this project that could have an impact on tree growth include: power line interference, setback from conditioned spaces, and land use. Additionally, variables describing tree growth such as diameter at breast height, leaf volume, tree height, and tree age also depend on one another (Source 2, 3).
+Throughout this exploratory analysis, four main questions were developed to guide data exploration, which involved data wrangling to produce visualizations of potential correlations among selected variables of interest. These questions are as follows:
+1. How does setback (tree distance from heated/air-conditioned spaces) show in different cities and/or regions? (i.e., correlation with tree height and location)
+2. How does growth rate (i.e., height per age of tree) differ for each region, land use, city, etc.?
+3. How do power lines impact the growth of trees? (i.e., number of trees, leaf area, tree height, power lines)
+4.  What are the correlations between tree type, land use, height, leaf area, car shade, DBH, CdiaPar, and CDiaPerp for urban tree planning by region and/or city? 
 
-1. How do power lines impact the growth of trees? (i.e., number of trees, leaf area, tree height, power lines)
-2. How does setback (tree distance from heated/airconditioned spaces) show in different cities and/or regions? (i.e., correlation with tree height, leaf size, location)
-3. What are the correlations between tree type, land use, height, leaf area, carshade, DBH, CdiaPar, and CDiaPerp for urban tree planning by region and/or city?
-4. How does growth rate (i.e., height per age of tree) differ for each region, land use, city, etc.?
+Initially, setback was investigated to understand the effects it has on the height of trees. Setback is defined as the distance from the tree to the nearest air-conditioned or heated space (which may not be the same address as the tree location), with values of 1,2,3,4, which are defined as 0m to 8m, 8.1m to 12m, 12.1m to 18m, and > 18m, respectively. . After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations.(Figure @fig:fig:Ru_Mean_setback_cropped)
 
-For each of these questions, the data was wrangled and filtered to generate visualizations of potential correlations among selected variables of interest.
+![The Mean Setback across different Cities](images\Ru_Mean_setback_cropped.png)
+{#fig:Ru_Mean_setback_cropped width=5in}
 
+It was identified that the cities with the highest mean setback (in descending order) are: 1) Albuquerque (3.80385), 2) Glendale (3.56843), 3) Charlotte (3.06892), 4) Longview (2.92153) Similarly, the cities with least mean setback were (in ascending order) : 1) Queens (2.01564), 2) Claremont (2.17143), 3) Berkeley (2.28313), 4) Indianapolis (2.31699)
+Next, similar tree species from the top four mean setback values and bottom four mean setback values were identified. This helped to establish a similar medium for tree height comparison. However, it was found that no common species were present between the two groups. Therefore, a random city (Charlotte) was analyzed, where similar species having the same age were grouped together.
 
-### Question 1
-In this part, the research team were exploring if the presence of utility lines has an impact on the growth of trees. To answer this question, four variables were selected to be analyzed and filtered to find the correlation between the presence of utility lines and the growth of tree that include “WireConf” “Age”, “TreeHt”, and “DBH”. The “WireConf” variable is a categorical variable that presents if the utility lines interfere with or appear above a tree. This variable might include one of five values, 0=no lines, 1=present and no potential conflict, 2=present and conflicting, 3=present and potential for conflicting, and -1 denotes data were not collected. The “Age” variable is a numerical variables that presents number of years since planted. The “TreeHt (m)” variable is a numerical variable that presents tree height from ground to the treetop to the nearest 0.5 m. The “DBH” variable is a numerical variable that presents diameter of tree at breast height (1.37 meters [m]) measured to nearest 0.1 centimeters. 
+![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_SilverMaple_age35_setback_2-3.png)
+{#fig:Ru_SilverMaple_age35_setback_2-3 width=5in}
 
-The first step in our analysis is to group data by “WireConf” to discover how many trees in our database were affected. Figure @fig:numberoftrees shows the percentage of trees in the database in each category after excluding all trees that do not have data, where 1= no lines, 2 = present and no potential conflict, 3 = present and conflicting, and 4 = present and potential for conflicting. It is clear that the majority of the trees are not in areas that have utility lines conflicting with trees which will help the research team to examine the growth of trees when there are no utility lines and compare it with the growth of trees when utility lines are present.
+![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_RiverBirch_age15_setback_3-4.png)
+{#fig:Ru_RiverBirch_age15_setback_3-4 width=5in}
 
-![Number of Trees in Each Category in The Database.](images/h_numberOfDatapoint.png){#fig:numberoftrees width=5in}
+Using their mean heights, it was observed that setback and tree height presented no correlation as seen in the following 2 cases:
+1) Silver Maple trees of age 35 with Setback of 2 and 3 (Figure @fig:Ru_SilverMaple_age35_setback_2-3)
+2) River Birch trees of age 15 with Setback of 3 and 4 (Figure @fig:Ru_RiverBirch_age15_setback_3-4)
 
-The second step is to calculate the average height of trees for each of the aforementioned categories as shown in Figure @fig:averegeheight .  The average tree height in all categories is varies from 10 to 13 meters which does not clarify the impact of the growth of tree with the present of the utility line. Therefore, further investigation is needed.
+Next, the tree height parameter was explored by selecting two random cities - Longview, WA and Modesto, CA, and the species that were selected due to their existence in both locales were - Sweetgum, Cherry Plum, and European White Birch. 
 
-![Average Tree Height Based on Wire Conflict.](images/h_avgheight_4section.png){#fig:averegeheight width=5in}
+![Age versus Height of Sweetgum trees in Longview, WA and Modesto, CA.](images/Ri_Sweetgum_GrowthRate.png){#fig:Ri_Sweetgum_GrowthRate width=5in}
 
-The third step is to find the correlation between the age of trees and the height for each of the aforementioned categories, as shown in  Figure @fig:h_avgHeight_age. It is clear that there is a strong correlation between tree age and average tree height in all categories. The calculated correlation in all categories is higher than 0.7. Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different as shown in  Figure @fig:h_avgHeight_age_all.
+This figure shows that Longview, WA Sweetgum trees are taller than Modesto, CA trees at any age.
 
-![The Correlation between Tree Age and Average Tree Height Based on Wire Conflict](images/h_avgHeight_age.png){#fig:h_avgHeight_age width=7.5in}
+![Age versus Height of Cherry Plum trees in Longview, WA and Modesto, CA.](images/Ri_Cherry_hiVSage.png)
+{#fig:Ri_Cherry_hiVSage width=5in}
 
-![The Correlation between Tree Age and Average Tree Height Based on Wire Conflict](images/h_avgHeight_age_all.png){#fig:h_avgHeight_age_all width=6in}
+This figure shows that Longview, WA Cherry Plum trees are taller than Modesto, CA trees at any age.
 
-The fourth step is to analyze the correlation between the average diameter of tree and its age in each category. Figure @fig:h_avgDBH_age shows that there is a strong correlation between the average DBH and tree age in all categories. The calculated correlation in all categories is higher than 0.8, see Figure @fig:h_avgDBH_age_all.
+![Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.png)
+{#fig:Ri_Euro_hiVSage width=5in}
 
-![The Correlation between Tree Age and Average Diameter of Trees based on Wire Conflict](images/h_avgDBH_age.png){#fig:h_avgDBH_age width=7.5in}
+This figure shows that Longview, WA European Birch trees are taller than Modesto, CA trees at any age.
 
-![The Correlation between Tree Age and Average Diameter of Trees Based on Wire Conflict](images/h_avgDBH_age_all.png){#fig:h_avgDBH_age_all width=6in}
+Next, the growth rate (Tree Height / Age) vs Tree ID yielded the following graph:
 
-The last step is to find the correlation between the height and diameter of trees to see if the research team can use that in estimating the height of trees based of its diameter. Figure @fig:h_cor_age_avgDBH present the correlation between the two aforementioned variables. It is clear that there is a strong correlation between tree height and its diameter. The calculated correlation is 0.78. 
+![Growth rate of European White Birch in Longview, WA and Modesto, CA.](images/Ri_Euro_GrowthRate.png)
+{#fig:Ri_Euro_GrowthRate width=5in}
 
-![The Correlation between Height and Average Diameter of Trees](images/h_cor_age_avgDBH.png){#fig:h_cor_age_avgDBH width=6in}
+This figure shows that the growth rate is not constant for one tree type, and may vary throughout the tree's lifetime. Here it can be seen that generally, the growth rate in Longview, WA is greater than that of Modesto, CA.
 
-Therefore, it is clear that the present of utility line does not have a great impact on the growth of trees. However, the research team has found that there is a strong correlation between tree age and both height and diameter of tree that can be used in developing a regression model that can predict the age of trees based on their height and diameter.   
+These figures illustrate a relationship between location and height of trees. This relationship may be attributed to different temperature, precipitation, or other factors outside of the dataset.
 
-### Question 2
-One of the promising variables in the dataset was identified to be the 'setback.' Setback is defined as the distance from tree to nearest air-conditioned/heated space (may not be same address as tree location) with its units explained as follows: 1=0m to 8m, 2= 8.1m to 12m, 3= 12.1m to 18m, 4= > 18m. The analysis on the data explored the effect of setback on the height of trees. After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations. 
-
-![The Mean Setback across different Cities](images\Ru_Mean_setback.png)
-
-It was identified that the cities with the highest mean setback (in descending order) were: 1) Albuquerque (3.80385), 2) Glendale (3.56843), 3) Charlotte (3.06892), 4) Longview (2.92153)
-Similarly, the cities with least mean setback were (in ascending order) : 1) Queens (2.01564), 2) Claremont (2.17143), 3) Berkeley (2.28313), 4) Indianapolis (2.31699)
-
-Next step was to identify similar species between the trees from top 4 mean setback and bottom 4 mean setback. This would help establish similar grounds for tree height comparison. However it was found out that there were no common species among the two groups. Hence, a random city (Charlotte) was taken into consideration, where, similar species having the same age were grouped together. 
-
-![The Mean Height for different Setback]()
-
-Using their mean heights, it was observed that setback and tree height did not show any correlation.
-
-### Question 3
-
-Next, the relationships among tree species, tree height, land use, and location were explored to identify any plausible correlations for the purpose of urban tree planning. One may consider how urban city planners select particular species of tree to plant within specific land use types. For example, perhaps an urban planner might select a particular tree species based on average height or canopy size (leaf area) in order to provide suitable landscaping along a street to provide sufficient shade to city goers without interscepting overhead telephone lines or buildings. [Site from evidence]. Furthermore, these data were grouped by city and region to investigate spatial differences among the variables. Perhaps southern California cities like Santa Monica plant different trees compared to those in Boise, Idaho for different purposes. The following visualizations were produced to study these qualitative and quantitative relationships. 
-
-First, a barplot of tree heights grouped by species was produced over all locations to study typical heights associated with each tree type. From Fig. @fig:E_TreeHt_Species_barplot, one can observe how some trees (i.e., blue gum eucalyptus, valley oak) present the highest tree heights compared to others, such as the common crapemyrtle or the pinyon pine, which present much smaller heights. City planners might use this information to decide on which trees to include in their city landscape plans depending on whether short or tall trees would best suit their site.
+To further understand the differences for tree height across all the locations in the dataset, a barplot of tree heights grouped by species was produced over all locations to study typical heights associated with each tree type. From Fig @fig:E_TreeHt_Species_barplot, one can observe how some trees (i.e., blue gum eucalyptus, valley oak) present the highest tree heights compared to others, such as the common crapemyrtle or the pinyon pine, which present much smaller heights. City planners might use this information to decide which trees to include in their city landscape plans.
 
 ![Tree Height by Species.](images/E_TreeHt_Species_barplot.png){#fig:E_TreeHt_Species_barplot width=5in}
 
-Secondly, barplots of tree height by city and region were investigated to develop a deeper understanding of spatial tree height distributions. The following figures present how the average tree height varies by city and region.
+Then, barplots of tree height by city and region were investigated to develop a deeper understanding of spatial tree height distributions. The following figures present how the average tree height varies by city and region.
 
 ![Tree Height by City.](images/E_TreeHt_City_barplot.png){#fig:E_TreeHt_City_barplot width=5in}
 
 ![Tree Height by Region.](images/E_TreeHt_Region.png){#fig:E_TreeHt_Region width=5in}
 
-Thirdly, a barplot depicting the average land use (which was calculated by rounding the mean land use type across species, where land use contains the following categories: 1=single family residential, 2=multi-family residential, 3=industrial/institutional/large commercial, 4=park/vacant/other, 5=small commercial, 6=transportation corridor) was created to visualize which species might be more commonly associated with a land use type. Based on the results in Fig. @fig:E_MeanLandUse_Species_barplot, it appears that some tree species are more frequently linked to specific land use types (i.e., evergreen ash trees to small/commercial land uses or both willow acacia and japanese maple to single family residential land uses).
+From these figures, it can be observed that there are distinct spatial differences among tree height distributions. For example, trees tend to be taller in more mountainous regions and shorter in desert regions, and this aligns well with the results observed in Fort Collins, CO and Albuquerque, NM, respectively.
+
+Moreover, an exploration of the presence of utility lines and their impact on the growth of trees was conducted. For this analysis, four variables were selected and filtered to find the correlation between the presence of utility lines and the growth of trees. These variables include “WireConf”,  “Age”, “TreeHt”, and “DBH”. The “WireConf” variable is a categorical variable that presents whether the utility lines interfere with or appear above a tree. This variable might include one of five values: 0= no lines, 1= lines present and with no potential conflict, 2= lines present and conflicting, and 3= lines present with potential for conflicting, while any values with “-1” denote data that was not collected. The “Age” variable is a numerical variable that presents the number of years since the tree was planted. The “TreeHt (m)” variable is a numerical variable that presents tree height from ground to the treetop to the nearest 0.5 m. The “DBH” variable is a numerical variable that presents the diameter of the tree at breast height (1.37 meters [m]) measured to the nearest 0.1 centimeters.
+
+The first step in analyzing the effect of wire conflict on the dataset was to group the data by “WireConf” to discover how many trees in the database were affected. Figure @fig:numberoftrees shows the percentage of trees in the database in each category after excluding all trees that do not have data.  Figure @fig:numberoftrees shows that 71% of trees in the database are not in areas that have utility lines conflicting with them, which will help to compare tree growth when no utility lines are present vs when utility lines are present. 
+
+![Number of Trees in Each Category in The Database.](images/h_numberOfDatapoint.png){#fig:numberoftrees width=5in}
+
+The second step is to calculate the average height of trees for each of the aforementioned categories as shown in Figure @fig:averegeheight. The average tree height in all categories varies from 10 to 13 meters, which does not clarify the impact of the growth of trees with the presence of the utility lines. Therefore, further investigation is needed.
+
+![Average Tree Height Based on Wire Conflict.](images/h_avgheight_4section.png){#fig:averegeheight width=5in}
+
+The third step is to find the correlation between the age and the height of trees for each of the aforementioned categories. Figure @fig:h_avgHeight_age shows that there is a strong correlation between tree age and average tree height in all categories. The calculated correlation in all categories is higher than 0.7.  Additionally, in all categories, the correlation is almost the same under the age of 50 years then, it started to be slightly different in each category as shown in Figure @fig:h_avgHeight_age_all. 
+
+![The Correlation between Tree Age and Average Tree Height Based on Wire Conflict](images/h_avgHeight_age.png){#fig:h_avgHeight_age width=7.5in}
+
+![The Correlation between Tree Age and Average Tree Height Based on Wire Conflict](images/h_avgHeight_age_all.png){#fig:h_avgHeight_age_all width=6in}
+
+The fourth step is to analyze the correlation between the average diameter of a tree and its age in each category. Figure @fig:h_avgDBH_age shows that there is a strong correlation between the average DBH and tree age in all categories. The calculated correlation in all categories is higher than 0.8, see Figure @fig:h_avgDBH_age_all.
+
+![The Correlation between Tree Age and Average Diameter of Trees based on Wire Conflict](images/h_avgDBH_age.png){#fig:h_avgDBH_age width=7.5in}
+
+![The Correlation between Tree Age and Average Diameter of Trees Based on Wire Conflict](images/h_avgDBH_age_all.png){#fig:h_avgDBH_age_all width=6in}
+
+The last step is to find the correlation between the height and diameter of trees to validate its use in estimating the tree height based on its diameter. Figure @fig:h_cor_age_avgDBH presents the correlation between the two aforementioned variables. The figure shows a strong correlation between tree height and its diameter, and the calculated correlation is 0.78.
+
+![The Correlation between Height and Average Diameter of Trees](images/h_cor_age_avgDBH.png){#fig:h_cor_age_avgDBH width=6in}
+
+Therefore, the presence of utility lines does not have a great impact on the growth of trees. Next, the relationships among tree species, tree height, land use, and location were explored to identify any plausible correlations for the purpose of urban tree planning. One may consider how urban city planners select particular species of tree to plant within specific land use types. For example, perhaps an urban planner might select a particular tree species based on average height or canopy size (leaf area) in order to provide suitable landscaping along a street and provide sufficient shade to city goers without intercepting overhead telephone lines or buildings. Furthermore, these data were grouped by city and region to investigate spatial differences among the variables. 
+
+Next, a bar plot depicting the average land use (which was calculated by rounding the mean land use type across species, where land use contains the following categories: 1=single family residential, 2=multi-family residential, 3=industrial/institutional/large commercial, 4=park/vacant/other, 5=small commercial, 6=transportation corridor) was created to visualize which species might be more commonly associated with a land use type. Based on the results in Fig. @fig:E_MeanLandUse_Species_barplot, it appears that some tree species are more frequently linked to specific land use types (i.e., evergreen ash trees to small/commercial land uses or both willow acacia and japanese maple to single family residential land uses).
 
 ![Tree Species by Average Land Use.](images/E_MeanLandUse_Species_barplot.png){#fig:E_MeanLandUse_Species_barplot width=5in}
 
-Additionally, the correlations among tree height, DBH, crown height, and leaf area were further explored to illustrate quantitative factors that urban planners might consider when redesigning a site. Moreover, the US Forest Service Research Archives, from which the raw tree data was obtained, describes how variables such as tree age can be used to predict a species diameter at breast height (dbh), which can in turn predict tree height, crown diameter, crown height, leaf area, and tree age (https://data.nal.usda.gov/dataset/urban-tree-database) [note: citations will be updated formally!]. Extending the investigation to include these considerations, tree height, DBH, crown height, and leaf area variables were selected and their correlations were calculated. The following graphs depict marginal histograms, which are useful in explaining the distributions of each variable as well as how they are correlated.
+Additionally, the correlations among tree height, DBH, crown height, and leaf area were explored to illustrate quantitative factors that urban planners might consider when redesigning a site. Moreover, the US Forest Service Research Archives, from which the raw tree data was obtained, describes how variables such as tree age can be used to predict a species diameter at breast height (dbh), which can in turn predict tree height, crown diameter, crown height, leaf area, and tree age [2]. Extending the investigation to include these considerations, tree height, DBH, crown height, and leaf area variables were selected and their correlations were calculated. The following graphs depict marginal histograms, which are useful in explaining the distributions of each variable as well as how they are correlated.
 
 ![Marginal Histogram of DBH and Tree Height.](images/E_MargHist_DBH_Ht.png){#fig:E_MargHist_DBH_Ht width=5in}
 
@@ -245,49 +268,30 @@ Additionally, the correlations among tree height, DBH, crown height, and leaf ar
 
 ![Marginal Histogram of Leaf Area and DBH.](images/E_MargHist_LeafArea_DBH.png){#fig:E_MargHist_LeafArea_DBH width=5in}
 
-{In depth explanation of above:}
-
-Finally, to investigate these correlations further, average DBH by tree heights were grouped by cities to illustrate how the two variables are related in different cities. The following figures visualize these relationships and show a moderate-to-strong positive correlation between average DBH and tree height across different cities. Several cities were randomly chosen out of all available cities. The correlations between average DBH and tree height are also listed below.
+To investigate these above relationships further, average DBH by tree heights were grouped by cities to illustrate how the two variables are related in different cities. The following figures visualize these relationships and show a moderate-to-strong positive correlation between average DBH and tree height across different cities. Several cities were randomly chosen out of all available cities. The correlations between average DBH and tree height are also listed below.
 
 ![Average DBH vs Tree Height by City.](images/E_TreeHt_AvgDBH_CitiesSubplots_Scatter.png){#fig:E_TreeHt_AvgDBH_CitiesSubplots_Scatter width=5in}
 
 ![Average DBH vs Tree Height by City - Combined.](images/E_TreeHt_AvgDBH_Cities_Scatter.png){#fig:E_TreeHt_AvgDBH_Cities_Scatter width=5in}
 
-Correlation Coefficients
-- DBH vs Tree Height Overall: 0.8023385455282306
--   Santa Monica, CA: 0.7132638836192362
--   Berkeley, CA: 0.8886494827638055
--   Fort Collins, CO: 0.959599952400562
--   Longview, WA: 0.9334828561163339
--   Boise, ID: 0.9853443320647175
--   Queens, NY: 0.9702645394292799
-- Leaf Area vs DBH: 0.7132638836192362
-- DBH vs Crown Base Height: 0.42209722299954183
+Correlation Coefficients:
+1) DBH vs Tree Height Overall: 0.802
+2) DBH vs Tree Height for randomly chosen cities:
+    Santa Monica, CA: 0.713
+    Berkeley, CA: 0.889
+    Fort Collins, CO: 0.959
+    Longview, WA: 0.933
+    Boise, ID: 0.985
+    Queens, NY: 0.970
+    Leaf Area vs DBH: 0.713
+3) DBH vs Crown Base Height: 0.422
 
-{Wrap up}
+In summary, this exploratory analysis has shown both strong and insignificant correlations among raw tree data variables. The relationship between tree height and setback revealed insignificant correlation , while moderate-to-strong correlations between tree age and both height and diameter of tree exist. Additionally, correlation between tree age and its diameter is stronger than that of tree age and height. Overall, relationships among tree size and tree growth are significant because they can be used by urban forest managers, landscape architects, and city planners to select suitable trees given limited growing space or an intended purpose. Predicting the most suitable trees for a site has the potential to reduce costly future conflicts between trees and infrastructure [2]. 
 
-### Question 4
+## Predictive Modeling Section
 
-![Age versus Height of Sweetgum trees in Longview, WA and Modesto, CA.](images/Ri_Sweetgum_GrowthRate.png){#fig:Ri_Sweetgum_GrowthRate width=5in}
-
-This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
-
-![Age versus Height of Cherry Plum trees in Longview, WA and Modesto, CA.](images/Ri_Cherry_hiVSage.png)
-{#fig:Ri_Cherry_hiVSage width=5in}
-
-This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
-
-![Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.png)
-{#fig:Ri_Euro_hiVSage width=5in}
-
-This figure shows that Longview, WA trees are taller than Modesto, CA trees at any age.
-
-![Growth rate of European White Birch in Longview, WA and Modesto, CA.](images/Ri_Euro_GrowthRate.png)
-{#fig:Ri_Euro_GrowthRate width=5in}
-
-This figure shows that the growth rate is not constant for one tree type, and may vary for the age of the tree or the time at which the tree was planted. Here it can be seen that generally the growth rate in Longview, WA is greater than that of Modesto, CA
-
-These figures show that there is a relationship between location and height of trees. This relationship may be because of temperature, precipitation, or other factors outside of the dataset. Some variables within this dataset that may affect tree height are explored in this section, and include: setback of trees from conditioned spaces, wire interference, and land cover.
+Based on some of the above correlations and supporting evidence from the US Forest Service Research Archives [2], a predictive model that uses tree age to predict diameter at breast heights (dbh), dbh to predict tree height and potentially leaf area, as well as dbh to predict tree age will be formulated. Using roughly seventy percent of the raw tree data as training data and the remaining thirty percent as test data, a machine learning model based on linear regression may be used to determine linear relationships among variables. Otherwise, a decision-tree algorithm using supervised classification would be useful to predict non-linear relationships among the variables, and the gini impurity would be calculated to determine the cutoffs of each branch. Moreover, a supervised random forest model could be explored to solve both regression and classification problems via “ensemble” or grouping methods. This might enable a further investigation into the correlations among tree age, tree height, dbh, and leaf area while classifying predicted outputs by region, city, or tree species.
+Moreover, the Urban Tree Database, which was used to source raw tree data, also contains foliar biomass data. This can be used to calculate leaf area and estimate carbon storage based on provided biomass equations [2], which may hold potential for simulating the impact of trees on carbon sequestration in urban environments.
 
 ## References {.page_break_before}
 
