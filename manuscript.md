@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3aad501b60765a17df05a74c92f121842ea1377d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3aad501b60765a17df05a74c92f121842ea1377d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3aad501b60765a17df05a74c92f121842ea1377d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3aad501b60765a17df05a74c92f121842ea1377d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4731f45b9e0bc469a6d6195343d9287b95cc2c56/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@3aad501](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/3aad501b60765a17df05a74c92f121842ea1377d)
+from [uiceds/cee-492-term-project-fall-2022-her@4731f45](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/4731f45b9e0bc469a6d6195343d9287b95cc2c56)
 on October 30, 2022.
 </em></small>
 
@@ -175,17 +175,14 @@ Throughout this exploratory analysis, four main questions were developed to guid
 
 Initially, setback was investigated to understand the effects it has on the height of trees. Setback is defined as the distance from the tree to the nearest air-conditioned or heated space (which may not be the same address as the tree location), with values of 1,2,3,4, which are defined as 0m to 8m, 8.1m to 12m, 12.1m to 18m, and > 18m, respectively. . After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations.(Figure @fig:fig:Ru_Mean_setback_cropped)
 
-![The Mean Setback across different Cities](images\Ru_Mean_setback_cropped.png)
-{#fig:Ru_Mean_setback_cropped width=5in}
+![The Mean Setback across different Cities](images\Ru_Mean_setback_cropped.png){#fig:Ru_Mean_setback_cropped width=5in}
 
 It was identified that the cities with the highest mean setback (in descending order) are: 1) Albuquerque (3.80385), 2) Glendale (3.56843), 3) Charlotte (3.06892), 4) Longview (2.92153) Similarly, the cities with least mean setback were (in ascending order) : 1) Queens (2.01564), 2) Claremont (2.17143), 3) Berkeley (2.28313), 4) Indianapolis (2.31699)
 Next, similar tree species from the top four mean setback values and bottom four mean setback values were identified. This helped to establish a similar medium for tree height comparison. However, it was found that no common species were present between the two groups. Therefore, a random city (Charlotte) was analyzed, where similar species having the same age were grouped together.
 
-![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_SilverMaple_age35_setback_2-3.png)
-{#fig:Ru_SilverMaple_age35_setback_2-3 width=5in}
+![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_SilverMaple_age35_setback_2-3.png){#fig:Ru_SilverMaple_age35_setback_2-3 width=5in}
 
-![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_RiverBirch_age15_setback_3-4.png)
-{#fig:Ru_RiverBirch_age15_setback_3-4 width=5in}
+![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_RiverBirch_age15_setback_3-4.png){#fig:Ru_RiverBirch_age15_setback_3-4 width=5in}
 
 Using their mean heights, it was observed that setback and tree height presented no correlation as seen in the following 2 cases:
 1) Silver Maple trees of age 35 with Setback of 2 and 3 (Figure @fig:Ru_SilverMaple_age35_setback_2-3)
@@ -193,17 +190,15 @@ Using their mean heights, it was observed that setback and tree height presented
 
 Next, the tree height parameter was explored by selecting two random cities - Longview, WA and Modesto, CA, and the species that were selected due to their existence in both locales were - Sweetgum, Cherry Plum, and European White Birch. 
 
-![Age versus Height of Sweetgum trees in Longview, WA and Modesto, CA.](images/Ri_Sweetgum_GrowthRate.png){#fig:Ri_Sweetgum_GrowthRate width=5in}
+![Age versus Height of Sweetgum trees in Longview, WA and Modesto, CA.](images/Ri_Sweetgum_GrowthRate.png{#fig:Ri_Sweetgum_GrowthRate width=5in}
 
 This figure shows that Longview, WA Sweetgum trees are taller than Modesto, CA trees at any age.
 
-![Age versus Height of Cherry Plum trees in Longview, WA and Modesto, CA.](images/Ri_Cherry_hiVSage.png)
-{#fig:Ri_Cherry_hiVSage width=5in}
+![Age versus Height of Cherry Plum trees in Longview, WA and Modesto, CA.](images/Ri_Cherry_hiVSage.png){#fig:Ri_Cherry_hiVSage width=5in}
 
 This figure shows that Longview, WA Cherry Plum trees are taller than Modesto, CA trees at any age.
 
-![Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.png)
-{#fig:Ri_Euro_hiVSage width=5in}
+![Age versus Height of European White Birch trees in Longview, WA and Modesto, CA.](images/Ri_Euro_hiVSage.png){#fig:Ri_Euro_hiVSage width=5in}
 
 This figure shows that Longview, WA European Birch trees are taller than Modesto, CA trees at any age.
 

@@ -15,7 +15,7 @@ Claremont
 CommonName
 crapemyrtle
 CrnBas
-CrnBase
+Crnbase
 CrnHt
 csv
 dataset
@@ -33,7 +33,6 @@ GrowthRate
 Hadil
 hadilhelaly
 Helaly
-hiVSage
 LandUse
 Longview
 MeanLandUse
@@ -53,7 +52,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
