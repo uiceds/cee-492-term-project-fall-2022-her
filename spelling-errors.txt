@@ -26,7 +26,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 gini
 Golub
@@ -44,6 +44,7 @@ Longview
 Mäki
 MeanLandUse
 minimart
+NN
 numberoftrees
 OnStreet
 OSU
@@ -60,7 +61,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged

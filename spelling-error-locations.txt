@@ -130,6 +130,12 @@ content/05. Prediction.md:3:dbh
 content/05. Prediction.md:3:dbh
 content/05. Prediction.md:3:gini
 content/05. Prediction.md:5:foliar
+content/05. Prediction.md:10:dbh
+content/05. Prediction.md:11:Rupesh
+content/05. Prediction.md:12:Hadil
+content/05. Prediction.md:14:NN
+content/05. Prediction.md:19:dbh
+content/05. Prediction.md:24:dbh
 content/90.back-matter.md:6:OSU
 content/90.back-matter.md:8:Doorn
 content/90.back-matter.md:8:Peper

@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-30'
+date-meta: '2022-11-09'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-10-30" />
-  <meta name="citation_publication_date" content="2022-10-30" />
+  <meta name="dc.date" content="2022-11-09" />
+  <meta name="citation_publication_date" content="2022-11-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ad9a35ff6a63640a8e9f91965a4df0e306bed949/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ad9a35ff6a63640a8e9f91965a4df0e306bed949/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ad9a35ff6a63640a8e9f91965a4df0e306bed949/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/296337deb808570c8d5b2dd0f792a6b76e14dafc/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/296337deb808570c8d5b2dd0f792a6b76e14dafc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/296337deb808570c8d5b2dd0f792a6b76e14dafc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ad9a35ff6a63640a8e9f91965a4df0e306bed949/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/296337deb808570c8d5b2dd0f792a6b76e14dafc/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@ad9a35f](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/ad9a35ff6a63640a8e9f91965a4df0e306bed949)
-on October 30, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@296337d](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/296337deb808570c8d5b2dd0f792a6b76e14dafc)
+on November 9, 2022.
 </em></small>
 
 ## Authors
@@ -308,6 +308,27 @@ In summary, this exploratory analysis has shown both strong and insignificant co
 Based on some of the above correlations and supporting evidence from the US Forest Service Research Archives [2], a predictive model that uses tree age to predict diameter at breast heights (dbh), dbh to predict tree height and potentially leaf area, as well as dbh to predict tree age will be formulated. Using roughly seventy percent of the raw tree data as training data and the remaining thirty percent as test data, a machine learning model based on linear regression may be used to determine linear relationships among variables. Otherwise, a decision-tree algorithm using supervised classification would be useful to predict non-linear relationships among the variables, and the gini impurity would be calculated to determine the cutoffs of each branch. Moreover, a supervised random forest model could be explored to solve both regression and classification problems via “ensemble” or grouping methods. This might enable a further investigation into the correlations among tree age, tree height, dbh, and leaf area while classifying predicted outputs by region, city, or tree species.
 
 Moreover, the Urban Tree Database, which was used to source raw tree data, also contains foliar biomass data. This can be used to calculate leaf area and estimate carbon storage based on provided biomass equations [2], which may hold potential for simulating the impact of trees on carbon sequestration in urban environments.
+
+
+Model version 1
+Independent Variable: tree age
+Dependent Variables: dbh
+Rupesh: k-means
+Hadil: LR
+Riley: Decision Tree
+Emma: NN
+Meet on 9 am Sunday
+
+
+Model version 2
+Independent Variable: dbh
+Dependent Variables: tree height
+
+Model version 3
+Independent Variable: tree age, tree height
+Dependent Variables: dbh
+
+
 
 ## References {.page_break_before}
 
