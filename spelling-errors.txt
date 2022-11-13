@@ -15,7 +15,7 @@ Claremont
 CommonName
 crapemyrtle
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 csv
 dataset
@@ -61,7 +61,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
