@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -15,7 +15,7 @@ Claremont
 CommonName
 crapemyrtle
 CrnBas
-CrnBase
+Crnbase
 CrnHt
 csv
 dataset
@@ -26,7 +26,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 gini
 Golub
