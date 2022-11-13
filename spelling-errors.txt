@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -15,7 +15,7 @@ Claremont
 CommonName
 crapemyrtle
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 csv
 dataset
@@ -61,7 +61,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged
