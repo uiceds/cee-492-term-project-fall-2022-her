@@ -243,3 +243,7 @@ plot(f1.DBH, f1.TreeHt, st= [:scatter],xlabel= "DBH", ylabel= "Tree Height", m="
 # ╠═dbfbc375-b08d-4286-b29a-3079c16a53fc
 # ╠═b6f85a1e-ca77-41a6-99b4-66e005a94d87
 # ╠═3b70ac99-2720-4186-a7fc-0effb61954b3
+
+
+## ------------------------------------##
+# 
