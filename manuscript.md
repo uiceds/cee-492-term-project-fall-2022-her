@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-13'
+date-meta: '2022-11-15'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-11-13" />
-  <meta name="citation_publication_date" content="2022-11-13" />
+  <meta name="dc.date" content="2022-11-15" />
+  <meta name="citation_publication_date" content="2022-11-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f21f476153a3d9a19e91e9cea4b88a5ef0b1a5ec/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f21f476153a3d9a19e91e9cea4b88a5ef0b1a5ec/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f21f476153a3d9a19e91e9cea4b88a5ef0b1a5ec/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/f21f476153a3d9a19e91e9cea4b88a5ef0b1a5ec/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@f21f476](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/f21f476153a3d9a19e91e9cea4b88a5ef0b1a5ec)
-on November 13, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@0a474d9](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/0a474d99018dd13c00ec3efd5deb7947ad9d88d7)
+on November 15, 2022.
 </em></small>
 
 ## Authors
