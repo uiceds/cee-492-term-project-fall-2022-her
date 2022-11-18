@@ -8,7 +8,7 @@
   <meta name="author" content="Emma Golub" />
   <meta name="author" content="Riley Blasiak" />
   <meta name="author" content="Rupesh Rokade" />
-  <meta name="dcterms.date" content="2022-11-15" />
+  <meta name="dcterms.date" content="2022-11-18" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Analyzing the Correlations among Tree Characteristics and their Surroundings</title>
   <style>
@@ -31,8 +31,8 @@
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-11-15" />
-  <meta name="citation_publication_date" content="2022-11-15" />
+  <meta name="dc.date" content="2022-11-18" />
+  <meta name="citation_publication_date" content="2022-11-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/0a474d99018dd13c00ec3efd5deb7947ad9d88d7">uiceds/cee-492-term-project-fall-2022-her@0a474d9</a>
-on November 15, 2022.
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301">uiceds/cee-492-term-project-fall-2022-her@5f86dbe</a>
+on November 18, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -325,6 +325,29 @@ Next, similar tree species from the top four mean setback values and bottom four
 <h2 id="predictive-modeling-section">Predictive Modeling Section</h2>
 <p>Based on some of the above correlations and supporting evidence from the US Forest Service Research Archives [2], a predictive model that uses tree age to predict diameter at breast heights (dbh), dbh to predict tree height and potentially leaf area, as well as dbh to predict tree age will be formulated. Using roughly seventy percent of the raw tree data as training data and the remaining thirty percent as test data, a machine learning model based on linear regression may be used to determine linear relationships among variables. Otherwise, a decision-tree algorithm using supervised classification would be useful to predict non-linear relationships among the variables, and the gini impurity would be calculated to determine the cutoffs of each branch. Moreover, a supervised random forest model could be explored to solve both regression and classification problems via “ensemble” or grouping methods. This might enable a further investigation into the correlations among tree age, tree height, dbh, and leaf area while classifying predicted outputs by region, city, or tree species.</p>
 <p>Moreover, the Urban Tree Database, which was used to source raw tree data, also contains foliar biomass data. This can be used to calculate leaf area and estimate carbon storage based on provided biomass equations [2], which may hold potential for simulating the impact of trees on carbon sequestration in urban environments.</p>
+<p>Multiple modeling techniques were explored to predict DBH. Decision trees, neural networks, kmean, and linear regression models were used with different input variables to predict DBH.</p>
+<p>The first model used the decision tree package. This model was run with two to five variable inorder to predict DBH. The output of these iterations are as follows:</p>
+<div id="fig:DT_AgeHt" class="fignos">
+<figure>
+<img src="images/DT_AgeHt.png" style="width:3in" alt="Figure 25: Decision Tree with dependent variables: Tree Height and Age" /><figcaption aria-hidden="true"><span>Figure 25:</span> Decision Tree with dependent variables: Tree Height and Age</figcaption>
+</figure>
+</div>
+<div id="fig:DT_AgeHtLeaf" class="fignos">
+<figure>
+<img src="images/DT_AgeHtLeaf.png" style="width:3in" alt="Figure 26: Decision Tree with dependent variables: Tree Height, Age, and Leaf Area" /><figcaption aria-hidden="true"><span>Figure 26:</span> Decision Tree with dependent variables: Tree Height, Age, and Leaf Area</figcaption>
+</figure>
+</div>
+<div id="fig:DT_AgeHtLeafCrnHt" class="fignos">
+<figure>
+<img src="images/DT_AgeHtLeafCrnHt.png" style="width:3in" alt="Figure 27: Decision Tree with dependent variables: Tree Height, Age, Leaf Area, and Crown Height" /><figcaption aria-hidden="true"><span>Figure 27:</span> Decision Tree with dependent variables: Tree Height, Age, Leaf Area, and Crown Height</figcaption>
+</figure>
+</div>
+<div id="fig:DT_AgeHtLeafCrnHtCdia" class="fignos">
+<figure>
+<img src="images/DT_AgeHtLeafCrnHtCDia.png" style="width:3in" alt="Figure 28: Decision Tree with dependent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter" /><figcaption aria-hidden="true"><span>Figure 28:</span> Decision Tree with dependent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter</figcaption>
+</figure>
+</div>
+<p>With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. Overall the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the linear relation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.</p>
 <p>Model version 1
 Independent Variable: tree age
 Dependent Variables: dbh
