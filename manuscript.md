@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-15'
+date-meta: '2022-11-18'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-11-15" />
-  <meta name="citation_publication_date" content="2022-11-15" />
+  <meta name="dc.date" content="2022-11-18" />
+  <meta name="citation_publication_date" content="2022-11-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/0a474d99018dd13c00ec3efd5deb7947ad9d88d7/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@0a474d9](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/0a474d99018dd13c00ec3efd5deb7947ad9d88d7)
-on November 15, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@5f86dbe](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/5f86dbefc7bedb0098dc32ac0fd77ad7b2e20301)
+on November 18, 2022.
 </em></small>
 
 ## Authors
@@ -308,6 +308,20 @@ In summary, this exploratory analysis has shown both strong and insignificant co
 Based on some of the above correlations and supporting evidence from the US Forest Service Research Archives [2], a predictive model that uses tree age to predict diameter at breast heights (dbh), dbh to predict tree height and potentially leaf area, as well as dbh to predict tree age will be formulated. Using roughly seventy percent of the raw tree data as training data and the remaining thirty percent as test data, a machine learning model based on linear regression may be used to determine linear relationships among variables. Otherwise, a decision-tree algorithm using supervised classification would be useful to predict non-linear relationships among the variables, and the gini impurity would be calculated to determine the cutoffs of each branch. Moreover, a supervised random forest model could be explored to solve both regression and classification problems via “ensemble” or grouping methods. This might enable a further investigation into the correlations among tree age, tree height, dbh, and leaf area while classifying predicted outputs by region, city, or tree species.
 
 Moreover, the Urban Tree Database, which was used to source raw tree data, also contains foliar biomass data. This can be used to calculate leaf area and estimate carbon storage based on provided biomass equations [2], which may hold potential for simulating the impact of trees on carbon sequestration in urban environments.
+
+Multiple modeling techniques were explored to predict DBH. Decision trees, neural networks, kmean, and linear regression models were used with different input variables to predict DBH.
+
+The first model used the decision tree package. This model was run with two to five variable inorder to predict DBH. The output of these iterations are as follows:
+
+![Decision Tree with dependent variables: Tree Height and Age](images/DT_AgeHt.png){#fig:DT_AgeHt width=3in}
+
+![Decision Tree with dependent variables: Tree Height, Age, and Leaf Area](images/DT_AgeHtLeaf.png){#fig:DT_AgeHtLeaf width=3in}
+
+![Decision Tree with dependent variables: Tree Height, Age, Leaf Area, and Crown Height](images/DT_AgeHtLeafCrnHt.png){#fig:DT_AgeHtLeafCrnHt width=3in}
+
+![Decision Tree with dependent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter](images/DT_AgeHtLeafCrnHtCDia.png){#fig:DT_AgeHtLeafCrnHtCdia width=3in}
+
+With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. Overall the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the linear relation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.
 
 
 Model version 1

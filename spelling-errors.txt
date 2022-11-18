@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -26,7 +26,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 gini
 Golub
@@ -36,7 +36,9 @@ Hadil
 hadilhelaly
 Helaly
 hiVSage
+inorder
 Karjalainen
+kmean
 Kuuluvainen
 LandUse
 Lehtonen
