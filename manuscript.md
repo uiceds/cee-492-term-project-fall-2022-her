@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/73ab6b5123938fdd814430c1f47c0d044838fe2e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/73ab6b5123938fdd814430c1f47c0d044838fe2e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/73ab6b5123938fdd814430c1f47c0d044838fe2e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/815d2fa936fad040e95ff299ae1d3f2106f3c03b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/815d2fa936fad040e95ff299ae1d3f2106f3c03b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/815d2fa936fad040e95ff299ae1d3f2106f3c03b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/73ab6b5123938fdd814430c1f47c0d044838fe2e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/815d2fa936fad040e95ff299ae1d3f2106f3c03b/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@73ab6b5](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/73ab6b5123938fdd814430c1f47c0d044838fe2e)
+from [uiceds/cee-492-term-project-fall-2022-her@815d2fa](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/815d2fa936fad040e95ff299ae1d3f2106f3c03b)
 on November 19, 2022.
 </em></small>
 
@@ -337,6 +337,21 @@ Further investigation was performed to determine why the accuracy is low. After 
 The second model was performed using the same dependent and independent variables after excluding outliers’ data point. The model achieved R squared of 88%, RMSE of 10.91, and accuracy of 87%, as shown in Figure @fig:ig:Reg_Model2
 
 ![Predictive Model after Deleting Outliers](images\Reg_Model2.png){#fig:Reg_Model2 width=5in}
+
+The third model was performed using two independent variables: tree age and average tree height. The model achieved R squared of 94%, RMSE of 8.08, and accuracy of 92%, as shown in Figure @fig:ig:Reg_Model3
+
+![Predictive Model Using 2 Independent Variables](images\Reg_Model3.png){#fig:Reg_Model3 width=5in}
+
+The fourth model was performed using three independent variables: tree age, average tree height, and average leaf area. The model achieved R squared of 95%, RMSE of 9.01, and accuracy of 92%, as shown in Figure @fig:ig:Reg_Model4
+
+![Predictive Model Using 3 Independent Variables](images\Reg_Model4.png){#fig:Reg_Model4 width=5in}
+
+The fifth model was performed using four independent variables: tree age, average tree height, average leaf area, and average crown diameter. The model achieved R squared of 93%, RMSE of 7, and accuracy of 94.5%, as shown in Figure @fig:ig:Reg_Model5
+
+![Predictive Model Using 4 Independent Variables](images\Reg_Model5.png){#fig:Reg_Model5 width=5in}
+
+Based on the above analysis, the best model that achieved the lowest RMSE and highest accuracy is model 5.
+
 
 ## References {.page_break_before}
 
