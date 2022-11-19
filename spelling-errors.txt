@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -20,13 +20,13 @@ CrnHt
 csv
 dataset
 DbaseID
-DBH
+dbh
 Doherty
 Doorn
 emmaagolub
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 gini
 Golub
@@ -62,7 +62,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 unmanaged

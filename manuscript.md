@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4e94e9d72968cad25a0f4dbae5dca72ec3463a1a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4e94e9d72968cad25a0f4dbae5dca72ec3463a1a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4e94e9d72968cad25a0f4dbae5dca72ec3463a1a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7a7209985fc5bbe728f1bbd8bf90347dc819af4d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7a7209985fc5bbe728f1bbd8bf90347dc819af4d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7a7209985fc5bbe728f1bbd8bf90347dc819af4d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/4e94e9d72968cad25a0f4dbae5dca72ec3463a1a/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7a7209985fc5bbe728f1bbd8bf90347dc819af4d/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@4e94e9d](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/4e94e9d72968cad25a0f4dbae5dca72ec3463a1a)
+from [uiceds/cee-492-term-project-fall-2022-her@7a72099](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/7a7209985fc5bbe728f1bbd8bf90347dc819af4d)
 on November 19, 2022.
 </em></small>
 
@@ -316,6 +316,7 @@ The first model used the decision tree package. This model was run with two to f
 ![Decision Tree with dependent variables: Tree Height and Age](images/DT_AgeHt.png){#fig:DT_AgeHt width=3in}
 
 ![Decision Tree with dependent variables: Tree Height, Age, and Leaf Area](images/DT_AgeHtLeaf.png){#fig:DT_AgeHtLeaf width=3in}
+
 
 ![Decision Tree with dependent variables: Tree Height, Age, Leaf Area, and Crown Height](images/DT_ageHtLeafCrnHt.png){#fig:DT_AgeHtLeafCrnHt width=3in}
 
