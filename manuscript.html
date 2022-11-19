@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/cd9f3f3b5f208747baf6d8cb173a51d36a49ee1c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/cd9f3f3b5f208747baf6d8cb173a51d36a49ee1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/cd9f3f3b5f208747baf6d8cb173a51d36a49ee1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/73ab6b5123938fdd814430c1f47c0d044838fe2e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/73ab6b5123938fdd814430c1f47c0d044838fe2e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/73ab6b5123938fdd814430c1f47c0d044838fe2e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/cd9f3f3b5f208747baf6d8cb173a51d36a49ee1c/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/73ab6b5123938fdd814430c1f47c0d044838fe2e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/cd9f3f3b5f208747baf6d8cb173a51d36a49ee1c">uiceds/cee-492-term-project-fall-2022-her@cd9f3f3</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/73ab6b5123938fdd814430c1f47c0d044838fe2e">uiceds/cee-492-term-project-fall-2022-her@73ab6b5</a>
 on November 19, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -349,10 +349,22 @@ Therefore, several predictive models using 3 different machine learning techniqu
 </div>
 <p>With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. Overall the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the linear relation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.</p>
 <h3 id="regression">Regression</h3>
-<p>This technique depends on developing multiple linear regression model between the dependent variable and independent variables. Starting with a simple regression model that include only one independent variable (tree age) to predict the dependent variable (average dbh). The predictive formula is used to calculate the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy. As shown in (Figure <a href="#fig:Reg_model1">29</a>), the model achieved R squared of 74%, Root Mean Square Error (RMSE) of 21.12, and accuracy of 12.4%. Further investigation was performed to determine why the accuracy is low. After plotting average dbh in y-axis and age in the x-axis for training and testing datasets. Two data points were determin to be outliers.</p>
+<p>This technique depends on developing multiple linear regression model between the dependent variable and independent variables. Starting with a simple regression model that include only one independent variable (tree age) to predict the dependent variable (average dbh). The predictive formula is used to calculate the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy. As shown in Figure <a href="#fig:Reg_model1">29</a>, the model achieved R squared of 74%, Root Mean Square Error (RMSE) of 21.12, and accuracy of 12.4%.</p>
 <div id="fig:Reg_model1" class="fignos">
 <figure>
 <img src="images\Reg_model1.png" style="width:5in" alt="Figure 29: Predictive Model using one independent variable" /><figcaption aria-hidden="true"><span>Figure 29:</span> Predictive Model using one independent variable</figcaption>
+</figure>
+</div>
+<p>Further investigation was performed to determine why the accuracy is low. After plotting average dbh in y-axis and age in the x-axis for training and testing datasets. Two data points were determined to be outliers, as shown in Figure <a href="#fig:Reg_model1_plot">30</a>)</p>
+<div id="fig:Reg_model1_plot" class="fignos">
+<figure>
+<img src="images\Reg_model1_plot.png" style="width:5in" alt="Figure 30: Determing outliars" /><figcaption aria-hidden="true"><span>Figure 30:</span> Determing outliars</figcaption>
+</figure>
+</div>
+<p>The second model was performed using the same dependent and independent variables after excluding outliers’ data point. The model achieved R squared of 88%, RMSE of 10.91, and accuracy of 87%, as shown in Figure ??</p>
+<div id="fig:Reg_Model2" class="fignos">
+<figure>
+<img src="images\Reg_Model2.png" style="width:5in" alt="Figure 31: Predictive Model after Deleting Outliers" /><figcaption aria-hidden="true"><span>Figure 31:</span> Predictive Model after Deleting Outliers</figcaption>
 </figure>
 </div>
 <h2 class="page_break_before" id="references">References</h2>

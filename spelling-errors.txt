@@ -7,7 +7,7 @@ avgHeight
 barplot
 barplots
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -16,14 +16,14 @@ Claremont
 CommonName
 crapemyrtle
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 csv
 dataset
 datasets
 DbaseID
-DBH
-determin
+dbh
+Determing
 Doherty
 Doorn
 emmaagolub
@@ -38,6 +38,7 @@ Hadil
 hadilhelaly
 Helaly
 hiVSage
+ig
 Karjalainen
 Kuuluvainen
 LandUse
@@ -49,6 +50,7 @@ minimart
 numberoftrees
 OnStreet
 OSU
+outliars
 paraboloid
 Peper
 preliminery
