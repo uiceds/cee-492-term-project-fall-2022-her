@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-18'
+date-meta: '2022-11-19'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-11-18" />
-  <meta name="citation_publication_date" content="2022-11-18" />
+  <meta name="dc.date" content="2022-11-19" />
+  <meta name="citation_publication_date" content="2022-11-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8db67b9da5265d7e7a5f5037c789f3e8995d228e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8db67b9da5265d7e7a5f5037c789f3e8995d228e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8db67b9da5265d7e7a5f5037c789f3e8995d228e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c3de05bfa49ba517833eeab0d8378a4b73c9c98d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c3de05bfa49ba517833eeab0d8378a4b73c9c98d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c3de05bfa49ba517833eeab0d8378a4b73c9c98d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8db67b9da5265d7e7a5f5037c789f3e8995d228e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c3de05bfa49ba517833eeab0d8378a4b73c9c98d/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@8db67b9](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/8db67b9da5265d7e7a5f5037c789f3e8995d228e)
-on November 18, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@c3de05b](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/c3de05bfa49ba517833eeab0d8378a4b73c9c98d)
+on November 19, 2022.
 </em></small>
 
 ## Authors
@@ -313,13 +313,13 @@ Multiple modeling techniques were explored to predict DBH. Decision trees, neura
 
 The first model used the decision tree package. This model was run with two to five variable inorder to predict DBH. The output of these iterations are as follows:
 
-![Decision Tree with dependent variables: Tree Height and Age](images/DT_AgeHt.PNG){#fig:DT_AgeHt width=3in}
+![Decision Tree with dependent variables: Tree Height and Age](images/DT_AgeHt.png){#fig:DT_AgeHt width=3in}
 
-![Decision Tree with dependent variables: Tree Height, Age, and Leaf Area](images/DT_AgeHtLeaf.PNG){#fig:DT_AgeHtLeaf width=3in}
+![Decision Tree with dependent variables: Tree Height, Age, and Leaf Area](images/DT_AgeHtLeaf.png){#fig:DT_AgeHtLeaf width=3in}
 
-![Decision Tree with dependent variables: Tree Height, Age, Leaf Area, and Crown Height](images/DT_AgeHtLeafCrnHt.PNG){#fig:DT_AgeHtLeafCrnHt width=3in}
+![Decision Tree with dependent variables: Tree Height, Age, Leaf Area, and Crown Height](images/DT_ageHtLeafCrnHt.png){#fig:DT_AgeHtLeafCrnHt width=3in}
 
-![Decision Tree with dependent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter](images/DT_AgeHtLeafCrnHtCDia.PNG){#fig:DT_AgeHtLeafCrnHtCdia width=3in}
+![Decision Tree with dependent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter](images/DT_ageHtLeafCrnHtCDia.png){#fig:DT_AgeHtLeafCrnHtCdia width=3in}
 
 With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. Overall the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the linear relation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.
 
