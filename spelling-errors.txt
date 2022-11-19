@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -17,10 +17,10 @@ crapemyrtle
 CrnBas
 Crnbase
 CrnHt
-CSV
+csv
 dataset
 DbaseID
-dbh
+DBH
 Doherty
 Doorn
 emmaagolub
@@ -46,7 +46,6 @@ Longview
 Mäki
 MeanLandUse
 minimart
-NN
 numberoftrees
 OnStreet
 OSU
@@ -63,7 +62,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
