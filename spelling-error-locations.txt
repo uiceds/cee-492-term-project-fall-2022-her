@@ -143,6 +143,7 @@ content/05. Prediction.md:28:datasets
 content/05. Prediction.md:28:dbh
 content/05. Prediction.md:30:Determing
 content/05. Prediction.md:30:outliars
+content/05. Prediction.md:32:determin
 content/05. Prediction.md:32:ig
 content/05. Prediction.md:32:RMSE
 content/05. Prediction.md:36:ig
