@@ -22,7 +22,7 @@ csv
 dataset
 datasets
 DbaseID
-DBH
+dbh
 determin
 Determing
 Doherty
@@ -30,7 +30,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
@@ -66,7 +66,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged

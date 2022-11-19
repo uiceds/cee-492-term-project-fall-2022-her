@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/69ac84de6662af42a2e924e3e9a176a056427305/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/69ac84de6662af42a2e924e3e9a176a056427305/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/69ac84de6662af42a2e924e3e9a176a056427305/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/950baafe2789e240e92d6da0cef71b0a436e26a7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/950baafe2789e240e92d6da0cef71b0a436e26a7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/950baafe2789e240e92d6da0cef71b0a436e26a7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/69ac84de6662af42a2e924e3e9a176a056427305/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/950baafe2789e240e92d6da0cef71b0a436e26a7/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@69ac84d](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/69ac84de6662af42a2e924e3e9a176a056427305)
+from [uiceds/cee-492-term-project-fall-2022-her@950baaf](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/950baafe2789e240e92d6da0cef71b0a436e26a7)
 on November 19, 2022.
 </em></small>
 
@@ -330,15 +330,15 @@ This technique depends on developing multiple linear regression model between th
 
 ![Predictive Model using one independent variable](images/Reg_Model1.png){#fig:Reg_model1 width=7in}
 
-Further investigation was performed to determine why the accuracy is low. After plotting average dbh in y-axis and age in the x-axis for training and testing datasets. Two data points were determined to be outliers, as shown in Figure @fig:Reg_model1_plot)
+Further investigation was performed to determine why the accuracy is low. After plotting average dbh in y-axis and age in the x-axis for training and testing datasets. Two data points were determined to be outliers, as shown in Figure @fig:Reg_model1_plot
 
 ![Determing outliars](images\Reg_model1_plot.png){#fig:Reg_model1_plot width=5in}
 
-The second model was performed using the same dependent and independent variables after excluding outliers’ data point. Those two outliers were determin to be tree age that were above 200 years.  The model achieved R squared of 88%, RMSE of 10.91, and accuracy of 87%, as shown in Figure @fig:ig:Reg_Model2
+The second model was performed using the same dependent and independent variables after excluding outliers’ data point. Those two outliers were determin to be tree age that were above 200 years.  The model achieved R squared of 88%, RMSE of 10.91, and accuracy of 87%, as shown in Figure @fig:Reg_Model2
 
 ![Predictive Model after Deleting Outliers](images\Reg_Model2.png){#fig:Reg_Model2 width=7in}
 
-The third model was performed using two independent variables: tree age and average tree height. The model achieved R squared of 94%, RMSE of 8.08, and accuracy of 92%, as shown in Figure @fig:ig:Reg_Model3
+The third model was performed using two independent variables: tree age and average tree height. The model achieved R squared of 94%, RMSE of 8.08, and accuracy of 92%, as shown in Figure @fig:Reg_Model3
 
 ![Predictive Model Using 2 Independent Variables](images\Reg_Model3.png){#fig:Reg_Model3 width=7in}
 
@@ -346,7 +346,7 @@ The fourth model was performed using three independent variables: tree age, aver
 
 ![Predictive Model Using 3 Independent Variables](images\Reg_Model4.png){#fig:Reg_Model4 width=7in}
 
-The fifth model was performed using four independent variables: tree age, average tree height, average leaf area, and average crown diameter. The model achieved R squared of 93%, RMSE of 7, and accuracy of 94.5%, as shown in Figure @fig:ig:Reg_Model5
+The fifth model was performed using four independent variables: tree age, average tree height, average leaf area, and average crown diameter. The model achieved R squared of 93%, RMSE of 7, and accuracy of 94.5%, as shown in Figure @fig:Reg_Model5
 
 ![Predictive Model Using 4 Independent Variables](images\Reg_Model5.png){#fig:Reg_Model5 width=7in}
 
