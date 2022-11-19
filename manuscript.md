@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/815d2fa936fad040e95ff299ae1d3f2106f3c03b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/815d2fa936fad040e95ff299ae1d3f2106f3c03b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/815d2fa936fad040e95ff299ae1d3f2106f3c03b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fbd74a838a23f6260dacebae6e2c244195595341/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fbd74a838a23f6260dacebae6e2c244195595341/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fbd74a838a23f6260dacebae6e2c244195595341/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/815d2fa936fad040e95ff299ae1d3f2106f3c03b/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/fbd74a838a23f6260dacebae6e2c244195595341/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@815d2fa](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/815d2fa936fad040e95ff299ae1d3f2106f3c03b)
+from [uiceds/cee-492-term-project-fall-2022-her@fbd74a8](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/fbd74a838a23f6260dacebae6e2c244195595341)
 on November 19, 2022.
 </em></small>
 
@@ -303,7 +303,7 @@ Correlation Coefficients:
 
 In summary, this exploratory analysis has shown both strong and insignificant correlations among raw tree data variables. The relationship between tree height and setback revealed insignificant correlation , while moderate-to-strong correlations between tree age and both height and diameter of tree exist. Additionally, correlation between tree age and its diameter is stronger than that of tree age and height. Overall, relationships among tree size and tree growth are significant because they can be used by urban forest managers, landscape architects, and city planners to select suitable trees given limited growing space or an intended purpose. Predicting the most suitable trees for a site has the potential to reduce costly future conflicts between trees and infrastructure [2]. 
 
-## Predictive Modeling Section
+## Predictive Modeling
 
 Based on some of the above correlations and supporting evidence from the US Forest Service Research Archives [2], there are strong correlation between diameter at breast heights (dbh) and tree age, tree height, leaf area, crown height, and average crown diameter. 
 Therefore, several predictive models using 3 different machine learning techniques were explored to select the most suitable model to predict (dbh) based on the aforementioned variables. Those techniques include (1) decision-tree algorism, (2) regression, and (3) neural networks. To enable a reliable performance evaluation procedure, the collected data was divided into two separate datasets for each developed predictive model: (1) training dataset that includes 70% of all the available data that will be used in developing the model, and (2) testing dataset that includes 30% of all available data that will be used for evaluating the performance of the developed model. The following three sections provide a detailed description of these aforementioned 3 machine learning techniques.
@@ -328,7 +328,7 @@ With each addition of independent variables, the mean coefficient of determinati
 
 This technique depends on developing multiple linear regression model between the dependent variable and independent variables. Starting with a simple regression model that include only one independent variable (tree age) to predict the dependent variable (average dbh). The predictive formula is used to calculate the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy. As shown in Figure @fig:Reg_model1, the model achieved R squared of 74%, Root Mean Square Error (RMSE) of 21.12, and accuracy of 12.4%. 
 
-![Predictive Model using one independent variable](images\Reg_model1.png){#fig:Reg_model1 width=5in}
+![Predictive Model using one independent variable](images/Reg_Model1.png){#fig:Reg_model1 width=7in}
 
 Further investigation was performed to determine why the accuracy is low. After plotting average dbh in y-axis and age in the x-axis for training and testing datasets. Two data points were determined to be outliers, as shown in Figure @fig:Reg_model1_plot)
 
@@ -336,19 +336,19 @@ Further investigation was performed to determine why the accuracy is low. After 
 
 The second model was performed using the same dependent and independent variables after excluding outliers’ data point. The model achieved R squared of 88%, RMSE of 10.91, and accuracy of 87%, as shown in Figure @fig:ig:Reg_Model2
 
-![Predictive Model after Deleting Outliers](images\Reg_Model2.png){#fig:Reg_Model2 width=5in}
+![Predictive Model after Deleting Outliers](images\Reg_Model2.png){#fig:Reg_Model2 width=7in}
 
 The third model was performed using two independent variables: tree age and average tree height. The model achieved R squared of 94%, RMSE of 8.08, and accuracy of 92%, as shown in Figure @fig:ig:Reg_Model3
 
-![Predictive Model Using 2 Independent Variables](images\Reg_Model3.png){#fig:Reg_Model3 width=5in}
+![Predictive Model Using 2 Independent Variables](images\Reg_Model3.png){#fig:Reg_Model3 width=7in}
 
 The fourth model was performed using three independent variables: tree age, average tree height, and average leaf area. The model achieved R squared of 95%, RMSE of 9.01, and accuracy of 92%, as shown in Figure @fig:ig:Reg_Model4
 
-![Predictive Model Using 3 Independent Variables](images\Reg_Model4.png){#fig:Reg_Model4 width=5in}
+![Predictive Model Using 3 Independent Variables](images\Reg_Model4.png){#fig:Reg_Model4 width=7in}
 
 The fifth model was performed using four independent variables: tree age, average tree height, average leaf area, and average crown diameter. The model achieved R squared of 93%, RMSE of 7, and accuracy of 94.5%, as shown in Figure @fig:ig:Reg_Model5
 
-![Predictive Model Using 4 Independent Variables](images\Reg_Model5.png){#fig:Reg_Model5 width=5in}
+![Predictive Model Using 4 Independent Variables](images\Reg_Model5.png){#fig:Reg_Model5 width=7in}
 
 Based on the above analysis, the best model that achieved the lowest RMSE and highest accuracy is model 5.
 

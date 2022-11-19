@@ -7,7 +7,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -18,7 +18,7 @@ crapemyrtle
 CrnBas
 Crnbase
 CrnHt
-csv
+CSV
 dataset
 datasets
 DbaseID
