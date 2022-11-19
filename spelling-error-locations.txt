@@ -146,7 +146,6 @@ content/05. Prediction.md:30:outliars
 content/05. Prediction.md:32:determin
 content/05. Prediction.md:32:RMSE
 content/05. Prediction.md:36:RMSE
-content/05. Prediction.md:40:ig
 content/05. Prediction.md:40:RMSE
 content/05. Prediction.md:44:RMSE
 content/05. Prediction.md:48:RMSE

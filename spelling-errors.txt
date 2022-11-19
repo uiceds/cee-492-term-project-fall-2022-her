@@ -16,7 +16,7 @@ Claremont
 CommonName
 crapemyrtle
 CrnBas
-CrnBase
+Crnbase
 CrnHt
 csv
 dataset
@@ -39,7 +39,6 @@ Hadil
 hadilhelaly
 Helaly
 hiVSage
-ig
 Karjalainen
 Kuuluvainen
 LandUse
