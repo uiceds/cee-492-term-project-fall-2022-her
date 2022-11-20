@@ -42,6 +42,23 @@ using MLUtils
     end
     #yID = collect(keys(d)) # d needs to be a dictionary, trying to create one from y_test data frame, but Base.Generator data frame type is prohibiting.
 
+	begin
+		commonname = select(x2,["CommonName"])    #Vector consisting of common name values
+		finish = length(commonname)               #for iterating 
+		converted_commonname = zeros(finish)      #New vector in which conversion will be stored
+		unique_values = unique(commonname)        
+		for i in 1:finish
+			for j in 1:length(unique_values)
+				if commonname[i] == unique_values[j]   #When a particular unique value is found equal, the next step stores the index of that value in the new vector
+				converted_commonname[i] = j
+	
+				end
+			end
+		end
+		converted_commonname   #Converted values of common name
+	end
+
+
     y1 = transpose((y1))
 	y = Flux.onehotbatch(y1, 0:9)
 
