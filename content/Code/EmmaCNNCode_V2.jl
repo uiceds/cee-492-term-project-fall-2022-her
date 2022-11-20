@@ -86,13 +86,17 @@ model = Chain(
 	Conv((3,), 7 => 5, pad=(1,), relu),
 	x -> reshape(x, :, size(x,3)),
 	#x -> maxpool(x, (2,2)),
-	Dense(10461, 1000),
-	Dense(1000, 157),
+	Dense(5, 20),
+	Dense(20, 157),
 	softmax,
 )
 
 accuracy(ŷ, y) = mean(Flux.onecold(ŷ) .== Flux.onecold(y))
 # Accuracy before training
+println(size(x))
+y_hat = model(x)
+println(size(y_hat))
+println(size(y))
 accuracy(model(x), y)
 
 function loss(x, y) 
