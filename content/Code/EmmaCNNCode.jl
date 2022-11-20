@@ -22,9 +22,9 @@ using MLUtils
     x4 = transpose(Matrix(x3))
     x = reshape(x4, size(x4, 1), 1, size(x4,2))
 
-#println(x)
+    # Data Wrangling
 
-    y1 = select(x2,["CommonName"])
+    #= y1 = select(x2,["CommonName"])
     #println(y1)
     y2 = unique(y1)
     #println(y2)
@@ -35,15 +35,34 @@ using MLUtils
     id_to_names[3] #test it works
     names_to_id["sweetgum"] #test it works
 
-    #y_test = (keys(names_to_id[name]) for name in y1) #not working, trying to write each species name in the original dataframe of species y1 to an ID
-    
-    for (name, row) in enumerate(eachrow(y1))
-        collect(keys(names_to_id[name]))    
-    end
+    # Stuck here:
+    #not working, trying to write each species name in the original dataframe of species y1 to an ID
+    #y_test = (keys(names_to_id[name]) for name in y1) 
+    #for (name, row) in enumerate(eachrow(y1))
+    #    collect(keys(names_to_id[name])) #key 1 not being found bc can't iterate over all names in dataframe   
+    #end
     #yID = collect(keys(d)) # d needs to be a dictionary, trying to create one from y_test data frame, but Base.Generator data frame type is prohibiting.
+=#
+# Data Wrangling for Common species
 
-    y1 = transpose((y1))
-	y = Flux.onehotbatch(y1, 0:9)
+		commonname = select(x2,["CommonName"])    #Vector consisting of common name values
+		finish = length(commonname.CommonName)               #for iterating 
+		NameIDs = zeros(finish)      #New vector in which conversion will be stored
+		unique_values = unique(commonname)        
+		for i in 1:finish
+			for j in 1:length((unique_values.CommonName))
+				if commonname.CommonName[i] == unique_values.CommonName[j]   #When a particular unique value is found equal, the next step stores the index of that value in the new vector
+				NameIDs[i] = j
+
+				end
+			end
+		end
+		NameIDs   #Converted values of common name
+    
+
+    yID = transpose((NameIDs))
+	y = Flux.onehotbatch(yID,1.0:157.0)
+    y = reshape(y, size(y, 1), size(y,3))
 
 
 let
@@ -67,8 +86,8 @@ model = Chain(
 	Conv((3,), 7 => 5, pad=(1,), relu),
 	x -> reshape(x, :, size(x,3)),
 	#x -> maxpool(x, (2,2)),
-	Dense(160, 80),
-	Dense(80, 10),
+	Dense(10461, 1000),
+	Dense(1000, 157),
 	softmax,
 )
 
