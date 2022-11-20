@@ -42,9 +42,27 @@ using MLUtils
     #    collect(keys(names_to_id[name])) #key 1 not being found bc can't iterate over all names in dataframe   
     #end
     #yID = collect(keys(d)) # d needs to be a dictionary, trying to create one from y_test data frame, but Base.Generator data frame type is prohibiting.
+=#
+# Data Wrangling for Common species
 
-    y1 = transpose((y1))
-	y = Flux.onehotbatch(y1, 0:9)
+		commonname = select(x2,["CommonName"])    #Vector consisting of common name values
+		finish = length(commonname.CommonName)               #for iterating 
+		NameIDs = zeros(finish)      #New vector in which conversion will be stored
+		unique_values = unique(commonname)        
+		for i in 1:finish
+			for j in 1:length((unique_values.CommonName))
+				if commonname.CommonName[i] == unique_values.CommonName[j]   #When a particular unique value is found equal, the next step stores the index of that value in the new vector
+				NameIDs[i] = j
+
+				end
+			end
+		end
+		NameIDs   #Converted values of common name
+    
+
+    yID = transpose((NameIDs))
+	y = Flux.onehotbatch(yID,1.0:157.0)
+    y = reshape(y, size(y, 1), size(y,3))
 
 
 let
