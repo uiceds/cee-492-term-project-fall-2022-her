@@ -7,7 +7,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -22,7 +22,7 @@ csv
 dataset
 datasets
 DbaseID
-dbh
+DBH
 Determing
 Doherty
 Doorn
@@ -64,7 +64,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 unmanaged
