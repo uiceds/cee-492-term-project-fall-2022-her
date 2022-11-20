@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/619e21af3498e25133b018d78371d42043db2969/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/619e21af3498e25133b018d78371d42043db2969/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/619e21af3498e25133b018d78371d42043db2969/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d2d4b22372c04636fabb72f795d163e94bd1281f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d2d4b22372c04636fabb72f795d163e94bd1281f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d2d4b22372c04636fabb72f795d163e94bd1281f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/619e21af3498e25133b018d78371d42043db2969/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/d2d4b22372c04636fabb72f795d163e94bd1281f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/619e21af3498e25133b018d78371d42043db2969">uiceds/cee-492-term-project-fall-2022-her@619e21a</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/d2d4b22372c04636fabb72f795d163e94bd1281f">uiceds/cee-492-term-project-fall-2022-her@d2d4b22</a>
 on November 20, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -349,10 +349,10 @@ Therefore, several predictive models using 3 different machine learning techniqu
 </div>
 <p>With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. Overall the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the linear relation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.</p>
 <h3 id="regression">Regression</h3>
-<p>This technique depends on developing multiple linear regression model between the dependent variable and independent variables. Starting with a simple regression model that include only one independent variable (tree age) to predict the dependent variable (average dbh). The predictive formula is used to calculate the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy. As shown in Figure <a href="#fig:Reg_model1">29</a>, the model achieved R squared of 74%, Root Mean Square Error (RMSE) of 21.12, and accuracy of 12.4%.</p>
+<p>This technique depends on developing multiple linear regression model between the dependent variable and independent variables. To improve the accuracy of the model, average dbh was calculated to each tree age. Starting with a simple regression model that include only one independent variable (tree age) to predict the dependent variable (average dbh). The predictive formula is used to calculate the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy. As shown in Figure <a href="#fig:Reg_model1">29</a>, the model achieved R squared of 74%, Root Mean Square Error (RMSE) of 21.12, and accuracy of 12.4%.</p>
 <div id="fig:Reg_model1" class="fignos">
 <figure>
-<img src="images/Reg_Model1.png" style="width:7in" alt="Figure 29: Predictive Model using one independent variable" /><figcaption aria-hidden="true"><span>Figure 29:</span> Predictive Model using one independent variable</figcaption>
+<img src="images/Reg_Model1.png" style="width:6in" alt="Figure 29: Predictive Model using one independent variable" /><figcaption aria-hidden="true"><span>Figure 29:</span> Predictive Model using one independent variable</figcaption>
 </figure>
 </div>
 <p>Further investigation was performed to determine why the accuracy is low. After plotting average dbh in y-axis and age in the x-axis for training and testing datasets. Two data points were determined to be outliers, as shown in Figure <a href="#fig:Reg_model1_plot">30</a></p>
@@ -364,25 +364,25 @@ Therefore, several predictive models using 3 different machine learning techniqu
 <p>The second model was performed using the same dependent and independent variables after excluding outliers’ data point. Those two outliers were determined to be tree age that were above 200 years. The model achieved R squared of 88%, RMSE of 10.91, and accuracy of 87%, as shown in Figure <a href="#fig:Reg_Model2">31</a></p>
 <div id="fig:Reg_Model2" class="fignos">
 <figure>
-<img src="images\Reg_Model2.png" style="width:7in" alt="Figure 31: Predictive Model after Deleting Outliers" /><figcaption aria-hidden="true"><span>Figure 31:</span> Predictive Model after Deleting Outliers</figcaption>
+<img src="images\Reg_Model2.png" style="width:6in" alt="Figure 31: Predictive Model after Deleting Outliers" /><figcaption aria-hidden="true"><span>Figure 31:</span> Predictive Model after Deleting Outliers</figcaption>
 </figure>
 </div>
 <p>The third model was performed using two independent variables: tree age and average tree height. The model achieved R squared of 94%, RMSE of 8.08, and accuracy of 92%, as shown in Figure <a href="#fig:Reg_Model3">32</a></p>
 <div id="fig:Reg_Model3" class="fignos">
 <figure>
-<img src="images\Reg_Model3.png" style="width:7in" alt="Figure 32: Predictive Model Using 2 Independent Variables" /><figcaption aria-hidden="true"><span>Figure 32:</span> Predictive Model Using 2 Independent Variables</figcaption>
+<img src="images\Reg_Model3.png" style="width:6in" alt="Figure 32: Predictive Model Using 2 Independent Variables" /><figcaption aria-hidden="true"><span>Figure 32:</span> Predictive Model Using 2 Independent Variables</figcaption>
 </figure>
 </div>
 <p>The fourth model was performed using three independent variables: tree age, average tree height, and average leaf area. The model achieved R squared of 95%, RMSE of 9.01, and accuracy of 92%, as shown in Figure <a href="#fig:Reg_Model4">33</a></p>
 <div id="fig:Reg_Model4" class="fignos">
 <figure>
-<img src="images\Reg_Model4.png" style="width:7in" alt="Figure 33: Predictive Model Using 3 Independent Variables" /><figcaption aria-hidden="true"><span>Figure 33:</span> Predictive Model Using 3 Independent Variables</figcaption>
+<img src="images\Reg_Model4.png" style="width:6in" alt="Figure 33: Predictive Model Using 3 Independent Variables" /><figcaption aria-hidden="true"><span>Figure 33:</span> Predictive Model Using 3 Independent Variables</figcaption>
 </figure>
 </div>
 <p>The fifth model was performed using four independent variables: tree age, average tree height, average leaf area, and average crown diameter. The model achieved R squared of 93%, RMSE of 7, and accuracy of 94.5%, as shown in Figure <a href="#fig:Reg_Model5">34</a></p>
 <div id="fig:Reg_Model5" class="fignos">
 <figure>
-<img src="images\Reg_Model5.png" style="width:7in" alt="Figure 34: Predictive Model Using 4 Independent Variables" /><figcaption aria-hidden="true"><span>Figure 34:</span> Predictive Model Using 4 Independent Variables</figcaption>
+<img src="images\Reg_Model5.png" style="width:6in" alt="Figure 34: Predictive Model Using 4 Independent Variables" /><figcaption aria-hidden="true"><span>Figure 34:</span> Predictive Model Using 4 Independent Variables</figcaption>
 </figure>
 </div>
 <p>Based on the above analysis, the best model that achieved the lowest RMSE and highest accuracy is Model 5.</p>
