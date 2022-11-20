@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-19'
+date-meta: '2022-11-20'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-11-19" />
-  <meta name="citation_publication_date" content="2022-11-19" />
+  <meta name="dc.date" content="2022-11-20" />
+  <meta name="citation_publication_date" content="2022-11-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7ab4f7ea4d0fb564ec4c37131f61da96a9dd6181/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7ab4f7ea4d0fb564ec4c37131f61da96a9dd6181/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7ab4f7ea4d0fb564ec4c37131f61da96a9dd6181/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/619e21af3498e25133b018d78371d42043db2969/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/619e21af3498e25133b018d78371d42043db2969/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/619e21af3498e25133b018d78371d42043db2969/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/7ab4f7ea4d0fb564ec4c37131f61da96a9dd6181/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/619e21af3498e25133b018d78371d42043db2969/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@7ab4f7e](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/7ab4f7ea4d0fb564ec4c37131f61da96a9dd6181)
-on November 19, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@619e21a](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/619e21af3498e25133b018d78371d42043db2969)
+on November 20, 2022.
 </em></small>
 
 ## Authors
@@ -334,7 +334,7 @@ Further investigation was performed to determine why the accuracy is low. After 
 
 ![Determing outliars](images\Reg_model1_plot.png){#fig:Reg_model1_plot width=5in}
 
-The second model was performed using the same dependent and independent variables after excluding outliers’ data point. Those two outliers were determin to be tree age that were above 200 years.  The model achieved R squared of 88%, RMSE of 10.91, and accuracy of 87%, as shown in Figure @fig:Reg_Model2
+The second model was performed using the same dependent and independent variables after excluding outliers’ data point. Those two outliers were determined to be tree age that were above 200 years.  The model achieved R squared of 88%, RMSE of 10.91, and accuracy of 87%, as shown in Figure @fig:Reg_Model2
 
 ![Predictive Model after Deleting Outliers](images\Reg_Model2.png){#fig:Reg_Model2 width=7in}
 

@@ -23,14 +23,13 @@ dataset
 datasets
 DbaseID
 dbh
-determin
 Determing
 Doherty
 Doorn
 emmaagolub
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
