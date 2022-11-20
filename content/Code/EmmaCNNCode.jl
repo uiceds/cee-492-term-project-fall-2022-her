@@ -1,7 +1,7 @@
-import Pkg; 
-Pkg.add("ProgressLogging")
-Pkg.add("MLUtils")
-Pkg.add("LinearAlgebra")
+#import Pkg; 
+#Pkg.add("ProgressLogging")
+#Pkg.add("MLUtils")
+#Pkg.add("LinearAlgebra")
 
 using PlutoUI
 using CSV
@@ -14,34 +14,37 @@ using Flux
 using MLUtils
 
 
-x = let
+
 	x0 = CSV.read("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/TreeData/Data/TS3_Raw_tree_data.csv", DataFrame)
     x1 = select(x0,["CommonName", "Age", "DBH", "TreeHt", "CrnBase", "CrnHt", "CdiaPar", "CDiaPerp", "AvgCdia", "Leaf"])
     x2 = filter(x1 -> (x1.Age != -1) && (x1.DBH != -1) && (x1.TreeHt != -1) && (x1.CrnBase != -1) && (x1.CrnHt != -1) && (x1.CdiaPar != -1) && (x1.CDiaPerp != -1) && (x1.AvgCdia != -1) && (x1.Leaf != -1), x1)
     x3 = select(x2, Not(["CommonName"]))
     x4 = transpose(Matrix(x3))
-    reshape(x4, size(x4, 1), 1, size(x4,2))
-end
-println(x)
+    x = reshape(x4, size(x4, 1), 1, size(x4,2))
 
-y = let 
+#println(x)
+
     y1 = select(x2,["CommonName"])
     #println(y1)
     y2 = unique(y1)
     #println(y2)
+    y2 = DataFrame(ID = 1:157, CommonName = y2.CommonName) #create new row of IDs
 
+    id_to_names = Dict(Pair.(y2.ID, y2.CommonName))
+    names_to_id = Dict(v => k for (k, v) in id_to_names)
+    id_to_names[3] #test it works
+    names_to_id["sweetgum"] #test it works
 
-
-   
-    #namesToID = Dict(pairs(y2.CommonName))
-    #idToNames = Dict(v => k for (k, v) in namesToID) 
-    #y_test = (namesToID[name] for name in y1) #not working, trying to write each species name in the original dataframe of species y1 to an ID
-    #d = Dict(pairs(eachrow(y_test))) 
+    #y_test = (keys(names_to_id[name]) for name in y1) #not working, trying to write each species name in the original dataframe of species y1 to an ID
+    
+    for (name, row) in enumerate(eachrow(y1))
+        collect(keys(names_to_id[name]))    
+    end
     #yID = collect(keys(d)) # d needs to be a dictionary, trying to create one from y_test data frame, but Base.Generator data frame type is prohibiting.
 
     y1 = transpose((y1))
-	Flux.onehotbatch(y1, 0:9)
-end
+	y = Flux.onehotbatch(y1, 0:9)
+
 
 let
 	plots = []
