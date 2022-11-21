@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e231f5420fdd68631a7817e93a9be3bfcb2e3737/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e231f5420fdd68631a7817e93a9be3bfcb2e3737/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e231f5420fdd68631a7817e93a9be3bfcb2e3737/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9ec9da45cca88fb6f9335daa5cc1b63b156681a5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9ec9da45cca88fb6f9335daa5cc1b63b156681a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9ec9da45cca88fb6f9335daa5cc1b63b156681a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/e231f5420fdd68631a7817e93a9be3bfcb2e3737/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9ec9da45cca88fb6f9335daa5cc1b63b156681a5/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@e231f54](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/e231f5420fdd68631a7817e93a9be3bfcb2e3737)
+from [uiceds/cee-492-term-project-fall-2022-her@9ec9da4](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/9ec9da45cca88fb6f9335daa5cc1b63b156681a5)
 on November 21, 2022.
 </em></small>
 
@@ -180,9 +180,9 @@ Throughout this exploratory analysis, four main questions were developed to guid
 
 Initially, setback was investigated to understand the effects it has on the height of trees. Setback is defined as the distance from the tree to the nearest air-conditioned or heated space (which may not be the same address as the tree location), with values of 1,2,3,4, which are defined as 0m to 8m, 8.1m to 12m, 12.1m to 18m, and > 18m, respectively. . After filtering out all the missing values from the dataset, a bar graph was plotted for the mean setback across various locations. (Figure @fig:Ru_Mean_setback_cropped)
 
-![The Mean Setback across different Cities](images\Ru_Mean_setback_cropped.png){#fig:Ru_Mean_setback_cropped width=5in}
+![The Mean Setback across different Cities](images\Ru_Mean_setback_cropped.png){#fig:Ru_Mean_setback_cropped width=10in}
 
-It was identified that the cities with the highest mean setback in descending order are 1) Albuquerque (3.80385), 2) Glendale (3.56843), 3) Charlotte (3.06892), and 4) Longview (2.92153). Similarly, the cities with least mean setback in ascending order are 1) Queens, (2.01564), 2) Claremont (2.17143), 3) Berkeley (2.28313), and 4) Indianapolis (2.31699).
+It was identified that the cities with the highest mean setback in descending order are 1) Albuquerque (3.80), 2) Glendale (3.56), 3) Charlotte (3.06), and 4) Longview (2.92). Similarly, the cities with least mean setback in ascending order are 1) Queens, (2.01), 2) Claremont (2.17), 3) Berkeley (2.28), and 4) Indianapolis (2.31).
 Next, similar tree species from the top four mean setback values and bottom four mean setback values were identified. This helped to establish a similar medium for tree height comparison. However, it was found that no common species were present between the two groups. Therefore, a random city (Charlotte) was analyzed, where similar species having the same age were grouped together.
 
 ![Mean Tree Height vs Setback for Silver Maple trees](images\Ru_SilverMaple_age35_setback_2-3.png){#fig:Ru_SilverMaple_age35_setback_2-3 width=5in}
