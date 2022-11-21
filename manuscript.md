@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9ec9da45cca88fb6f9335daa5cc1b63b156681a5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9ec9da45cca88fb6f9335daa5cc1b63b156681a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9ec9da45cca88fb6f9335daa5cc1b63b156681a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49a0aa9d149503d8807bac49ca9e8fcf4a295590/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49a0aa9d149503d8807bac49ca9e8fcf4a295590/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49a0aa9d149503d8807bac49ca9e8fcf4a295590/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9ec9da45cca88fb6f9335daa5cc1b63b156681a5/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49a0aa9d149503d8807bac49ca9e8fcf4a295590/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@9ec9da4](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/9ec9da45cca88fb6f9335daa5cc1b63b156681a5)
+from [uiceds/cee-492-term-project-fall-2022-her@49a0aa9](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/49a0aa9d149503d8807bac49ca9e8fcf4a295590)
 on November 21, 2022.
 </em></small>
 
@@ -263,7 +263,7 @@ Next, a bar plot depicting the average land use (which was calculated by roundin
 
 ![Tree Species by Average Land Use.](images/E_MeanLandUse_Species_barplot.png){#fig:E_MeanLandUse_Species_barplot width=5in}
 
-Additionally, the correlations among tree height, DBH, crown height, and leaf area were explored to illustrate quantitative factors that urban planners might consider when redesigning a site. Moreover, the US Forest Service Research Archives, from which the raw tree data was obtained, describes how variables such as tree age can be used to predict a species diameter at breast height (dbh), which can in turn predict tree height, crown diameter, crown height, leaf area, and tree age [2]. Extending the investigation to include these considerations, tree height, DBH, crown height, and leaf area variables were selected and their correlations were calculated. The following graphs depict marginal histograms, which are useful in explaining the distributions of each variable as well as how they are correlated.
+Additionally, the correlations among tree height, DBH, crown height, and leaf area were explored to illustrate quantitative factors that urban planners might consider when redesigning a site. Moreover, the US Forest Service Research Archives, from which the raw tree data was obtained, describes how variables such as tree age can be used to predict a species diameter at breast height (dbh), which can in turn predict tree height, crown diameter, crown height, leaf area, and tree age [2]. Extending the investigation to include these considerations, tree height, DBH, crown height, and leaf area variables were selected and their correlations were calculated. Figures @fig:E_MargHist_DBH_Ht, @fig:E_MargHist_DBH_CrownHt,@fig:E_MargHist_LeafArea_DBH and @fig:E_Corrplot depict marginal histograms, which are useful in explaining the distributions of each variable as well as how they are correlated.
 
 ![Marginal Histogram of DBH and Tree Height.](images/E_MargHist_DBH_Ht.png){#fig:E_MargHist_DBH_Ht width=5in}
 

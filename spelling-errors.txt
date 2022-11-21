@@ -7,7 +7,7 @@ avgHeight
 barplot
 barplots
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -15,10 +15,12 @@ CDiaPerp
 Claremont
 CommonName
 convolutional
+Corrplot
 crapemyrtle
 CrnBas
-Crnbase
+CrnBase
 CrnHt
+CrownHt
 csv
 dataframe
 dataset
@@ -44,9 +46,11 @@ indeces
 Karjalainen
 Kuuluvainen
 LandUse
+LeafArea
 Lehtonen
 Longview
 Mäki
+MargHist
 MeanLandUse
 minimart
 MSE
