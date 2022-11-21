@@ -16,9 +16,9 @@ using MLUtils
 
 
 	x0 = CSV.read("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/TreeData/Data/TS3_Raw_tree_data.csv", DataFrame)
-    x1 = select(x0,["CommonName", "Age", "DBH", "TreeHt", "CrnBase", "CrnHt", "CdiaPar", "CDiaPerp", "AvgCdia", "Leaf"])
+    x1 = select(x0,["TreeType", "Age", "DBH", "TreeHt", "CrnBase", "CrnHt", "CdiaPar", "CDiaPerp", "AvgCdia", "Leaf"])
     x2 = filter(x1 -> (x1.Age != -1) && (x1.DBH != -1) && (x1.TreeHt != -1) && (x1.CrnBase != -1) && (x1.CrnHt != -1) && (x1.CdiaPar != -1) && (x1.CDiaPerp != -1) && (x1.AvgCdia != -1) && (x1.Leaf != -1), x1)
-    x3 = select(x2, Not(["CommonName"]))
+    x3 = select(x2, Not(["TreeType"]))
     x4 = transpose(Matrix(x3))
     x = reshape(x4, size(x4, 1), 1, size(x4,2))
 
@@ -45,23 +45,23 @@ using MLUtils
 =#
 # Data Wrangling for Common species
 
-		commonname = select(x2,["CommonName"])    #Vector consisting of common name values
-		finish = length(commonname.CommonName)               #for iterating 
+		treetype = select(x2,["TreeType"])    #Vector consisting of common name values
+		finish = length(treetype.TreeType)               #for iterating 
 		NameIDs = zeros(finish)      #New vector in which conversion will be stored
-		unique_values = unique(commonname)        
+		unique_values = unique(treetype)        
 		for i in 1:finish
-			for j in 1:length((unique_values.CommonName))
-				if commonname.CommonName[i] == unique_values.CommonName[j]   #When a particular unique value is found equal, the next step stores the index of that value in the new vector
+			for j in 1:length((unique_values.TreeType))
+				if treetype.TreeType[i] == unique_values.TreeType[j]   #When a particular unique value is found equal, the next step stores the index of that value in the new vector
 				NameIDs[i] = j
 
 				end
 			end
 		end
-		NameIDs   #Converted values of common name
-    
+		NameIDs   #Converted values of TreeType
+		#maximum(NameIDs)
 
     yID = transpose((NameIDs))
-	y = Flux.onehotbatch(yID,1.0:157.0)
+	y = Flux.onehotbatch(yID,1.0:maximum(NameIDs))
     y = reshape(y, size(y, 1), size(y,3))
 
 
@@ -83,11 +83,12 @@ model = Chain(
 	Conv((3,), 5 => 7, pad=(1,), relu),
 	Conv((7,), 7 => 15, pad=(1,), relu), 
 	Conv((5,), 15 => 7, pad=(1,), relu),
-	Conv((3,), 7 => 5, pad=(1,), relu),
+	Conv((3,), 7 => 9, pad=(1,), relu),
 	x -> reshape(x, :, size(x,3)),
 	#x -> maxpool(x, (2,2)),
-	Dense(5, 20),
-	Dense(20, 157),
+	Dense(9, 20),
+    Dense(20,50),
+	Dense(50, 11),
 	softmax,
 )
 
@@ -128,13 +129,15 @@ end
 accuracy(model(x), y)
 
 
-let
-	p1 = plot(loss_hist, title="Loss", label=:none, xlabel="Training step × 1000")
-	p2 = plot(accuracy_hist, title="Accuracy", label=:none)
-	p3 = confusion_plot(Flux.onecold(model(x)), Flux.onecold(y))
-	plot(p1, p2, p3, layout=(2,2), size=(800, 700))
-end
-
 confusion_plot(ŷ, y; kwargs...) = heatmap(sort(unique(y)), sort(unique(y)), 
 	[sum((ŷ .== i) .& (y .== j)) for i=unique(y), j=unique(y)],
 	xlabel="y", ylabel="ŷ", size=(400, 300), colorbartitle="Count"; kwargs...)
+
+	let
+		p1 = plot(loss_hist, title="Loss", label=:none, xlabel="Training step × 1000")
+		p2 = plot(accuracy_hist, title="Accuracy", label=:none)
+		p3 = confusion_plot(Flux.onecold(model(x)), Flux.onecold(y))
+		plot(p1, p2, p3, layout=(2,2), size=(800, 700))
+		png("C:/Users/emmag/OneDrive/EMMA_user/Docs/Academics/UIUC/2022-2023/CEE 492 Data Science/Project/Analysis_Emma/Output/E_CNN_TreeType")
+
+	end
