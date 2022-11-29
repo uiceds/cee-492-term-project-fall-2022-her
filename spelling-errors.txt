@@ -1,5 +1,4 @@
 agric
-algorism
 averegeheight
 AvgCdia
 avgDBH
@@ -13,12 +12,13 @@ CarShade
 CdiaPar
 CDiaPerp
 Claremont
+CNNs
 CommonName
 convolutional
 Corrplot
 crapemyrtle
 CrnBas
-CrnBase
+Crnbase
 CrnHt
 CrownHt
 csv
@@ -33,7 +33,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 Golub
 gov’t

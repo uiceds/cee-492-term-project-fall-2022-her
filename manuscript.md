@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-21'
+date-meta: '2022-11-29'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-11-21" />
-  <meta name="citation_publication_date" content="2022-11-21" />
+  <meta name="dc.date" content="2022-11-29" />
+  <meta name="citation_publication_date" content="2022-11-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49a0aa9d149503d8807bac49ca9e8fcf4a295590/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49a0aa9d149503d8807bac49ca9e8fcf4a295590/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49a0aa9d149503d8807bac49ca9e8fcf4a295590/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/74a4599c5880707068c87cdbd66ded1fd7b6e2e9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/74a4599c5880707068c87cdbd66ded1fd7b6e2e9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/74a4599c5880707068c87cdbd66ded1fd7b6e2e9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49a0aa9d149503d8807bac49ca9e8fcf4a295590/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/74a4599c5880707068c87cdbd66ded1fd7b6e2e9/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@49a0aa9](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/49a0aa9d149503d8807bac49ca9e8fcf4a295590)
-on November 21, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@74a4599](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/74a4599c5880707068c87cdbd66ded1fd7b6e2e9)
+on November 29, 2022.
 </em></small>
 
 ## Authors
@@ -306,7 +306,7 @@ In summary, this exploratory analysis has shown both strong and insignificant co
 ## Predictive Modeling
 
 Based on some of the above correlations and supporting evidence from the US Forest Service Research Archives [2], there are strong correlation between diameter at breast heights (dbh) and tree age, tree height, leaf area, crown height, and average crown diameter. 
-Therefore, several predictive models using 3 different machine learning techniques were explored to select the most suitable model to predict (dbh) based on the aforementioned variables. Those techniques include (1) decision-tree algorism, (2) regression, and (3) neural networks. To enable a reliable performance evaluation procedure, the collected data was divided into two separate datasets for each developed predictive model: (1) training dataset that includes 70% of all the available data that will be used in developing the model, and (2) testing dataset that includes 30% of all available data that will be used for evaluating the performance of the developed model. The following three sections provide a detailed description of these aforementioned 3 machine learning techniques.
+Therefore, several predictive models using 3 different machine learning techniques were explored to select the most suitable model to predict (dbh) based on the aforementioned variables. Those techniques include (1) decision-tree algorithm, (2) regression, and (3) neural networks. To enable a reliable performance evaluation procedure, the collected data was divided into two separate datasets for each developed predictive model: (1) training dataset that includes 70% of all the available data that will be used in developing the model, and (2) testing dataset that includes 30% of all available data that will be used for evaluating the performance of the developed model. The following three sections provide a detailed description of these aforementioned 3 machine learning techniques.
 
 ### Decision-Tree Algorithm 
 
@@ -362,11 +362,15 @@ Due to this low accuracy, a more simplified NN on tree species was performed wit
 
 Because of this, a NN was constructed to predict tree type (which has 11 unique tree types) instead of tree species to simplify the outputs being predicted. To briefly recall, tree types are 3 letter codes, where the first two letters refer to life form (BD=broadleaf deciduous, BE=broadleaf evergreen, CE=coniferous evergreen, PE=palm evergreen) and the third letter refers to the tree's mature height (S=small, which is < 8 meters, M=medium, which is 8-15 meters, and L=large, which is > 15 meters). Starting simply with only 2 dense layers, the neural network yielded a better but still poor accuracy of 41%.
 
-To try improving this, a CNN was performed on tree type with 5 convolutional layers of increasing and decreasing filter sizes and 2 dense layers. A slightly better accuracy of 47% was produced, which could suggest how more complex convolutional layers might prove more effective. Moving forward, accuracy of this model will be re-structured for better improvement.
+To try improving this, a CNN was performed on tree type with 5 convolutional layers of increasing and decreasing filter sizes and 2 dense layers. Although CNNs are typically used for problems involving spatial patterns, we tried building one anyway to see if prediction accuracy could be improved. A slightly better accuracy of 47% was in fact achieved, which could suggest how more complex convolutional layers might prove more effective. Moving forward, accuracy of this model will be re-structured for better improvement.
 
 The following image shows the accuracy of the CNN using 5 convolutional layers and 2 dense layers to predict tree type over many iterations.
 
 ![Convolutional Neural Network Predicting TreeType](images/E_CNN_TreeType.png){#fig:E_CNN_TreeType width=6in}
+
+
+### Summary of Model Comparison
+To summarize all models that were performed, the table below shows the inputs, outputs, and associated accuracy for each model in terms of R^2 and RSME.
 
 ## References {.page_break_before}
 

@@ -125,7 +125,6 @@ content/04.ExploratoryAnalysis.md:128:Longview
 content/04.ExploratoryAnalysis.md:134:DBH
 content/04.ExploratoryAnalysis.md:136:DBH
 content/05. Prediction.md:3:dbh
-content/05. Prediction.md:4:algorism
 content/05. Prediction.md:4:dataset
 content/05. Prediction.md:4:dataset
 content/05. Prediction.md:4:datasets
@@ -179,11 +178,13 @@ content/05. Prediction.md:58:BD
 content/05. Prediction.md:58:broadleaf
 content/05. Prediction.md:58:broadleaf
 content/05. Prediction.md:58:NN
+content/05. Prediction.md:60:CNNs
 content/05. Prediction.md:60:convolutional
 content/05. Prediction.md:60:convolutional
 content/05. Prediction.md:62:convolutional
 content/05. Prediction.md:64:Convolutional
 content/05. Prediction.md:64:TreeType
+content/05. Prediction.md:68:RSME
 content/90.back-matter.md:6:OSU
 content/90.back-matter.md:8:Doorn
 content/90.back-matter.md:8:Peper
