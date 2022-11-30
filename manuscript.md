@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a7ff2838a7091f5d509a4b9bf86195d98730cec0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a7ff2838a7091f5d509a4b9bf86195d98730cec0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a7ff2838a7091f5d509a4b9bf86195d98730cec0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/82c86cf834cde77cbebfe1acb63af06516a2fb0e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/82c86cf834cde77cbebfe1acb63af06516a2fb0e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/82c86cf834cde77cbebfe1acb63af06516a2fb0e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a7ff2838a7091f5d509a4b9bf86195d98730cec0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/82c86cf834cde77cbebfe1acb63af06516a2fb0e/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@a7ff283](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/a7ff2838a7091f5d509a4b9bf86195d98730cec0)
+from [uiceds/cee-492-term-project-fall-2022-her@82c86cf](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/82c86cf834cde77cbebfe1acb63af06516a2fb0e)
 on November 30, 2022.
 </em></small>
 
@@ -314,12 +314,6 @@ This model was run with two to five independent variables in order to predict DB
 
 
 ![Decision Tree using 2,3,4, and 5 independent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter](images/DECtree Table.png){#fig:DECtree Table width=6in}
-
-![Decision Tree using 3 independent variables: Tree Height, Age, and Leaf Area](images/DT_AgeHtLeaf.png){#fig:DT_AgeHtLeaf width=3in}
-
-![Decision Tree using 4 independent variables: Tree Height, Age, Leaf Area, and Crown Height](images/DT_ageHtLeafCrnHt.png){#fig:DT_AgeHtLeafCrnHt width=3in}
-
-![Decision Tree using 5 independent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter](images/DT_ageHtLeafCrnHtCDia.png){#fig:DT_AgeHtLeafCrnHtCdia width=3in}
 
 With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. Overall the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the linear relation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.
 

@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -14,7 +14,7 @@ CDiaPerp
 Claremont
 CNNs
 CommonName
-Convolutional
+convolutional
 Corrplot
 crapemyrtle
 CrnBas
@@ -34,7 +34,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
@@ -75,7 +75,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 TreeType
