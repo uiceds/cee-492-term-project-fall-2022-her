@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-29'
+date-meta: '2022-11-30'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-11-29" />
-  <meta name="citation_publication_date" content="2022-11-29" />
+  <meta name="dc.date" content="2022-11-30" />
+  <meta name="citation_publication_date" content="2022-11-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/74a4599c5880707068c87cdbd66ded1fd7b6e2e9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/74a4599c5880707068c87cdbd66ded1fd7b6e2e9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/74a4599c5880707068c87cdbd66ded1fd7b6e2e9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9d69c237290605469564f57716f3fb2617892a50/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9d69c237290605469564f57716f3fb2617892a50/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9d69c237290605469564f57716f3fb2617892a50/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/74a4599c5880707068c87cdbd66ded1fd7b6e2e9/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/9d69c237290605469564f57716f3fb2617892a50/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@74a4599](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/74a4599c5880707068c87cdbd66ded1fd7b6e2e9)
-on November 29, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@9d69c23](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/9d69c237290605469564f57716f3fb2617892a50)
+on November 30, 2022.
 </em></small>
 
 ## Authors
@@ -323,6 +323,7 @@ This model was run with two to five independent variables in order to predict DB
 
 With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. Overall the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the linear relation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.
 
+A classification decision tree was also tested to see if the tree type could be predicted using crown height, age, DBH, and tree height. This model was run with three folds similarly to the previous decision tree. The resulting model had very low accuracy of 0.369198, 0.377247, and 0.376442. These values of accuracy suggest that predicting tree type in this manner is not reliable.
 
 ### Regression
 

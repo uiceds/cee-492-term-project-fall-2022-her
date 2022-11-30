@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -14,7 +14,7 @@ CDiaPerp
 Claremont
 CNNs
 CommonName
-convolutional
+Convolutional
 Corrplot
 crapemyrtle
 CrnBas
