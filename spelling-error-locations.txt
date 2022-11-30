@@ -130,8 +130,8 @@ content/05. Prediction.md:4:dataset
 content/05. Prediction.md:4:datasets
 content/05. Prediction.md:4:dbh
 content/05. Prediction.md:8:DBH
-content/05. Prediction.md:15:variabless
-content/05. Prediction.md:17:variabless
+content/05. Prediction.md:11:DECtree
+content/05. Prediction.md:11:DECtree
 content/05. Prediction.md:19:dataset
 content/05. Prediction.md:19:DBH
 content/05. Prediction.md:19:DBH

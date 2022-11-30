@@ -6,7 +6,7 @@ avgHeight
 barplot
 barplots
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -18,7 +18,7 @@ Convolutional
 Corrplot
 crapemyrtle
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 CrownHt
 csv
@@ -26,7 +26,8 @@ dataframe
 dataset
 datasets
 DbaseID
-dbh
+DBH
+DECtree
 Determing
 Doherty
 Doorn
@@ -79,7 +80,6 @@ TreeID
 TreeOr
 TreeType
 unmanaged
-variabless
 Vienansalo
 WireConf
 xls
