@@ -135,13 +135,12 @@ content/05. Prediction.md:13:DBH
 content/05. Prediction.md:13:DBH
 content/05. Prediction.md:15:DBH
 content/05. Prediction.md:19:dbh
-content/05. Prediction.md:19:dbh
+content/05. Prediction.md:19:lpw
 content/05. Prediction.md:19:RMSE
-content/05. Prediction.md:19:RMSE
+content/05. Prediction.md:19:RSEM
 content/05. Prediction.md:23:datasets
 content/05. Prediction.md:23:dbh
 content/05. Prediction.md:25:Determing
-content/05. Prediction.md:25:outliars
 content/05. Prediction.md:27:RMSE
 content/05. Prediction.md:31:RMSE
 content/05. Prediction.md:35:RMSE
@@ -183,7 +182,10 @@ content/05. Prediction.md:55:convolutional
 content/05. Prediction.md:57:convolutional
 content/05. Prediction.md:59:Convolutional
 content/05. Prediction.md:59:TreeType
+content/05. Prediction.md:63:accuracies
 content/05. Prediction.md:63:RSME
+content/06.Conclusion.md:3:DBH
+content/06.Conclusion.md:3:TreeHt
 content/90.back-matter.md:6:OSU
 content/90.back-matter.md:8:Doorn
 content/90.back-matter.md:8:Peper
