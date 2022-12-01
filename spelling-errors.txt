@@ -18,7 +18,7 @@ CommonName
 Convolutional
 Corrplot
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 CrownHt
 csv
@@ -27,7 +27,7 @@ datapoints
 dataset
 datasets
 DbaseID
-dbh
+DBH
 Determing
 Doherty
 Doorn
@@ -35,7 +35,7 @@ emmaagolub
 excude
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
