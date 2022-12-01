@@ -19,7 +19,7 @@ Convolutional
 Corrplot
 crapemyrtle
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 CrownHt
 csv
@@ -27,7 +27,7 @@ dataframe
 dataset
 datasets
 DbaseID
-DBH
+dbh
 DECtree
 Determing
 Doherty
@@ -35,7 +35,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
