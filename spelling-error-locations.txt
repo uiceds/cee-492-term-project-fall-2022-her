@@ -121,6 +121,7 @@ content/04.ExploratoryAnalysis.md:112:DBH
 content/04.ExploratoryAnalysis.md:120:Longview
 content/04.ExploratoryAnalysis.md:126:DBH
 content/04.ExploratoryAnalysis.md:128:DBH
+content/04.ExploratoryAnalysis.md:130:heatmap
 content/05. Prediction.md:3:dbh
 content/05. Prediction.md:4:dataset
 content/05. Prediction.md:4:dataset

@@ -35,13 +35,14 @@ emmaagolub
 excude
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
 GrowthRate
 Hadil
 hadilhelaly
+heatmap
 Helaly
 hiVSage
 indeces

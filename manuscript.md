@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/abaa5bc22c72314c3dca8662a942a0c13bd5d024/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/abaa5bc22c72314c3dca8662a942a0c13bd5d024/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/abaa5bc22c72314c3dca8662a942a0c13bd5d024/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/673797a8a2c134c725144a8abecc387e9cc28908/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/673797a8a2c134c725144a8abecc387e9cc28908/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/673797a8a2c134c725144a8abecc387e9cc28908/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/abaa5bc22c72314c3dca8662a942a0c13bd5d024/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/673797a8a2c134c725144a8abecc387e9cc28908/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@abaa5bc](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/abaa5bc22c72314c3dca8662a942a0c13bd5d024)
+from [uiceds/cee-492-term-project-fall-2022-her@673797a](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/673797a8a2c134c725144a8abecc387e9cc28908)
 on December 1, 2022.
 </em></small>
 
@@ -292,6 +292,10 @@ Correlation Coefficients:
     Leaf Area vs DBH: 0.713
 
 3) DBH vs Crown Base Height: 0.422
+
+It was also interesting to explore the relationship of tree type in comparison to various variables present in the data. We commenced with label encoding the string variables and converted them into float values. This potential relationship between the variables with respect to tree type was explored with the help of a correlation matrix which can be explained in the form of a heatmap by figure @fig:Ru_Final_heatmap. The independent variables reflected poor correlation with the tree type.
+
+![Correlation Matrix](images/Ru_Final_heatmap.png){#fig:Ru_Final_heatmap width=5in}
 
 In summary, this exploratory analysis has shown both strong and insignificant correlations among raw tree data variables. The relationship between tree height and setback revealed insignificant correlation , while moderate-to-strong correlations between tree age and both height and diameter of tree exist. Additionally, correlation between tree age and its diameter is stronger than that of tree age and height. Overall, relationships among tree size and tree growth are significant because they can be used by urban forest managers, landscape architects, and city planners to select suitable trees given limited growing space or an intended purpose. Predicting the most suitable trees for a site has the potential to reduce costly future conflicts between trees and infrastructure [2]. 
 
