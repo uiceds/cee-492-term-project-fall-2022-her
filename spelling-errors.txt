@@ -1,10 +1,10 @@
 accuracies
+acheived
 agric
 averegeheight
 AvgCdia
 avgDBH
 avgHeight
-barplot
 barplots
 BD
 blasiak
@@ -17,9 +17,8 @@ CNNs
 CommonName
 Convolutional
 Corrplot
-crapemyrtle
 CrnBas
-CrnBase
+Crnbase
 CrnHt
 CrownHt
 csv
@@ -28,7 +27,7 @@ datapoints
 dataset
 datasets
 DbaseID
-dbh
+DBH
 Determing
 Doherty
 Doorn
@@ -36,7 +35,7 @@ emmaagolub
 excude
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
@@ -54,7 +53,6 @@ Lehtonen
 Longview
 Mäki
 MargHist
-MeanLandUse
 minimart
 MSE
 NN
@@ -78,11 +76,12 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 TreeType
 unmanaged
+varible
 Vienansalo
 WireConf
 xls

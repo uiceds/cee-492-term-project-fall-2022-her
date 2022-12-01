@@ -89,104 +89,107 @@ content/04.ExploratoryAnalysis.md:44:Longview
 content/04.ExploratoryAnalysis.md:48:Longview
 content/04.ExploratoryAnalysis.md:50:Longview
 content/04.ExploratoryAnalysis.md:52:dataset
-content/04.ExploratoryAnalysis.md:54:barplot
-content/04.ExploratoryAnalysis.md:54:crapemyrtle
-content/04.ExploratoryAnalysis.md:54:dataset
-content/04.ExploratoryAnalysis.md:58:barplots
-content/04.ExploratoryAnalysis.md:66:DBH
-content/04.ExploratoryAnalysis.md:66:DBH
-content/04.ExploratoryAnalysis.md:66:TreeHt
-content/04.ExploratoryAnalysis.md:66:TreeHt
-content/04.ExploratoryAnalysis.md:66:WireConf
-content/04.ExploratoryAnalysis.md:66:WireConf
-content/04.ExploratoryAnalysis.md:68:dataset
-content/04.ExploratoryAnalysis.md:68:numberoftrees
-content/04.ExploratoryAnalysis.md:68:numberoftrees
-content/04.ExploratoryAnalysis.md:68:WireConf
-content/04.ExploratoryAnalysis.md:70:numberoftrees
-content/04.ExploratoryAnalysis.md:72:averegeheight
-content/04.ExploratoryAnalysis.md:74:averegeheight
-content/04.ExploratoryAnalysis.md:82:DBH
-content/04.ExploratoryAnalysis.md:100:dbh
+content/04.ExploratoryAnalysis.md:54:barplots
+content/04.ExploratoryAnalysis.md:62:DBH
+content/04.ExploratoryAnalysis.md:62:DBH
+content/04.ExploratoryAnalysis.md:62:TreeHt
+content/04.ExploratoryAnalysis.md:62:TreeHt
+content/04.ExploratoryAnalysis.md:62:WireConf
+content/04.ExploratoryAnalysis.md:62:WireConf
+content/04.ExploratoryAnalysis.md:64:dataset
+content/04.ExploratoryAnalysis.md:64:numberoftrees
+content/04.ExploratoryAnalysis.md:64:numberoftrees
+content/04.ExploratoryAnalysis.md:64:WireConf
+content/04.ExploratoryAnalysis.md:66:numberoftrees
+content/04.ExploratoryAnalysis.md:68:averegeheight
+content/04.ExploratoryAnalysis.md:70:averegeheight
+content/04.ExploratoryAnalysis.md:78:DBH
+content/04.ExploratoryAnalysis.md:92:dbh
+content/04.ExploratoryAnalysis.md:92:DBH
+content/04.ExploratoryAnalysis.md:92:DBH
+content/04.ExploratoryAnalysis.md:94:DBH
+content/04.ExploratoryAnalysis.md:96:DBH
+content/04.ExploratoryAnalysis.md:98:DBH
 content/04.ExploratoryAnalysis.md:100:DBH
-content/04.ExploratoryAnalysis.md:100:DBH
+content/04.ExploratoryAnalysis.md:102:DBH
+content/04.ExploratoryAnalysis.md:102:DBH
 content/04.ExploratoryAnalysis.md:102:DBH
 content/04.ExploratoryAnalysis.md:104:DBH
 content/04.ExploratoryAnalysis.md:106:DBH
-content/04.ExploratoryAnalysis.md:108:DBH
-content/04.ExploratoryAnalysis.md:110:DBH
-content/04.ExploratoryAnalysis.md:110:DBH
 content/04.ExploratoryAnalysis.md:110:DBH
 content/04.ExploratoryAnalysis.md:112:DBH
-content/04.ExploratoryAnalysis.md:114:DBH
-content/04.ExploratoryAnalysis.md:118:DBH
-content/04.ExploratoryAnalysis.md:120:DBH
-content/04.ExploratoryAnalysis.md:128:Longview
-content/04.ExploratoryAnalysis.md:134:DBH
-content/04.ExploratoryAnalysis.md:136:DBH
+content/04.ExploratoryAnalysis.md:120:Longview
+content/04.ExploratoryAnalysis.md:126:DBH
+content/04.ExploratoryAnalysis.md:128:DBH
 content/05. Prediction.md:3:dbh
 content/05. Prediction.md:4:dataset
 content/05. Prediction.md:4:dataset
 content/05. Prediction.md:4:datasets
 content/05. Prediction.md:4:dbh
 content/05. Prediction.md:8:DBH
-content/05. Prediction.md:13:dataset
-content/05. Prediction.md:13:DBH
-content/05. Prediction.md:13:DBH
-content/05. Prediction.md:15:DBH
-content/05. Prediction.md:19:dbh
-content/05. Prediction.md:19:dbh
-content/05. Prediction.md:19:RMSE
-content/05. Prediction.md:19:RSEM
-content/05. Prediction.md:23:datapoints
-content/05. Prediction.md:23:datasets
-content/05. Prediction.md:23:dbh
-content/05. Prediction.md:23:excude
-content/05. Prediction.md:23:oulliers
-content/05. Prediction.md:25:Determing
-content/05. Prediction.md:27:RMSE
-content/05. Prediction.md:31:RMSE
-content/05. Prediction.md:35:RMSE
-content/05. Prediction.md:39:RMSE
-content/05. Prediction.md:43:RMSE
-content/05. Prediction.md:47:CrnBase
-content/05. Prediction.md:47:dataframe
-content/05. Prediction.md:47:dataset
-content/05. Prediction.md:47:DBH
-content/05. Prediction.md:47:DBH
-content/05. Prediction.md:47:DBH
-content/05. Prediction.md:47:MSE
-content/05. Prediction.md:47:RSME
-content/05. Prediction.md:47:TreeHt
-content/05. Prediction.md:47:TreeHt
-content/05. Prediction.md:49:AvgCdia
-content/05. Prediction.md:49:CdiaPar
-content/05. Prediction.md:49:CDiaPerp
-content/05. Prediction.md:49:CommonName
-content/05. Prediction.md:49:CommonName
-content/05. Prediction.md:49:convolutional
-content/05. Prediction.md:49:convolutional
-content/05. Prediction.md:49:CrnBase
-content/05. Prediction.md:49:CrnHt
-content/05. Prediction.md:49:DBH
-content/05. Prediction.md:49:indeces
-content/05. Prediction.md:49:TreeHt
-content/05. Prediction.md:49:TreeType
-content/05. Prediction.md:51:convolutional
-content/05. Prediction.md:51:DBH
-content/05. Prediction.md:51:NN
-content/05. Prediction.md:53:BD
-content/05. Prediction.md:53:broadleaf
-content/05. Prediction.md:53:broadleaf
-content/05. Prediction.md:53:NN
-content/05. Prediction.md:55:CNNs
-content/05. Prediction.md:55:convolutional
-content/05. Prediction.md:55:convolutional
-content/05. Prediction.md:57:convolutional
-content/05. Prediction.md:59:Convolutional
-content/05. Prediction.md:59:TreeType
-content/05. Prediction.md:63:accuracies
-content/05. Prediction.md:63:RSME
+content/05. Prediction.md:14:dataset
+content/05. Prediction.md:14:DBH
+content/05. Prediction.md:14:DBH
+content/05. Prediction.md:16:DBH
+content/05. Prediction.md:20:dbh
+content/05. Prediction.md:20:dbh
+content/05. Prediction.md:20:RMSE
+content/05. Prediction.md:20:RSEM
+content/05. Prediction.md:24:datapoints
+content/05. Prediction.md:24:datasets
+content/05. Prediction.md:24:dbh
+content/05. Prediction.md:24:excude
+content/05. Prediction.md:24:oulliers
+content/05. Prediction.md:26:Determing
+content/05. Prediction.md:28:RMSE
+content/05. Prediction.md:32:RMSE
+content/05. Prediction.md:36:RMSE
+content/05. Prediction.md:40:RMSE
+content/05. Prediction.md:44:RMSE
+content/05. Prediction.md:48:CrnBase
+content/05. Prediction.md:48:dataframe
+content/05. Prediction.md:48:dataset
+content/05. Prediction.md:48:DBH
+content/05. Prediction.md:48:DBH
+content/05. Prediction.md:48:DBH
+content/05. Prediction.md:48:MSE
+content/05. Prediction.md:48:RSME
+content/05. Prediction.md:48:TreeHt
+content/05. Prediction.md:48:TreeHt
+content/05. Prediction.md:50:AvgCdia
+content/05. Prediction.md:50:CdiaPar
+content/05. Prediction.md:50:CDiaPerp
+content/05. Prediction.md:50:CommonName
+content/05. Prediction.md:50:CommonName
+content/05. Prediction.md:50:convolutional
+content/05. Prediction.md:50:convolutional
+content/05. Prediction.md:50:CrnBase
+content/05. Prediction.md:50:CrnHt
+content/05. Prediction.md:50:DBH
+content/05. Prediction.md:50:indeces
+content/05. Prediction.md:50:TreeHt
+content/05. Prediction.md:50:TreeType
+content/05. Prediction.md:52:convolutional
+content/05. Prediction.md:52:DBH
+content/05. Prediction.md:52:NN
+content/05. Prediction.md:54:BD
+content/05. Prediction.md:54:broadleaf
+content/05. Prediction.md:54:broadleaf
+content/05. Prediction.md:54:NN
+content/05. Prediction.md:56:CNNs
+content/05. Prediction.md:56:convolutional
+content/05. Prediction.md:56:convolutional
+content/05. Prediction.md:58:convolutional
+content/05. Prediction.md:60:Convolutional
+content/05. Prediction.md:60:TreeType
+content/05. Prediction.md:64:accuracies
+content/05. Prediction.md:64:acheived
+content/05. Prediction.md:64:acheived
+content/05. Prediction.md:64:dbh
+content/05. Prediction.md:64:RMSE
+content/05. Prediction.md:64:RMSE
+content/05. Prediction.md:64:RSME
+content/05. Prediction.md:64:varible
 content/06.Conclusion.md:3:DBH
 content/06.Conclusion.md:3:TreeHt
 content/90.back-matter.md:6:OSU

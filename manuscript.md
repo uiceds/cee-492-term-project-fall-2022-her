@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c382a57082f764079082f57d3829567aaa0f68a1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c382a57082f764079082f57d3829567aaa0f68a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c382a57082f764079082f57d3829567aaa0f68a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a3966d43be9e2e18e0b83dcf46a997f2e415896/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a3966d43be9e2e18e0b83dcf46a997f2e415896/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a3966d43be9e2e18e0b83dcf46a997f2e415896/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/c382a57082f764079082f57d3829567aaa0f68a1/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a3966d43be9e2e18e0b83dcf46a997f2e415896/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@c382a57](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/c382a57082f764079082f57d3829567aaa0f68a1)
+from [uiceds/cee-492-term-project-fall-2022-her@3a3966d](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/3a3966d43be9e2e18e0b83dcf46a997f2e415896)
 on December 1, 2022.
 </em></small>
 
@@ -217,10 +217,6 @@ This figure shows that the growth rate is not constant for one tree type, and ma
 
 These figures illustrate a relationship between location and height of trees. This relationship may be attributed to different temperature, precipitation, or other factors outside of the dataset.
 
-To further understand the differences for tree height across all the locations in the dataset, a barplot of tree heights grouped by species was produced over all locations to study typical heights associated with each tree type. From Fig @fig:E_TreeHt_Species_barplot, one can observe how some trees (i.e., blue gum eucalyptus, valley oak) present the highest tree heights compared to others, such as the common crapemyrtle or the pinyon pine, which present much smaller heights. City planners might use this information to decide which trees to include in their city landscape plans.
-
-![Tree Height by Species.](images/E_TreeHt_Species_barplot.png){#fig:E_TreeHt_Species_barplot width=5in}
-
 Then, barplots of tree height by city and region were investigated to develop a deeper understanding of spatial tree height distributions. The following figures present how the average tree height varies by city and region.
 
 ![Tree Height by City.](images/E_TreeHt_City_barplot.png){#fig:E_TreeHt_City_barplot width=5in}
@@ -258,10 +254,6 @@ The last step was to find the correlation between the height and diameter of tre
 Therefore, the presence of utility lines does not have a great impact on the growth of trees. 
 
 Next, the relationships among tree species, tree height, land use, and location were explored to identify any plausible correlations for the purpose of urban tree planning. One may consider how urban city planners select particular species of tree to plant within specific land use types. For example, perhaps an urban planner might select a particular tree species based on average height or canopy size (leaf area) in order to provide suitable landscaping along a street and provide sufficient shade to city goers without intercepting overhead telephone lines or buildings. Furthermore, these data were grouped by city and region to investigate spatial differences among the variables. 
-
-Next, a bar plot depicting the average land use (which was calculated by rounding the mean land use type across species, where land use contains the following categories: 1=single family residential, 2=multi-family residential, 3=industrial/institutional/large commercial, 4=park/vacant/other, 5=small commercial, 6=transportation corridor) was created to visualize which species might be more commonly associated with a land use type. Based on the results in Fig. @fig:E_MeanLandUse_Species_barplot, it appears that some tree species are more frequently linked to specific land use types (i.e., evergreen ash trees to small/commercial land uses or both willow acacia and japanese maple to single family residential land uses).
-
-![Tree Species by Average Land Use.](images/E_MeanLandUse_Species_barplot.png){#fig:E_MeanLandUse_Species_barplot width=5in}
 
 Additionally, the correlations among tree height, DBH, crown height, and leaf area were explored to illustrate quantitative factors that urban planners might consider when redesigning a site. Moreover, the US Forest Service Research Archives, from which the raw tree data was obtained, describes how variables such as tree age can be used to predict a species diameter at breast height (dbh), which can in turn predict tree height, crown diameter, crown height, leaf area, and tree age [2]. Extending the investigation to include these considerations, tree height, DBH, crown height, and leaf area variables were selected and their correlations were calculated. Figures @fig:E_MargHist_DBH_Ht, @fig:E_MargHist_DBH_CrownHt,@fig:E_MargHist_LeafArea_DBH and @fig:E_Corrplot depict marginal histograms, which are useful in explaining the distributions of each variable as well as how they are correlated.
 
@@ -310,12 +302,13 @@ Therefore, several predictive models using 3 different machine learning techniqu
 
 ### Decision-Tree Algorithm 
 
-A regression decision tree model was run with two, three, four, and five independent variables in order to predict DBH. The output of these iterations are shown in Figure @fig:table1 :
+A regression decision tree model was run with two, three, four, and five independent variables in order to predict DBH as shown in Table @fig:variables.
 
+![Dependent And Independent variables](images/variables.png){#fig:variables width=6in}
 
 ![Decision Tree using 2,3,4, and 5 independent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter](images/table1.png){#fig:table1 width=6in}
 
-With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. But overall, the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the linear relation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.
+As shown in Figure @fig:table1 With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. But overall, the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the correlation is better with more variables and DBH than a few variables and DBH. This finding shows that a linear regression model might be a better method for modeling this dataset.
 
 A classification decision tree was also tested to see if the tree type could be predicted using crown height, age, DBH, and tree height. This model was run with three folds similarly to the previous decision tree. The resulting model had very low accuracy of 0.369198, 0.377247, and 0.376442. These values of accuracy suggest that predicting tree type in this manner is not reliable.
 
@@ -365,7 +358,10 @@ The following image shows the accuracy of the CNN using 5 convolutional layers a
 
 
 ### Summary of Model Comparison
-To summarize all models that were performed, the table below shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME.
+To summarize all models that were performed, Table @fig:summary_table shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average dbh is the regression model using 4 independent varible: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93% 
+
+
+![Models Summary](images/summary_table.png){#fig:summary_table width=6in}
 
 ### Discussion and Conclusion
 
