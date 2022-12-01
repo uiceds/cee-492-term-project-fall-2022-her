@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49bee3008abbb050877648f2813cc9a93a6bae17/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49bee3008abbb050877648f2813cc9a93a6bae17/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49bee3008abbb050877648f2813cc9a93a6bae17/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/37721347b180332393eca13c911f45dd320dc8e1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/37721347b180332393eca13c911f45dd320dc8e1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/37721347b180332393eca13c911f45dd320dc8e1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/49bee3008abbb050877648f2813cc9a93a6bae17/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/37721347b180332393eca13c911f45dd320dc8e1/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@49bee30](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/49bee3008abbb050877648f2813cc9a93a6bae17)
+from [uiceds/cee-492-term-project-fall-2022-her@3772134](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/37721347b180332393eca13c911f45dd320dc8e1)
 on December 1, 2022.
 </em></small>
 
@@ -323,7 +323,7 @@ A classification decision tree was also tested to see if the tree type could be 
 
 This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average dbh). To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy. As shown in Figure @fig:Reg_model1, the model achieved an R-squared of 74%, RSEM of 21.12, and a lpw accuracy of 12.4%. 
 
-![Predictive Model using one independent variable](images/Reg_Model1.png){#fig:Reg_model1 width=6in}
+![Predictive Model using one independent variable](images/Reg_Model1.png){#fig:Reg_model1 width=5in}
 
 We investigated further to find an explanation for the model's poor performance. We plotted the average dbh in the y-axis and age in the x-axis to visualize the training and testing datasets. We noticed that two data points were outliers, as shown in Figure @fig:Reg_model1_plot.
 

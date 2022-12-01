@@ -7,7 +7,7 @@ avgHeight
 barplot
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -15,7 +15,7 @@ CDiaPerp
 Claremont
 CNNs
 CommonName
-Convolutional
+convolutional
 Corrplot
 crapemyrtle
 CrnBas
@@ -27,7 +27,7 @@ dataframe
 dataset
 datasets
 DbaseID
-dbh
+DBH
 DECtree
 Determing
 Doherty
@@ -35,7 +35,7 @@ Doorn
 emmaagolub
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
