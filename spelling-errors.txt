@@ -7,7 +7,7 @@ avgDBH
 avgHeight
 barplots
 BD
-blasiak
+Blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -27,7 +27,7 @@ datapoints
 dataset
 datasets
 DbaseID
-DBH
+dbh
 Determing
 Doherty
 Doorn
@@ -35,7 +35,7 @@ emmaagolub
 excude
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
@@ -76,7 +76,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 TreeType
