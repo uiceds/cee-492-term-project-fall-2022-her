@@ -19,7 +19,7 @@ CommonName
 Convolutional
 Corrplot
 CrnBas
-CrnBase
+Crnbase
 CrnHt
 CrownHt
 csv
@@ -28,7 +28,7 @@ datapoints
 dataset
 datasets
 DbaseID
-DBH
+dbh
 dectreeWdecforest
 Determing
 Doherty
