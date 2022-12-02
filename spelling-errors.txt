@@ -18,7 +18,7 @@ CommonName
 Convolutional
 Corrplot
 CrnBas
-CrnBase
+Crnbase
 CrnHt
 CrownHt
 csv
@@ -35,7 +35,7 @@ emmaagolub
 excude
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
@@ -77,7 +77,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHt
+TreeHT
 TreeID
 TreeOr
 TreeType
