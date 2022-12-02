@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/77abe3f442ae7659f60f735244d47d8b22da5d4a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/77abe3f442ae7659f60f735244d47d8b22da5d4a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/77abe3f442ae7659f60f735244d47d8b22da5d4a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/072c4a190abf529a2ac00c9dcba5d76818b9fd23/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/072c4a190abf529a2ac00c9dcba5d76818b9fd23/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/072c4a190abf529a2ac00c9dcba5d76818b9fd23/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/77abe3f442ae7659f60f735244d47d8b22da5d4a/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/072c4a190abf529a2ac00c9dcba5d76818b9fd23/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@77abe3f](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/77abe3f442ae7659f60f735244d47d8b22da5d4a)
+from [uiceds/cee-492-term-project-fall-2022-her@072c4a1](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/072c4a190abf529a2ac00c9dcba5d76818b9fd23)
 on December 2, 2022.
 </em></small>
 
@@ -305,7 +305,7 @@ Based on some of the above correlations and supporting evidence from the US Fore
 Therefore, several predictive models using 3 different machine learning techniques were explored to select the most suitable model to predict dbh based on the aforementioned variables. Those techniques include (1) decision-tree algorithm, (2) regression, and (3) neural networks. To enable a reliable performance evaluation procedure, the collected data was divided into two separate datasets for each developed predictive model: (1) training dataset that includes 70% of all the available data that will be used in developing the model, and (2) testing dataset that includes 30% of all available data that will be used for evaluating the performance of the developed model. The following three sections provide a detailed description of these aforementioned 3 machine learning techniques.
 
 ### Decision-Tree Algorithm 
-A regression decision tree model was run with two, three, four, and five independent variables in order to predict DBH. Additionally, a random forest was run on all five of the independent variables. The output of these iterations are shown in Figure @fig:dectreeWdecforest.:
+A regression decision tree model was run with two, three, four, and five independent variables in order to predict DBH. Additionally, a random forest was run on all five of the independent variables. The output of these iterations are shown in Figure @fig:dectreeWdecforest.
 
 ![Random Forest on 5 independent variables and decision tree using 2,3,4, and 5 independent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter](images/dectreeWdecforest.png){#fig:dectreeWdecforest.png width=6in}
 
