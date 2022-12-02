@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/072c4a190abf529a2ac00c9dcba5d76818b9fd23/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/072c4a190abf529a2ac00c9dcba5d76818b9fd23/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/072c4a190abf529a2ac00c9dcba5d76818b9fd23/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/bc7a9e5dbbeca45bd6398abe2fdedf21c0fb7eaf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/bc7a9e5dbbeca45bd6398abe2fdedf21c0fb7eaf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/bc7a9e5dbbeca45bd6398abe2fdedf21c0fb7eaf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/072c4a190abf529a2ac00c9dcba5d76818b9fd23/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/bc7a9e5dbbeca45bd6398abe2fdedf21c0fb7eaf/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@072c4a1](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/072c4a190abf529a2ac00c9dcba5d76818b9fd23)
+from [uiceds/cee-492-term-project-fall-2022-her@bc7a9e5](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/bc7a9e5dbbeca45bd6398abe2fdedf21c0fb7eaf)
 on December 2, 2022.
 </em></small>
 
@@ -367,7 +367,7 @@ To summarize all models that were performed, Table @fig:summary_table shows the 
 
 ### Discussion and Conclusion
 
-In summary, the variety of characteristics present in the raw tree data set posed quite a challenge when we approached the construction of a well-performing predictive model. Unfortunately, none of the three predictive models (decision tree, linear regression, and neural net) illustrated sufficient performance, though some were better than others, such as the linear regression model using four independent variables (tree age, average tree height, average leaf area, and average crown diameter) and the simple neural net using one input variable (DBH) to predict one output variable (TreeHt). [.... TALK ABOUT CORRELATION MATRIX TO SELECT VARIABLES OF HIGHER CORRELATION HERE? ....]
+In summary, the variety of characteristics present in the raw tree data set posed quite a challenge when we approached the construction of a well-performing predictive model. Unfortunately, none of the three predictive models (decision tree, linear regression, and neural net) illustrated sufficient performance, though some were better than others, such as the linear regression model using four independent variables (tree age, average tree height, average leaf area, and average crown diameter) and the simple neural network using one input variable (DBH) to predict one output variable (TreeHt). This can be substantied by the figure @fig:Ru_Final_heatmap which shows a promising relationship among the variables used in the simple neural network. 
 
 Interestingly, a general pattern emerged. By increasing the number of independent variables used in any of the models, predictive performance improved and the models' error decreased.
 
