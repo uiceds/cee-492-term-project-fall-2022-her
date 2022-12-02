@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a5b91396ed7ee7643abfb81b509e440892066343/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a5b91396ed7ee7643abfb81b509e440892066343/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a5b91396ed7ee7643abfb81b509e440892066343/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ce035ff8a186fc3a5552bbaac63c7e5501360bd3/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ce035ff8a186fc3a5552bbaac63c7e5501360bd3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ce035ff8a186fc3a5552bbaac63c7e5501360bd3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a5b91396ed7ee7643abfb81b509e440892066343/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ce035ff8a186fc3a5552bbaac63c7e5501360bd3/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@a5b9139](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/a5b91396ed7ee7643abfb81b509e440892066343)
+from [uiceds/cee-492-term-project-fall-2022-her@ce035ff](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/ce035ff8a186fc3a5552bbaac63c7e5501360bd3)
 on December 2, 2022.
 </em></small>
 
@@ -367,11 +367,19 @@ To summarize all models that were performed, Table @fig:summary_table shows the 
 
 ### Discussion and Conclusion
 
-In summary, the variety of characteristics present in the raw tree data set posed quite a challenge when we approached the construction of a well-performing predictive model. Unfortunately, none of the three predictive models (decision tree, linear regression, and neural net) illustrated sufficient performance, though some were better than others, such as the linear regression model using four independent variables (tree age, average tree height, average leaf area, and average crown diameter) and the simple neural network using one input variable (DBH) to predict one output variable (TreeHt). This can be substantied by the figure @fig:Ru_Final_heatmap which shows a promising relationship among the variables used in the simple neural network. 
+In summary, the variety of characteristics present in the raw tree data set posed quite a challenge when we approached a construction of a predictive model. Unfortunately, none of the three predictive models (decision tree, linear regression, and neural net) illustrated sufficient performance, though some were better than others, such as the linear regression model using four independent variables (tree age, average tree height, average leaf area, and average crown diameter) and the simple neural network using one input variable (DBH) to predict one output variable (TreeHt). Interestingly, this presents a general pattern: by increasing the number of independent variables used in any of the models, predictive performance improves slightly and the model errors decrease.
 
-Interestingly, a general pattern emerged. By increasing the number of independent variables used in any of the models, predictive performance improved and the models' error decreased.
+Moreover, existing correlations among the tree characteristics were revisited to reveal any potential confounding impacts on the predicted ouput. Refering to @fig:Ru_Final_heatmap, no strong correlations exist among the variables except with themselves. Some weak correlations -- visualized by a light orange-yellow color -- exist between TreeHt and DBH, CrnHt and DBH, CDiaPar and DBH, CDiaPerp and DBH, and AvgCdia and DBH with correlations in the 0.70-0.75 range. This implies that few to no confounding variables exist among the input variables. Instead, a slight correlation exists between the main input (DBH) and output variables studied, which supports the predictive capability of the model.
 
-[Add discussion about why raw tree data is hard to accurately predict? Talk about what we hoped to use these models for, and perhaps what might be done in the future to study tree data in a better way? Think bigger picture meaning, outside of the analyses we did.]
+![Correlation Heatmap](images/Ru_Final_heatmap.png){#fig:Ru_Final_heatmap width=6in}
+
+
+Finally, zooming out of the technical analyses in the report, we look into the question of why raw tree data was difficult to use in a prediction model and what might be done in the future to more meaningfully study tree characteristics in the context of applications to city planning, forest management, or general research. Regarding the regression-based and decision tree predictive models, a potential reason for a lack in predictive success is because of the raw tree data itself. Simple tree characteristics such as height, diameter, leaf area, etc., lack detail about potentially more important information such as soil, temperature, or environmental conditions that could reveal how a tree might respond to nearby stressors. For example, if information about soil moisture, local temperature, or vicinity to a fire or pollutive roadway were associated in a dataset with raw tree data, one might be able to predict more insightful relationships between the environment and a tree's growth or characteristic features. Raw tree data alone really only has the potential to illustrate correlational strength among tree characteristics grouped by certain features such as region or not grouped at all. And as we investigated, few substantial correlations exist among the raw tree characteristics.
+
+Regarding the neural net model that tried to classify tree species (CommonName) and tree type, the variety of outputs (i.e., 157 tree names or 11 tree types) in comparison to the smaller number of input tree characteristics (i.e., 9 studied features) presents the reason for the lack in predictive performance. From a statistical standpoint, trying to predict more variables than are provided as inputs means a discrepancy between independent and dependent variable population sizes exists.
+
+Ultimately, this report tried to extract as many meaningful relationships as it could from raw tree data and attempted several different types of predictive models. Although only moderate correlations were discovered and overall predictive performance was low, this report illustrates a thorough approach to data wrangling, exploration, and model creation. If the analyses presented in this report were to be investigated further in the future, we might consider collecting more environmental data and pairing it with raw tree characteristics to study something such as impacts of urban stressors on tree growth or health. These kinds of investigations could then be used to look into tree selection for  urban spaces that might be exposed to stressors such as lack of shade, hot temperatures, or urban traffic.
+
 
 
 

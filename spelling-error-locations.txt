@@ -196,8 +196,24 @@ content/05. Prediction.md:62:RMSE
 content/05. Prediction.md:62:RSME
 content/05. Prediction.md:62:varible
 content/06.Conclusion.md:3:DBH
-content/06.Conclusion.md:3:substantied
 content/06.Conclusion.md:3:TreeHt
+content/06.Conclusion.md:5:AvgCdia
+content/06.Conclusion.md:5:CDiaPar
+content/06.Conclusion.md:5:CDiaPerp
+content/06.Conclusion.md:5:CrnHt
+content/06.Conclusion.md:5:DBH
+content/06.Conclusion.md:5:DBH
+content/06.Conclusion.md:5:DBH
+content/06.Conclusion.md:5:DBH
+content/06.Conclusion.md:5:DBH
+content/06.Conclusion.md:5:DBH
+content/06.Conclusion.md:5:ouput
+content/06.Conclusion.md:5:Refering
+content/06.Conclusion.md:5:TreeHt
+content/06.Conclusion.md:7:Heatmap
+content/06.Conclusion.md:10:dataset
+content/06.Conclusion.md:10:pollutive
+content/06.Conclusion.md:12:CommonName
 content/90.back-matter.md:6:OSU
 content/90.back-matter.md:8:Doorn
 content/90.back-matter.md:8:Peper

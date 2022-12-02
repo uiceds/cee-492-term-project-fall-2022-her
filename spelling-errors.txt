@@ -10,13 +10,13 @@ BD
 blasiak
 broadleaf
 CarShade
-CdiaPar
+CDiaPar
 CDiaPerp
 Claremont
 CNNs
 coeeficient
 CommonName
-Convolutional
+convolutional
 Corrplot
 CrnBas
 Crnbase
@@ -28,7 +28,7 @@ datapoints
 dataset
 datasets
 DbaseID
-dbh
+DBH
 dectreeWdecforest
 Determing
 Doherty
@@ -37,7 +37,7 @@ emmaagolub
 excude
 Fennica
 fennoscandia
-Foliar
+foliar
 FromStreet
 Golub
 gov’t
@@ -63,9 +63,12 @@ numberoftrees
 OnStreet
 OSU
 oulliers
+ouput
 paraboloid
 Peper
+pollutive
 preliminery
+Refering
 RiverBirch
 RMSE
 Rokade
@@ -77,7 +80,6 @@ ScientificName
 SilverMaple
 SpCode
 SpCodes
-substantied
 Sweetgum
 ToStreet
 TreeHt
