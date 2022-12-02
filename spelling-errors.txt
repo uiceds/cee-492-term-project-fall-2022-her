@@ -14,11 +14,12 @@ CdiaPar
 CDiaPerp
 Claremont
 CNNs
+coeeficient
 CommonName
 Convolutional
 Corrplot
 CrnBas
-Crnbase
+CrnBase
 CrnHt
 CrownHt
 csv
@@ -28,6 +29,7 @@ dataset
 datasets
 DbaseID
 dbh
+dectreeWdecforest
 Determing
 Doherty
 Doorn
