@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ce035ff8a186fc3a5552bbaac63c7e5501360bd3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ce035ff8a186fc3a5552bbaac63c7e5501360bd3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ce035ff8a186fc3a5552bbaac63c7e5501360bd3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/ce035ff8a186fc3a5552bbaac63c7e5501360bd3/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@ce035ff](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/ce035ff8a186fc3a5552bbaac63c7e5501360bd3)
+from [uiceds/cee-492-term-project-fall-2022-her@3a94c6c](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/3a94c6c879d16fbaa6d85a58ade71b680e905eff)
 on December 2, 2022.
 </em></small>
 
@@ -297,12 +297,12 @@ It was also interesting to explore the relationship of tree type in comparison t
 
 ![Correlation Matrix](images/Ru_Final_heatmap.png){#fig:Ru_Final_heatmap width=5in}
 
-In summary, this exploratory analysis has shown both strong and insignificant correlations among raw tree data variables. The relationship between tree height and setback revealed insignificant correlation , while moderate-to-strong correlations between tree age and both height and diameter of tree exist. Additionally, correlation between tree age and its diameter is stronger than that of tree age and height. Overall, relationships among tree size and tree growth are significant because they can be used by urban forest managers, landscape architects, and city planners to select suitable trees given limited growing space or an intended purpose. Predicting the most suitable trees for a site has the potential to reduce costly future conflicts between trees and infrastructure [2]. 
+In summary, this exploratory analysis has shown both moderate and insignificant correlations among raw tree data variables. The relationship between tree height and setback revealed insignificant correlation, while moderate-to-strong correlations between tree age and both height and diameter of tree exist. Additionally, correlation between tree age and its diameter is stronger than that of tree age and height. Overall, relationships among tree size and tree growth are significant because they can be used by urban forest managers, landscape architects, and city planners to select suitable trees given limited growing space or an intended purpose. Predicting the most suitable trees for a site has the potential to reduce costly future conflicts between trees and infrastructure [2]. 
 
 ## Predictive Modeling
 
-Based on some of the above correlations and supporting evidence from the US Forest Service Research Archives [2], there are strong correlations among diameter at breast heights (dbh) and tree age, tree height, leaf area, crown height, and average crown diameter. 
-Therefore, several predictive models using 3 different machine learning techniques were explored to select the most suitable model to predict dbh based on the aforementioned variables. Those techniques include (1) decision-tree algorithm, (2) regression, and (3) neural networks. To enable a reliable performance evaluation procedure, the collected data was divided into two separate datasets for each developed predictive model: (1) training dataset that includes 70% of all the available data that will be used in developing the model, and (2) testing dataset that includes 30% of all available data that will be used for evaluating the performance of the developed model. The following three sections provide a detailed description of these aforementioned 3 machine learning techniques.
+Based on some of the above correlations and supporting evidence from the US Forest Service Research Archives [2], there are strong correlations among diameter at breast heights (DBH) and tree age, tree height, leaf area, crown height, and average crown diameter. 
+Therefore, several predictive models using 3 different machine learning techniques were explored to select the most suitable model to predict DBH based on the aforementioned variables. Those techniques include (1) decision-tree algorithm, (2) regression, and (3) neural networks. To enable a reliable performance evaluation procedure, the collected data was divided into two separate datasets for each developed predictive model: (1) training dataset that includes 70% of all the available data that will be used in developing the model, and (2) testing dataset that includes 30% of all available data that will be used for evaluating the performance of the developed model. The following three sections provide a detailed description of these aforementioned 3 machine learning techniques.
 
 ### Decision-Tree Algorithm 
 A regression decision tree model was run with two, three, four, and five independent variables in order to predict DBH. Additionally, a random forest was run on all five of the independent variables. The output of these iterations are shown in Figure @fig:dectreeWdecforest
@@ -316,7 +316,7 @@ A classification decision tree was also tested to see if the tree type could be 
 
 ### Regression
 
-This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average dbh), as shown in Figure @fig:Reg_Model1. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%. 
+This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average DBH), as shown in Figure @fig:Reg_Model1. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%. 
 
 ![Predictive Model using one independent variable](images\Reg_Model1.png){#fig:Reg_Model1 width=5in}
 
@@ -360,7 +360,7 @@ The following image shows the accuracy of the CNN using 5 convolutional layers a
 
 
 ### Summary of Model Comparison
-To summarize all models that were performed, Table @fig:summary_table shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average dbh is the regression model using 4 independent varible: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93% 
+To summarize all models, Table @fig:summary_table shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average DBH is the regression model using 4 independent variables: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93%. 
 
 
 ![Models Summary](images/summary_table.png){#fig:summary_table width=8in}

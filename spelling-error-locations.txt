@@ -122,11 +122,11 @@ content/04.ExploratoryAnalysis.md:120:Longview
 content/04.ExploratoryAnalysis.md:126:DBH
 content/04.ExploratoryAnalysis.md:128:DBH
 content/04.ExploratoryAnalysis.md:130:heatmap
-content/05. Prediction.md:3:dbh
+content/05. Prediction.md:3:DBH
 content/05. Prediction.md:4:dataset
 content/05. Prediction.md:4:dataset
 content/05. Prediction.md:4:datasets
-content/05. Prediction.md:4:dbh
+content/05. Prediction.md:4:DBH
 content/05. Prediction.md:7:DBH
 content/05. Prediction.md:7:dectreeWdecforest
 content/05. Prediction.md:9:dectreeWdecforest
@@ -137,7 +137,7 @@ content/05. Prediction.md:11:DBH
 content/05. Prediction.md:11:dectreeWdecforest
 content/05. Prediction.md:13:DBH
 content/05. Prediction.md:18:dbh
-content/05. Prediction.md:18:dbh
+content/05. Prediction.md:18:DBH
 content/05. Prediction.md:18:RMSE
 content/05. Prediction.md:18:RSEM
 content/05. Prediction.md:22:datapoints
@@ -190,11 +190,10 @@ content/05. Prediction.md:58:TreeType
 content/05. Prediction.md:62:accuracies
 content/05. Prediction.md:62:acheived
 content/05. Prediction.md:62:acheived
-content/05. Prediction.md:62:dbh
+content/05. Prediction.md:62:DBH
 content/05. Prediction.md:62:RMSE
 content/05. Prediction.md:62:RMSE
 content/05. Prediction.md:62:RSME
-content/05. Prediction.md:62:varible
 content/06.Conclusion.md:3:DBH
 content/06.Conclusion.md:3:TreeHt
 content/06.Conclusion.md:5:AvgCdia
