@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a289f376ac85ed52e379951a08eb293ab777fa16/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a289f376ac85ed52e379951a08eb293ab777fa16/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a289f376ac85ed52e379951a08eb293ab777fa16/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/77abe3f442ae7659f60f735244d47d8b22da5d4a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/77abe3f442ae7659f60f735244d47d8b22da5d4a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/77abe3f442ae7659f60f735244d47d8b22da5d4a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/a289f376ac85ed52e379951a08eb293ab777fa16/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/77abe3f442ae7659f60f735244d47d8b22da5d4a/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@a289f37](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/a289f376ac85ed52e379951a08eb293ab777fa16)
+from [uiceds/cee-492-term-project-fall-2022-her@77abe3f](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/77abe3f442ae7659f60f735244d47d8b22da5d4a)
 on December 2, 2022.
 </em></small>
 
@@ -305,7 +305,7 @@ Based on some of the above correlations and supporting evidence from the US Fore
 Therefore, several predictive models using 3 different machine learning techniques were explored to select the most suitable model to predict dbh based on the aforementioned variables. Those techniques include (1) decision-tree algorithm, (2) regression, and (3) neural networks. To enable a reliable performance evaluation procedure, the collected data was divided into two separate datasets for each developed predictive model: (1) training dataset that includes 70% of all the available data that will be used in developing the model, and (2) testing dataset that includes 30% of all available data that will be used for evaluating the performance of the developed model. The following three sections provide a detailed description of these aforementioned 3 machine learning techniques.
 
 ### Decision-Tree Algorithm 
-A regression decision tree model was run with two, three, four, and five independent variables in order to predict DBH. Finally, a random forest was run on all five of the independent variables. The output of these iterations are shown in Figure @fig:dectreeWdecforest :
+A regression decision tree model was run with two, three, four, and five independent variables in order to predict DBH. Additionally, a random forest was run on all five of the independent variables. The output of these iterations are shown in Figure @fig:dectreeWdecforest.:
 
 ![Random Forest on 5 independent variables and decision tree using 2,3,4, and 5 independent variables: Tree Height, Age, Leaf Area, Crown Height, and Average Crown Diameter](images/dectreeWdecforest.png){#fig:dectreeWdecforest.png width=6in}
 
@@ -318,7 +318,7 @@ A classification decision tree was also tested to see if the tree type could be 
 
 This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average dbh), as shown in Figure @fig:Reg_Model1. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%. 
 
-![Predictive Model using one independent variable](images/Reg_Model1.png){#fig:Reg_Model1 width=5 in}
+![Predictive Model using one independent variable](images\Reg_Model1.png){#fig:Reg_Model1 width=5 in}
 
 We investigated further to find an explanation for the model's poor performance. We plotted the average dbh in the y-axis and age in the x-axis to visualize the training and testing datasets. We noticed that more than 99% of datapoints are for trees that their ages ranging form 0 to 150 years old and less than 1% of them are above 150 years old. Therefore there are no enough data to analyze tree that are above 150 years old, so we consider those points as oulliers and excude them from our analysis, as shown in Figure @fig:Reg_model1_plot.
 

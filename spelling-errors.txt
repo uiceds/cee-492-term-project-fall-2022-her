@@ -7,7 +7,7 @@ avgDBH
 avgHeight
 barplots
 BD
-Blasiak
+blasiak
 broadleaf
 CarShade
 CdiaPar
@@ -19,7 +19,7 @@ CommonName
 Convolutional
 Corrplot
 CrnBas
-CrnBase
+Crnbase
 CrnHt
 CrownHt
 csv
@@ -28,7 +28,7 @@ datapoints
 dataset
 datasets
 DbaseID
-dbh
+DBH
 dectreeWdecforest
 Determing
 Doherty
@@ -37,7 +37,7 @@ emmaagolub
 excude
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
@@ -79,7 +79,7 @@ SpCode
 SpCodes
 Sweetgum
 ToStreet
-TreeHT
+TreeHt
 TreeID
 TreeOr
 TreeType
