@@ -1,5 +1,5 @@
-import Pkg; 
-Pkg.add("GLM")
+#import Pkg; 
+#Pkg.add("GLM")
 
 using DataFrames
 using Plots
@@ -19,8 +19,8 @@ dff = shuffle(dff)
 # Method 1: one input variable one output variable
 
 # Change x to test prediction accuracy of different variables of interest (i.e., DBH, tree height)
-x = Vector(dff.DBH)
-y = Vector(dff.TreeHt)
+x = Vector(dff.TreeHt)
+y = Vector(dff.DBH)
 
 # GOAL: TRY USING MULTIPLE INDEPENDENT INPUT VARIABLES IN NEURAL NET
 
@@ -98,17 +98,18 @@ println(pred_1)
 RSME = (round((sum(((y_test) .- model(x_test)).^2) / length((y_test)))^0.5, digits=1) )
 #~ RSME = 38 for CrnBase --> Age... because of model structure or poor correlation between variables?
 #~ RSME = 13.2 for DBH --> TreeHt... because of model structure or poor correlation between variables?
+#~ RSME = 50.9 for TreeHt --> DBH... because of model structure or poor correlation between variables?
+
 
 Accuracy = sum(abs.(pred_1 .- y_test) ./ y_test)/length(y_test)
 #~ Acc = 0.88 for DBH --> TreeHt
+#~ Acc = 0.95 for TreeHt --> DBH
 
-#Rsq = r2(model)
-
-#=plot(x_train, y_train, title="Simple linear regression model using Flux", label="Train data", seriestype = :scatter)
+#= plot(x_train, y_train, title="Simple linear regression model using Flux", label="Train data", seriestype = :scatter)
 plot!(x_test, y_test, label="Test data", seriestype = :scatter)
 plot!(x_test, pred_0, label="Initial predictions")
 plot!(x_test, pred_1, label="Final predictions")
-=#
+ =#
 
 
 
@@ -165,7 +166,7 @@ x_test, y_test = reshape_data(x_test, y_test)
 
 # Create a simple linear regression model m(x) = W*x + b. 
 model = Dense(size(x_train,1), 1, σ) # Implements the function σ(Wx+b) where W and b are the weights and biases. σ is an activation function
-println(model)
+#println(model)
 
 # Before we move on, we need to collect all of the parameters so we can access and update them during the training steps. We do this with the params function.
 ps = Flux.params(model)
@@ -178,10 +179,10 @@ opt = Descent()
 
 # Before we train our model, we compute the predictions and the current loss to compare with the final results
 pred_0 = model(x_train)
-println(pred_0)
+#println(pred_0)
 
 loss_0 = loss(model(x_train), y_train)
-println(loss_0)
+#println(loss_0)
 
 
 # Train the Model
@@ -192,7 +193,7 @@ n_epochs = 12
 
 for epoch in 1:n_epochs
     train!(loss, ps, data, opt)
-    println(loss(model(x_test), y_test))
+    #println(loss(model(x_test), y_test))
 end
 
 
