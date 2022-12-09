@@ -8,7 +8,7 @@
   <meta name="author" content="Emma Golub" />
   <meta name="author" content="Riley Blasiak" />
   <meta name="author" content="Rupesh Rokade" />
-  <meta name="dcterms.date" content="2022-12-02" />
+  <meta name="dcterms.date" content="2022-12-09" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Analyzing the Correlations among Tree Characteristics and their Surroundings</title>
   <style>
@@ -31,8 +31,8 @@
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-12-02" />
-  <meta name="citation_publication_date" content="2022-12-02" />
+  <meta name="dc.date" content="2022-12-09" />
+  <meta name="citation_publication_date" content="2022-12-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8244e154911058a51c2c8f4c8c3bae840e6b2efe/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8244e154911058a51c2c8f4c8c3bae840e6b2efe/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8244e154911058a51c2c8f4c8c3bae840e6b2efe/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8244e154911058a51c2c8f4c8c3bae840e6b2efe/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/3a94c6c879d16fbaa6d85a58ade71b680e905eff">uiceds/cee-492-term-project-fall-2022-her@3a94c6c</a>
-on December 2, 2022.
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/8244e154911058a51c2c8f4c8c3bae840e6b2efe">uiceds/cee-492-term-project-fall-2022-her@8244e15</a>
+on December 9, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -329,7 +329,13 @@ Therefore, several predictive models using 3 different machine learning techniqu
 <p>With each addition of independent variables, the mean coefficient of determination increased, and the mean squared error decreased. Overall the decision tree model for this data is not robust and does not do a great job at fitting the data. The correlation coefficient gets increasingly closer to one with additional variables, meaning the correlation is better with more variables and DBH than a few variables and DBH. When run in a random forest it can be seen from Figure ?? that the coefficient of determination was better than running this data in a decision tree. This iteration resulted in mean coeeficient of determination of 0.84, the greatest among all the iterations using this model type.</p>
 <p>A classification decision tree was also tested to see if the tree type could be predicted using crown height, age, DBH, and tree height. This model was run with three folds similarly to the previous decision tree. The resulting model had very low accuracy of 0.369198, 0.377247, and 0.376442. These values of accuracy suggest that predicting tree type in this manner is not reliable.</p>
 <h3 id="regression">Regression</h3>
-<p>This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average DBH), as shown in Figure <a href="#fig:Reg_Model1">25</a>. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average dbh), as shown in Figure <a href="#fig:Reg_Model1">25</a>. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%.
+||||||| abaa5bc
+This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average dbh), as shown in Figure ??. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%.
+=======
+This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average DBH), as shown in Figure <a href="#fig:Reg_Model1">25</a>. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%.
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 3a94c6c879d16fbaa6d85a58ade71b680e905eff</p>
 <div id="fig:Reg_Model1" class="fignos">
 <figure>
 <img src="images\Reg_Model1.png" style="width:5in" alt="Figure 25: Predictive Model using one independent variable" /><figcaption aria-hidden="true"><span>Figure 25:</span> Predictive Model using one independent variable</figcaption>
@@ -379,7 +385,13 @@ Therefore, several predictive models using 3 different machine learning techniqu
 </figure>
 </div>
 <h3 id="summary-of-model-comparison">Summary of Model Comparison</h3>
-<p>To summarize all models, Table <a href="#fig:summary_table">32</a> shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average DBH is the regression model using 4 independent variables: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93%.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+To summarize all models that were performed, Figure <a href="#fig:summary_table">32</a> shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average dbh is the regression model using 4 independent varible: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93%
+||||||| abaa5bc
+To summarize all models that were performed, Table <a href="#fig:summary_table">32</a> shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average dbh is the regression model using 4 independent varible: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93%
+=======
+To summarize all models, Table <a href="#fig:summary_table">32</a> shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average DBH is the regression model using 4 independent variables: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93%.
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 3a94c6c879d16fbaa6d85a58ade71b680e905eff</p>
 <div id="fig:summary_table" class="fignos">
 <figure>
 <img src="images/summary_table.png" style="width:8in" alt="Figure 32: Models Summary" /><figcaption aria-hidden="true"><span>Figure 32:</span> Models Summary</figcaption>
