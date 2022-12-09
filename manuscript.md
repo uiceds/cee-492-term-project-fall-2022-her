@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-02'
+date-meta: '2022-12-09'
 author-meta:
 - Hadil Helaly
 - Emma Golub
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="og:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
   <meta property="twitter:title" content="Analyzing the Correlations among Tree Characteristics and their Surroundings" />
-  <meta name="dc.date" content="2022-12-02" />
-  <meta name="citation_publication_date" content="2022-12-02" />
+  <meta name="dc.date" content="2022-12-09" />
+  <meta name="citation_publication_date" content="2022-12-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8244e154911058a51c2c8f4c8c3bae840e6b2efe/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8244e154911058a51c2c8f4c8c3bae840e6b2efe/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8244e154911058a51c2c8f4c8c3bae840e6b2efe/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/3a94c6c879d16fbaa6d85a58ade71b680e905eff/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-her/v/8244e154911058a51c2c8f4c8c3bae840e6b2efe/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-her@3a94c6c](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/3a94c6c879d16fbaa6d85a58ade71b680e905eff)
-on December 2, 2022.
+from [uiceds/cee-492-term-project-fall-2022-her@8244e15](https://github.com/uiceds/cee-492-term-project-fall-2022-her/tree/8244e154911058a51c2c8f4c8c3bae840e6b2efe)
+on December 9, 2022.
 </em></small>
 
 ## Authors
@@ -316,7 +316,13 @@ A classification decision tree was also tested to see if the tree type could be 
 
 ### Regression
 
+<<<<<<< HEAD
+This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average dbh), as shown in Figure @fig:Reg_Model1. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%. 
+||||||| abaa5bc
+This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average dbh), as shown in Figure @fig:Reg_model1. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%. 
+=======
 This technique depends on developing multiple linear regression models among a dependent variable and independent variables. Aiming to improve the performance of a predictive model, we constructed a simple regression model that uses one independent variable (tree age) to predict the dependent variable (average DBH), as shown in Figure @fig:Reg_Model1. To visualize the model performance, we calculated the coefficient of determination, Root Mean Square Error (RMSE), and model accuracy by using the developed equation to predict the average dbh of the testing set, then comparing it with the actual value. The model achieved an R-squared of 74%, RSEM of 21.12, and low accuracy of 12.4%. 
+>>>>>>> 3a94c6c879d16fbaa6d85a58ade71b680e905eff
 
 ![Predictive Model using one independent variable](images\Reg_Model1.png){#fig:Reg_Model1 width=5in}
 
@@ -360,7 +366,13 @@ The following image shows the accuracy of the CNN using 5 convolutional layers a
 
 
 ### Summary of Model Comparison
+<<<<<<< HEAD
+To summarize all models that were performed, Figure @fig:summary_table shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average dbh is the regression model using 4 independent varible: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93% 
+||||||| abaa5bc
+To summarize all models that were performed, Table @fig:summary_table shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average dbh is the regression model using 4 independent varible: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93% 
+=======
 To summarize all models, Table @fig:summary_table shows the inputs, outputs, and associated accuracies for each model in terms of R-squared and RSME. Based on these results, the model that acheived the lowest RMSE and one of the highest R-squared to predict average DBH is the regression model using 4 independent variables: age, tree height, leaf area, and crown diameter. This model acheived RMSE of 7 and R-squared of 93%. 
+>>>>>>> 3a94c6c879d16fbaa6d85a58ade71b680e905eff
 
 
 ![Models Summary](images/summary_table.png){#fig:summary_table width=8in}

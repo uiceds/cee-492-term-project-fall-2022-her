@@ -1,5 +1,7 @@
+abaa
 accuracies
 acheived
+ade
 agric
 averegeheight
 AvgCdia
@@ -16,7 +18,7 @@ Claremont
 CNNs
 coeeficient
 CommonName
-Convolutional
+convolutional
 Corrplot
 CrnBas
 CrnBase
@@ -28,16 +30,17 @@ datapoints
 dataset
 datasets
 DbaseID
-dbh
+DBH
 dectreeWdecforest
 Determing
 Doherty
 Doorn
 emmaagolub
 excude
+fbaa
 Fennica
 fennoscandia
-foliar
+Foliar
 FromStreet
 Golub
 gov’t
@@ -87,6 +90,7 @@ TreeID
 TreeOr
 TreeType
 unmanaged
+varible
 Vienansalo
 WireConf
 xls
